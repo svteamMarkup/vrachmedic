@@ -4,19 +4,17 @@ html, body {
     height: 100%;
 }
 
-.page {
-    
+body {
+	font-size: $default-font-size;
+	font-family: 'Cuprum';
+	color: $black;
 }
 
-.page__wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
-}
-
-* html .page__wrapper {
-    height: 100%;
-}
-
-.page__buffer {
-    height: 50px;
+.main {
+	margin: auto;
+	max-width: 1305px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }

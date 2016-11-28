@@ -30,3 +30,7 @@
 }
 
 // You can add your own mixins here:
+
+@mixin transition {
+    transition: all .33s ease-out;
+}

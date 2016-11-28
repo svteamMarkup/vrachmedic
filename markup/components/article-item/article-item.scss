@@ -1,0 +1,31 @@
+.article-item {
+	&__content {
+		margin-top: -40px;
+		background-color: $dark-blue;
+		display: inline-block;
+		padding: 5px 0;
+	}
+	&__category {
+		color: $red;
+		display: block;
+		text-transform: uppercase;
+		font-size: 12px;
+		text-decoration: none;
+	}	
+	&__link {
+		color: $white;
+		display: block;
+		font-size: 20px;
+		text-decoration: none;
+	}		
+	&._big {
+		width: 470px;
+		height: 353px;
+	}
+	&._small {
+		width: 231px;
+		height: 173px;
+	}	
+}
+
+

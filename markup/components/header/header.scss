@@ -1,0 +1,41 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	.header__logo {
+		display: block;
+		@include bg($logo-header);
+		margin-top: 17px;
+	}
+}
+
+.header-menu {
+	&__list {
+		display: flex;
+		margin-left: 125px;
+	}
+	&__item {
+		display: block;
+		margin: 0 15px;
+		text-decoration: none;
+		color: $dark-blue;
+		font-size: 17px;
+		border-bottom: 1px solid $blue;
+		&:hover {
+			color: $blue;
+			border-color: $red;
+			@include transition;
+		}
+	}
+}
+
+.header-search {
+	margin-left: 57px;
+	&__form {
+
+	}
+	&__icon {
+		cursor: pointer;
+		@include bg($search-header);
+	}
+}

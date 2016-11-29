@@ -1,1 +1,5 @@
-.articles-middle-view {}
+.articles-middle-view {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}

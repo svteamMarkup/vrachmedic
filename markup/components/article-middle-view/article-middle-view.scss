@@ -1,4 +1,6 @@
 .article-middle-view {
+	display: flex;
+	justify-content: space-around;
 	&__category {
 		color: $red;
 	    display: block;

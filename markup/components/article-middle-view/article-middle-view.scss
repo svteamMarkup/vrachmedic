@@ -1,11 +1,4 @@
-.article-small-view {
-	display: flex;
-	justify-content: space-around;
-	width: 303px;
-	margin-bottom: 22px;
-	&__right {
-
-	}
+.article-middle-view {
 	&__category {
 		color: $red;
 	    display: block;

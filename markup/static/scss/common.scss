@@ -9,7 +9,9 @@ body {
 	font-family: 'Cuprum';
 	color: $black;
 }
-
+input {
+	outline: none;
+}
 .main {
 	margin: auto;
 	max-width: 1305px;

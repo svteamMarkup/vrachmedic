@@ -1,0 +1,10 @@
+mixin our-offer(data)
+	- var modiffer = attributes.class || ''
+	.our-offer(class="#{modiffer}")
+		h1.our-offer__title._bold._text-center Нужен хороший врач?
+		.our-offer__search
+			.our-offer__title-search._bold._text-center Поиск врача
+			.our-offer__form
+				input(type="text" placeholder="Выберите направление").input-form
+				input(type="text" placeholder="Выберите метро").input-form
+				.button._blue._middle Найти

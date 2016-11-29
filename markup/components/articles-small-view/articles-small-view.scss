@@ -1,5 +1,6 @@
 .articles-small-view {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-flow: row wrap;
 	margin-top: 60px;
 }

@@ -1,6 +1,26 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
-
+.button {
+	display: inline-block;
+	border-radius: 8px;
+	color: $white;
+	cursor: pointer;
+	&._blue {
+		background: linear-gradient(to bottom,  #6db3ed 0%,#55a1df 100%);
+		&:hover {
+			background: linear-gradient(to bottom,  #55a1df 0%,#6db3ed 100%);
+		}
+		&._middle {
+			padding: 7px 25px;
+		}
+	}
+}
+._bold {
+	font-weight: bold;
+}
+._text-center {
+	text-align: center;
+}
 .content {
 	max-width: 950px;
 	width: 100%;
@@ -8,4 +28,8 @@
 .sidebar {
 	max-width: 276px;
 	width: 100%;
+}
+.input-form {
+	border: none;
+	box-shadow: 0 0 0 2px #cdcdcd inset;
 }

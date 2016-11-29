@@ -1,0 +1,1 @@
+var data = {articles-small-view: {}}

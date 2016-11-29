@@ -1,9 +1,15 @@
 .article-item {
+	position: relative;
 	&__content {
-		margin-top: -40px;
 		background-color: $dark-blue;
-		display: inline-block;
-		padding: 5px 0;
+		padding: 5px 0 5px 11px;
+		width: 96%;
+		position: absolute;
+	    box-sizing: border-box;
+	    opacity: 0.8;
+	    right: 0;
+    	left: 0;
+    	margin: auto;
 	}
 	&__category {
 		color: $red;
@@ -11,21 +17,39 @@
 		text-transform: uppercase;
 		font-size: 12px;
 		text-decoration: none;
+		margin-top: 3px;
 	}	
 	&__link {
 		color: $white;
 		display: block;
-		font-size: 20px;
+		font-size: 16px;
 		text-decoration: none;
+		margin-top: 3px;
 	}		
 	&._big {
 		width: 470px;
 		height: 353px;
+		.article-item__content {
+			bottom: 10px;
+			width: 95%;
+			padding: 13px 0 19px 23px;
+			.article-item__link {
+				font-size: 20px;
+			}
+		}
 	}
 	&._small {
 		width: 231px;
 		height: 173px;
-	}	
+		.article-item__content {
+			bottom: 4px;
+		}
+		&:nth-child(1),
+		&:nth-child(2) {
+			margin-bottom: 7px;
+		}
+	}
+
 }
 
 

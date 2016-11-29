@@ -1,0 +1,21 @@
+.article-small-view {
+	display: flex;
+	justify-content: space-between;
+	&__right {
+
+	}
+	&__category {
+		color: $red;
+	    display: block;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    text-decoration: none;
+	}
+	&__link {
+		color: $blue;
+	    display: block;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    text-decoration: none;
+	}	
+}

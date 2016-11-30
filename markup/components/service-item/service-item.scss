@@ -1,0 +1,16 @@
+.service-item {
+	width: 223px;
+	padding: 16px 0;
+	&__link {
+	    color: $blue;
+	    display: block;
+	    text-decoration: none;
+	    letter-spacing: -0.1px;
+	    margin-left: 58px;
+	}
+	&__description {
+		font-size: 14px;
+		color: #666;
+		margin-left: 58px;
+	}
+}

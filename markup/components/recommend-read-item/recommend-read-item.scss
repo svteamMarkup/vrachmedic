@@ -1,0 +1,20 @@
+.recommend-read-item {
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+	padding: 16px 0;
+	border-bottom: 1px solid #ddd;
+	&__link {
+		color: $blue;
+	    display: block;
+	    margin-left: 13px;
+	    text-decoration: none;
+	    letter-spacing: -0.1px;
+	}
+	&__meta {
+		display: flex;
+    	justify-content: flex-start;
+    	margin: 7px 0 0 28px;
+    	position: relative;
+    }
+}

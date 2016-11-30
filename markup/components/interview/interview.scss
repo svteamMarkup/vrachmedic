@@ -1,0 +1,18 @@
+.interview {
+	margin-bottom: 87px;
+	width: 276px;
+	position: relative;
+	&__title:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		@include bg($question);
+	}
+	&__title {
+		font-size: 21px;
+		margin-left: 30px;
+	}
+	&__select-options {
+		margin-top: 15px;
+	}
+}

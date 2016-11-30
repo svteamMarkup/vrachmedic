@@ -2,21 +2,53 @@
 // For example, styles of the links, buttons and so on.
 .button {
 	display: inline-block;
-	border-radius: 8px;
 	color: $white;
 	cursor: pointer;
-	&._blue {
+	&._light-blue {
 		background: linear-gradient(to bottom,  #6db3ed 0%,#55a1df 100%);
+		border-radius: 8px;
 		&:hover {
 			background: linear-gradient(to bottom,  #55a1df 0%,#6db3ed 100%);
 		}
-		&._middle {
-			padding: 7px 25px;
+	}
+	&._middle {
+		padding: 7px 25px;
+	}
+	&._blue {
+		background-color: #0089b5;
+		border-radius: 4px;
+		&:hover {
+			background-color: lighten(#0089b5, 2%);
 		}
 	}
+	&._purple {
+		background-color: $purple;
+		border-radius: 4px;
+		&:hover {
+			background-color: lighten($purple, 2%);
+		}
+	}
+	&._big {
+		padding: 10px 50px;	
+	}
+}
+.main-title {
+	color: $dark-blue;
+}
+.main-title2 {
+	color: $blue;
+}
+._middle-title {
+	font-size: 21px;
+}
+._big-title {
+	font-size: 38px;
 }
 ._bold {
 	font-weight: bold;
+}
+._uppercase {
+	text-transform: uppercase;
 }
 ._text-center {
 	text-align: center;
@@ -24,12 +56,42 @@
 .content {
 	max-width: 950px;
 	width: 100%;
+	margin-top: 40px;
+	padding-bottom: 129px;
 }
 .sidebar {
 	max-width: 276px;
 	width: 100%;
+	margin-top: 51px;
 }
 .input-form {
 	border: none;
 	box-shadow: 0 0 0 2px #cdcdcd inset;
+}
+.meta-info {
+	font-size: 12px;
+	color: $silver;
+}
+.meta-info._views:before {
+	content: '';
+	position: absolute;
+	left: -17px;
+    top: 2px;
+	@include bg($views);
+}
+.meta-info._likes:before {
+	content: '';
+	position: absolute;
+	left: 36px;
+	@include bg($likes);
+}
+.meta-info._likes {
+	margin-left: 28px;
+}
+.radio-block {
+	display: block;
+	margin-bottom: 11px;
+	&__label {
+		margin-left: 15px;
+	}
 }

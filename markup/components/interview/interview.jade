@@ -1,0 +1,15 @@
+mixin interview(data)
+	-var modiffer = attributes.class || ''
+	.interview(class="#{modiffer}")
+		.interview__title._bold(class="#{modiffer}") Доверяете ли вы отечественной медицине?
+		.interview__select-options
+			label.radio-block
+				input(type="radio" name="" value="").radio-block__field
+				span.radio-block__label Да
+			label.radio-block
+				input(type="radio" name="" value="").radio-block__field
+				span.radio-block__label Нет
+			label.radio-block
+				input(type="radio" name="" value="").radio-block__field
+				span.radio-block__label Затрудняюсь ответить
+		.button(class="#{modiffer}")._big Ответить

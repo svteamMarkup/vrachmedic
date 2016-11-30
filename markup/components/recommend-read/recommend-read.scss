@@ -1,0 +1,12 @@
+.recommend-read {
+	width: 276px;
+	position: relative;
+	margin-bottom: 71px;
+	.main-title:after {
+		content: '';
+		right: 23px;
+		top: -8px;
+		position: absolute;
+		@include bg($recommend-read);
+	}
+}

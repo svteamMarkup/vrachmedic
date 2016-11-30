@@ -1,0 +1,11 @@
+.services {
+	margin-bottom: 72px;
+	position: relative;
+	.main-title:after {
+		content: '';
+		right: 23px;
+		top: -8px;
+		position: absolute;
+		@include bg($services);
+	}
+}

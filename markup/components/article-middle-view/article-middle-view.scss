@@ -1,19 +1,26 @@
 .article-middle-view {
-	display: flex;
-	justify-content: space-around;
+	margin-bottom: 40px;
+	width: 304px;
 	&__category {
 		color: $red;
-	    display: block;
-	    text-transform: uppercase;
-	    font-size: 12px;
-	    text-decoration: none;
-	    margin: 9px 0 0 13px ;
+		display: block;
+		text-transform: uppercase;
+		font-size: 12px;
+		text-decoration: none;
+		margin: 9px 0 0 13px ;
 	}
 	&__link {
 		color: $blue;
-	    display: block;
-	    margin-left: 13px;
-	    text-decoration: none;
-	    letter-spacing: -0.1px;
-	}	
+		display: block;
+		font-size: 20px;
+		margin-left: 13px;
+		text-decoration: none;
+		letter-spacing: -0.1px;
+	}
+	&__meta {
+		display: flex;
+    	justify-content: flex-start;
+    	margin: 22px 0 0 23px;
+    	position: relative;
+	}
 }

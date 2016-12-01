@@ -3,10 +3,17 @@
 	box-shadow: 0 0 0 5px #d4d6d7;
 	padding-top: 1px;
 	padding-bottom: 31px;
+	position: relative;
 	&__title {
 		font-size: 28px;
 		color: $dark-blue;
 		margin-top: 24px;
+		&:before {
+			content: '';
+			left: 37px;
+			position: absolute;
+			@include bg($search-doctor);
+		}
 	}
 	&__search {
 		width: 226px;

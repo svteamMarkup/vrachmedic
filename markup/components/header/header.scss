@@ -1,18 +1,18 @@
 .header {
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
-	.header__logo {
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 17px;
+	&__logo {
 		display: block;
 		@include bg($logo-header);
-		margin-top: 17px;
 	}
 }
 
 .header-menu {
 	&__list {
 		display: flex;
-		margin-left: 125px;
 	}
 	&__item {
 		display: block;
@@ -30,7 +30,6 @@
 }
 
 .header-search {
-	margin-left: 57px;
 	&__form {
 
 	}

@@ -1,12 +1,23 @@
 .service-item {
 	width: 223px;
 	padding: 16px 0;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	&__content:before {
+		content: '';
+		position: absolute;
+		@include bg($transcript-analyzes);
+	}
 	&__link {
 	    color: $blue;
 	    display: block;
 	    text-decoration: none;
 	    letter-spacing: -0.1px;
 	    margin-left: 58px;
+	    @include transition;
+		&:hover {
+			text-decoration: underline;
+		}	    
 	}
 	&__description {
 		font-size: 14px;

@@ -1,12 +1,11 @@
 .article-item {
 	position: relative;
 	&__content {
-		background-color: $dark-blue;
+		background-color: rgba($dark-blue, 0.8);
 		padding: 5px 0 5px 11px;
 		width: 96%;
 		position: absolute;
 	    box-sizing: border-box;
-	    opacity: 0.8;
 	    right: 0;
     	left: 0;
     	margin: auto;
@@ -18,6 +17,10 @@
 		font-size: 12px;
 		text-decoration: none;
 		margin-top: 3px;
+		@include transition;
+		&:hover {
+			text-decoration: underline;
+		}
 	}	
 	&__link {
 		color: $white;
@@ -25,6 +28,10 @@
 		font-size: 16px;
 		text-decoration: none;
 		margin-top: 3px;
+		@include transition;
+		&:hover {
+			text-decoration: underline;
+		}
 	}		
 	&._big {
 		width: 470px;

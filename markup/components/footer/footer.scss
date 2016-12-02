@@ -27,8 +27,24 @@
 		margin: 0 15px;
 		text-transform: uppercase;
 		@include transition;
+		position: relative;
+		&:after {
+			content: '';
+			width: 1px;
+			height: 63px;
+			display: block;
+			position: absolute;
+			top: -20px;
+    		right: -16px;
+    		background: linear-gradient(to bottom,  #fafafb 0%,#e7e8ec 50%,#fafafb 100%);
+		}
+		&:last-child {
+			&:after {
+				display: none;
+			}
+		}				
 		&:hover {
 			text-decoration: underline;
-		}		
+		}
 	}
 }

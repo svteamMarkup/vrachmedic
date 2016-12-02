@@ -1,4 +1,10 @@
 .footer {
+	box-shadow: 2px -2px 2px rgba($black, .11);
+	padding-bottom: 20px;
+	&__wrapper {
+		@extend .main;
+		align-items: center;
+	}
 	width: 100%;
 	display: flex;
 	justify-content: space-between;

@@ -1,34 +1,36 @@
 .article-middle-view {
 	margin-bottom: 40px;
 	width: 304px;
+	box-shadow: 0 0 2px 5px #f0f0f0;
+	padding-bottom: 19px;
+	&__content {
+		margin-left: 13px;
+	}
 	&__category {
 		color: $red;
 		display: block;
 		text-transform: uppercase;
 		font-size: 12px;
 		text-decoration: none;
-		margin: 9px 0 0 13px;
+		margin: 9px 0 4px 0;
 	    @include transition;
-		&:hover {
-			text-decoration: underline;
-		}		
 	}
 	&__link {
 		color: $blue;
-		display: block;
 		font-size: 20px;
-		margin-left: 13px;
 		text-decoration: none;
 		letter-spacing: -0.1px;
-	    @include transition;
+		padding-bottom: 3px;
+		border-bottom: 1px solid #daeaf6;
+		@include transition;
 		&:hover {
-			text-decoration: underline;
+			border-bottom: none;
 		}		
 	}
 	&__meta {
 		display: flex;
     	justify-content: flex-start;
-    	margin: 22px 0 0 23px;
+    	margin: 14px 0 0 17px;
     	position: relative;
 	}
 }

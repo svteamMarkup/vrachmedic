@@ -56,17 +56,15 @@
 .content {
 	max-width: 950px;
 	width: 100%;
-	margin-top: 40px;
 	padding-bottom: 129px;
 }
 .sidebar {
 	max-width: 276px;
 	width: 100%;
-	margin-top: 51px;
 }
 .input-form {
 	border: none;
-	box-shadow: 0 0 0 2px #cdcdcd inset;
+	border: 1px solid #cdcdcd;
 }
 .meta-info {
 	font-size: 12px;

@@ -1,13 +1,23 @@
 .interview {
-	margin-bottom: 64px;
+	margin-bottom: 44px;
 	padding-bottom: 9px;
 	width: 276px;
 	position: relative;
 	overflow: hidden;
+	.interview__heart-icon {
+		position: absolute;
+		bottom: 0;
+		left: 140px;
+		@include bg($heart);
+	}	
+	&__content {
+		width: 183px;
+		margin-left: 18px;
+	}
 	&__title:before {
 		content: '';
 		position: absolute;
-		left: 0;
+		left: 13px;
 		@include bg($question);
 	}
 	&__title {
@@ -18,13 +28,14 @@
 		margin-top: 15px;
 		margin-bottom: 18px;
 	}
+	&._blue {
+		background-color: #e7f6fc;
+		padding: 23px 0 20px 0;
+	}
 	&._purple {
-		.interview__heart-icon {
-			position: absolute;
-			bottom: 0;
-			left: 140px;
-			@include bg($heart);
-		}
+		background-color: #fde5e8;
+		padding: 23px 0 20px 0;
+		margin-bottom: 50px;
 	}
 }
 .interview__title._blue {

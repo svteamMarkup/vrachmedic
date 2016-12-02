@@ -93,11 +93,11 @@
 			}
 		},
 		{
-			"file": "/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/libraries/font-awesome.css",
+			"file": "/D/projects/ozone-fitness/markup/components/footer/footer.scss",
 			"settings":
 			{
-				"buffer_size": 35128,
-				"line_ending": "Unix"
+				"buffer_size": 1289,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -151,11 +151,12 @@
 		"/D/projects/vrachmedik/markup/components",
 		"/D/projects/vrachmedik/markup/components/our-offer",
 		"/D/projects/vrachmedik/markup/components/recommend-read-item",
-		"/D/projects/vrachmedik/markup/components/service-item",
-		"/D/projects/vrachmedik/markup/static/scss"
+		"/D/projects/vrachmedik/markup/components/service-item"
 	],
 	"file_history":
 	[
+		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/libraries/font-awesome.css",
+		"/D/projects/vrachmedik/markup/static/scss/libraries/font-awesome.css",
 		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
 		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.scss",
 		"/D/projects/vrachmedik/markup/components/service-item/service-item.scss",
@@ -215,7 +216,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -327,11 +328,11 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/libraries/font-awesome.css",
+					"file": "/D/projects/ozone-fitness/markup/components/footer/footer.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 35128,
+						"buffer_size": 1289,
 						"regions":
 						{
 						},
@@ -344,12 +345,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -1,0 +1,28 @@
+mixin filter(data)
+	.filter
+		select(type="text").input-form
+			option Москва
+			option Саратов
+		.filter__content
+			label.filter__label Специальность
+			select(type="text").input-form
+				option Выберите направление
+				option Москва
+				option Саратов
+			label.filter__label В районе
+			select(type="text").input-form
+				option Метро
+				option Москва
+				option Саратов
+		.filter-sorting
+			.filter__title._bold Найдено <span class="filter__counts">6186</span> врачей
+			.filter-sortingby
+				.filter-sortingby__left Сортировка по
+					.filter-sortingby__item Рейтингу
+					.filter-sortingby__item Стажу
+					.filter-sortingby__item Стоимости
+				.filter-sortingby__right
+					label.checkbox-block
+						input(type="checkbox" value="").checkbox-block__field
+						span.checkbox-block__label Выезд на дом
+

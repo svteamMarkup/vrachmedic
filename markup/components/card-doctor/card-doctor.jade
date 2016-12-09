@@ -1,0 +1,27 @@
+mixin card-doctor(imagesize)
+	.card-doctor
+		.card-doctor__left
+			img(src="http://placehold.it/#{imagesize}" alt="").card-doctor__photo
+			.card-doctor__counts-comments 
+				.card-doctor__crooked-triangle
+				.card-doctor__counts-comments-text<span>85</span> отзывов
+		.card-doctor__center
+			.card-doctor__fio Сергейко Ирина Владимировна
+			.card-doctor__speciality Акушер, Гинеколог, Гинеколог-эндокринолог
+			.card-doctor__expirience Стаж: <strong>22 года</strong>
+			.card-doctor__address-metro-wrapper
+				.card-doctor__address-metro_item Марксиситская
+				.card-doctor__address-metro_item Таганская
+				.card-doctor__address-metro_item Таганская
+			.card-doctor__address-street г. Москва, ул. Александра Солженицына, д. 5, стр.1
+			.card-doctor__description.
+				Занимается диагностикой и лечением заболеваний кожи: дерматиты различного генеза, экзема, псориаз, себорея, угревая болезнь, розацеа, пиодермии, грибковые заболевания кожи, волос, ногтей, ИППП, различных видов алопеций. Проводит коррекцию
+			.card-doctor__price Стоимость приема - 1700 р.
+		.card-doctor__right
+			.card-doctor__rating-wrapper
+				.card-doctor-rating
+					span.card-doctor-rating__current-rating 9
+					span.card-doctor-rating__current-rating._small .5
+					span.card-doctor-rating__max-rating / 10
+					.card-doctor__rating-text рейтинг
+				.button._card-doctor Записаться онлайн

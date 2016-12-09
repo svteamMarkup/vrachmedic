@@ -1,0 +1,36 @@
+.filter {
+	&__counts {
+		color: #7ba041;
+	}
+	&__content {
+		padding: 19px 0;
+		background-color: #f0f0f0;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+	&__label {
+		margin-left: 22px;
+	}
+	&__title {
+		font-size: 20px;
+		margin: 20px 0 24px 0;
+	}
+	&-sortingby {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 11px;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	&-sortingby__left {
+		display: flex;
+		justify-content: space-between;
+	}
+	&-sortingby__item {
+		margin-left: 7px;
+		color: $dark-blue;
+		padding: 3px 6px;
+		border: 1px dashed $dark-blue;
+		border-radius: 4px;
+		margin-top: -4px;
+	}
+}

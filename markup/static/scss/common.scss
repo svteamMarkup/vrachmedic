@@ -20,3 +20,13 @@ input {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.content__items-wrapper {
+	border: 1px solid #ccc;
+	padding-top: 28px;
+	width: 950px;
+	margin: auto;
+}
+.content__items-inner {
+	width: 893px;
+	margin: auto;
+}

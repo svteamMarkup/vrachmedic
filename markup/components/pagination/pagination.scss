@@ -1,4 +1,25 @@
 .pagination {
 	width: 282px;
 	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 22px;
+	&__item {
+		color: #005497;
+		&:first-child {
+			text-decoration: none;
+			font-weight: bold;
+    		line-height: 16px;
+    		font-size: 28px;
+		}
+		&:last-child {
+			text-decoration: none;
+			font-weight: bold;
+    		line-height: 16px;
+    		font-size: 28px;			
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }

@@ -4,12 +4,44 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
 				"bac",
 				"background-color"
 			],
 			[
-				"bor",
-				"border"
+				"font",
+				"font-size"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"i",
+				"italic"
 			],
 			[
 				"tetx",
@@ -18,10 +50,6 @@
 			[
 				"fo",
 				"font-size"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"co",
@@ -40,24 +68,12 @@
 				"border"
 			],
 			[
-				"font",
-				"font-style"
-			],
-			[
 				"op",
 				"opacity"
 			],
 			[
-				"ba",
-				"background-color"
-			],
-			[
 				"pso",
 				"position"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"margin",
@@ -94,10 +110,6 @@
 			[
 				"marg",
 				"margin"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"flex",
@@ -148,28 +160,28 @@
 	"buffers":
 	[
 		{
-			"file": "/D/projects/dating/index.html",
+			"file": "markup/pages/layout.jade",
 			"settings":
 			{
-				"buffer_size": 30168,
+				"buffer_size": 1406,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/projects/dating/4_1.html",
+			"file": "markup/components/pagination/pagination.jade",
 			"settings":
 			{
-				"buffer_size": 19911,
+				"buffer_size": 242,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/projects/dating/css/style.css",
+			"file": "markup/components/pagination/pagination.scss",
 			"settings":
 			{
-				"buffer_size": 17887,
+				"buffer_size": 45,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -213,20 +225,26 @@
 	"expanded_folders":
 	[
 		"/D/projects/vrachmedik/markup",
-		"/D/projects/vrachmedik/markup/static",
+		"/D/projects/vrachmedik/markup/components",
+		"/D/projects/vrachmedik/markup/components/pagination",
+		"/D/projects/vrachmedik/markup/pages",
 		"/D/projects/vrachmedik/markup/static/scss",
-		"/D/projects/dating",
 		"/D/projects/dating/css"
 	],
 	"file_history":
 	[
-		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
-		"/D/projects/dating/css/style.css",
-		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
-		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
-		"/D/projects/vrachmedik/markup/components/filter/filter.jade",
 		"/D/projects/vrachmedik/markup/pages/doctors.jade",
+		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
+		"/D/projects/vrachmedik/markup/components/pagination/pagination.jade",
+		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
+		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
+		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
+		"/D/projects/vrachmedik/markup/static/scss/mixins.scss",
 		"/D/projects/vrachmedik/markup/components/filter/filter.scss",
+		"/D/projects/dating/css/style.css",
+		"/D/projects/dating/index.html",
+		"/D/projects/dating/4_1.html",
+		"/D/projects/vrachmedik/markup/components/filter/filter.jade",
 		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
 		"/D/projects/vrachmedik/markup/pages/layout.jade",
 		"/D/projects/vrachmedik/markup/components/header/header.scss",
@@ -241,7 +259,6 @@
 		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.jade",
 		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.scss",
 		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.jade",
-		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.jade",
 		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.scss",
@@ -280,7 +297,6 @@
 		"/D/projects/vrachmedik/markup/components/articles-items/articles-items.jade",
 		"/D/projects/vrachmedik/markup/components/articles-items/articles-items.scss",
 		"/D/projects/vrachmedik/markup/static/scss/fonts.scss",
-		"/D/projects/vrachmedik/markup/static/scss/mixins.scss",
 		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
 		"/D/projects/vrachmedik/markup/pages/_layout.jade",
 		"/D/Работа/fonts/Cuprum-Italic/styles.css",
@@ -303,6 +319,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"button",
 			"Наташа",
 			"\"></",
 			"show-info__photo",
@@ -402,90 +419,57 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/D/projects/dating/index.html",
+					"file": "markup/pages/layout.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30168,
+						"buffer_size": 1406,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29496,
-								28640
+								1077,
+								1077
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 13118.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/D/projects/dating/4_1.html",
+					"file": "markup/components/pagination/pagination.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19911,
+						"buffer_size": 242,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3863,
-								3863
-							],
-							[
-								5647,
-								5647
-							],
-							[
-								7439,
-								7439
-							],
-							[
-								9224,
-								9224
-							],
-							[
-								11009,
-								11009
-							],
-							[
-								12795,
-								12795
-							],
-							[
-								14581,
-								14581
-							],
-							[
-								16374,
-								16374
-							],
-							[
-								18178,
-								18178
+								242,
+								242
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7509.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -493,31 +477,31 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/D/projects/dating/css/style.css",
+					"file": "markup/components/pagination/pagination.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17887,
+						"buffer_size": 45,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6381,
-								6381
+								43,
+								43
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4610.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

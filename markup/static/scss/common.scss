@@ -12,6 +12,9 @@ body {
 input {
 	outline: none;
 }
+ul {
+	list-style: none;
+}
 .main {
 	margin: auto;
 	max-width: 1305px;
@@ -24,7 +27,7 @@ input {
 	border: 1px solid #ccc;
 	padding-top: 28px;
 	width: 950px;
-	margin: auto;
+	margin: 0 auto 47px auto;
 }
 .content__items-inner {
 	width: 893px;

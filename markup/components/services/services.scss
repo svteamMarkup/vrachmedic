@@ -3,9 +3,13 @@
 	position: relative;
 	.main-title:after {
 		content: '';
-		right: 23px;
-		top: -8px;
+		right: 6px;
+		top: 4px;
 		position: absolute;
 		@include bg($services);
+	}
+	.main-title {
+		padding: 11px 0 11px 17px;
+    	background-color: #eaeaea;
 	}
 }

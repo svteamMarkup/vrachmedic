@@ -4,16 +4,10 @@ mixin filter(data)
 			option Москва
 			option Саратов
 		.filter__content
-			label.filter__label Специальность
-			select(type="text").input-form
-				option Выберите направление
-				option Москва
-				option Саратов
-			label.filter__label В районе
-			select(type="text").input-form
-				option Метро
-				option Москва
-				option Саратов
+			.filter__content-inner
+				.filter__speciality-wrapper
+					.filter__speciality Специальность
+					.filter__select-route Выберите направление
 		.filter-sorting
 			.filter__title._bold Найдено <span class="filter__counts">6186</span> врачей
 			.filter-sortingby

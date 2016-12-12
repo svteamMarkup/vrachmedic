@@ -42,6 +42,18 @@
 			background-color: lighten(#00469a, 2%);
 		}
 	}
+	&._clinic-item {
+	    background: linear-gradient(to bottom,  #6fc3e1 0%,#1babe0 100%);
+	    text-align: center;
+	    border: 1px solid #007ea8;
+		padding: 0 28px;
+		height: 32px;
+    	line-height: 32px;
+		border-radius: 14px;
+		&:hover {
+			background: linear-gradient(to bottom,  #1babe0 0%,#6fc3e1 100%);
+		}	
+	}
 }
 .main-title {
 	color: $dark-blue;

@@ -1,8 +1,10 @@
 mixin recommend-read-item(imagesize)
 	.recommend-read-item
-		img(src="http://placehold.it/#{imagesize}" alt="")
-		.recommend-read-item__right
-			a(href="#" title="").recommend-read-item__link Обзор противовирусных репаратов при орви и гриппе
-			.recommend-read-item__meta
-				.meta-info._views 15650
-				.meta-info._likes 15650
+		.recommend-read-item__content
+			.recommend-read-item__left
+				img(src="http://placehold.it/#{imagesize}" alt="")
+			.recommend-read-item__right
+				a(href="#" title="").recommend-read-item__link Обзор противовирусных репаратов при орви и гриппе
+				.recommend-read-item__meta
+					.meta-info._views 15650
+					.meta-info._likes 15650

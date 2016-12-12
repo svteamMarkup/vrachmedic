@@ -1,12 +1,13 @@
+.card-doctor-wrapper:last-of-type {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #e6e6e6;
+}
 .card-doctor {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 20px;
 	padding-bottom: 47px;
-	border-bottom: 1px solid #e6e6e6;
-	&:last-child {
-		margin-bottom: 30px;
-	}
+	border-top: 1px solid #e6e6e6;
 	&__left {
 		width: 148px;
 	}
@@ -41,9 +42,14 @@
 	}
 	&__fio {
 		font-size: 18px;
+		display: block;
 		font-weight: bold;
 		color: #005497;
 		margin-bottom: 6px;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 	&__speciality {
 		font-size: 14px;

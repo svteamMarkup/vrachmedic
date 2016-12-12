@@ -4,12 +4,24 @@
 	align-items: center;
 	padding: 16px 0;
 	border-bottom: 1px solid #ddd;
+	background-color: #f7f7f7;
+	&__content {
+		width: 250px;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__right {
+		width: 187px;
+	}
+	&__img {
+		display: block;
+	}
 	&__link {
 		color: $blue;
-	    display: block;
-	    margin-left: 13px;
 	    text-decoration: none;
 	    letter-spacing: -0.1px;
+	    border-bottom: 1px solid #daeaf6;
 	    @include transition;
 		&:hover {
 			text-decoration: underline;
@@ -18,7 +30,7 @@
 	&__meta {
 		display: flex;
     	justify-content: flex-start;
-    	margin: 7px 0 0 28px;
+    	margin: 7px 0 0 17px;
     	position: relative;
     }
 }

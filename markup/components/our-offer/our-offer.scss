@@ -8,53 +8,14 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	&__title {
-		font-size: 28px;
-		color: $dark-blue;
-		margin-top: 18px;
-		&:before {
-			content: '';
-			left: 37px;
-			top: 13px;
-			position: absolute;
-			@include bg($search-doctor);
-		}
-	}
-	&__search {
-		width: 226px;
-		box-shadow: 0 0 0 1px #d4d6d7 inset;
-		padding-top: 1px;
-		margin-left: 30px;
-		padding-bottom: 20px;
-		background-color: $white;
+		color: #2f4d6f;
 		position: relative;
-	}
-	&__title-search {
-		color: $dark-orange;
-		font-size: 18px;
-		margin-top: 26px;
-		margin-bottom: 25px;
 		&:before {
 			content: '';
-			left: 43px;
-    		top: 29px;
+			@include bg($search-clinic);
 			position: absolute;
-			@include bg($search-icon);
-		}
-	}
-	&__form {
-		width: 201px;
-		margin: auto;
-		text-align: center;
-	}
-	.input-form {
-		width: 193px;
-		height: 28px;
-		border-radius: 5px;
-		color: #7c7c7c;
-		margin-bottom: 15px;
-		padding-left: 8px;
-		&:nth-last-of-type(1) {
-			margin-bottom: 20px;	
+		    top: -5px;
+		    left: 29px;
 		}
 	}
 	&._good-doctor {

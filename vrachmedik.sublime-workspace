@@ -4,16 +4,36 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin"
+				"pad",
+				"padding-left"
 			],
 			[
-				"pad",
-				"padding-top"
+				"tetx",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bg",
+				"border-image-slice"
+			],
+			[
+				"cur",
+				"cursor"
 			],
 			[
 				"fon",
-				"font-weight"
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
 			],
 			[
 				"bor",
@@ -42,10 +62,6 @@
 			[
 				"i",
 				"italic"
-			],
-			[
-				"tetx",
-				"text-align"
 			],
 			[
 				"fo",
@@ -116,20 +132,12 @@
 				"flex-start"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"wid",
 				"width"
 			],
 			[
 				"pa",
 				"padding-left"
-			],
-			[
-				"te",
-				"text-transform"
 			],
 			[
 				"background-c",
@@ -160,28 +168,19 @@
 	"buffers":
 	[
 		{
-			"file": "markup/pages/layout.jade",
+			"file": "markup/components/filter/filter.jade",
 			"settings":
 			{
-				"buffer_size": 1406,
+				"buffer_size": 695,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "markup/components/pagination/pagination.jade",
+			"file": "markup/components/filter/filter.scss",
 			"settings":
 			{
-				"buffer_size": 242,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/pagination/pagination.scss",
-			"settings":
-			{
-				"buffer_size": 45,
+				"buffer_size": 689,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -226,27 +225,53 @@
 	[
 		"/D/projects/vrachmedik/markup",
 		"/D/projects/vrachmedik/markup/components",
-		"/D/projects/vrachmedik/markup/components/pagination",
-		"/D/projects/vrachmedik/markup/pages",
-		"/D/projects/vrachmedik/markup/static/scss",
-		"/D/projects/dating/css"
+		"/D/projects/vrachmedik/markup/components/filter",
+		"/D/projects/vrachmedik/markup/components/services/data",
+		"/D/projects/vrachmedik/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/D/projects/vrachmedik/markup/pages/doctors.jade",
-		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
+		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.jade",
 		"/D/projects/vrachmedik/markup/components/pagination/pagination.jade",
-		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
-		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
-		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
+		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.scss",
+		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.scss",
+		"/D/projects/vrachmedik/markup/components/pagination/pagination.scss",
+		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
 		"/D/projects/vrachmedik/markup/static/scss/mixins.scss",
+		"/D/projects/vrachmedik/markup/pages/doctors.jade",
 		"/D/projects/vrachmedik/markup/components/filter/filter.scss",
+		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.jade",
+		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.jade",
+		"/D/projects/vrachmedik/markup/pages/index.jade",
+		"/D/projects/vrachmedik/markup/pages/clinics.jade",
+		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
+		"/D/projects/vrachmedik/markup/static/scss/fonts.scss",
+		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
+		"/D/projects/vrachmedik/markup/pages/layout.jade",
+		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.jade",
+		"/D/projects/vrachmedik/markup/components/services/services.scss",
+		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.scss",
+		"/D/projects/ozone-fitness/markup/pages/clubs.jade",
+		"/D/projects/ozone-fitness/markup/pages/contacts.jade",
+		"/D/projects/ozone-fitness/markup/pages/index.jade",
+		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.scss",
+		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.scss",
+		"/D/projects/vrachmedik/markup/components/service-item/service-item.scss",
+		"/D/projects/vrachmedik/markup/components/services/services.jade",
+		"/D/projects/vrachmedik/markup/components/service-item/service-item.jade",
+		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
+		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.scss",
+		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.jade",
+		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.jade",
+		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.jade",
+		"/D/projects/vrachmedik/markup/components/article-item/article-item.jade",
+		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.jade",
+		"/D/projects/vrachmedik/markup/static/scss/common.scss",
 		"/D/projects/dating/css/style.css",
 		"/D/projects/dating/index.html",
 		"/D/projects/dating/4_1.html",
 		"/D/projects/vrachmedik/markup/components/filter/filter.jade",
 		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
-		"/D/projects/vrachmedik/markup/pages/layout.jade",
 		"/D/projects/vrachmedik/markup/components/header/header.scss",
 		"/D/projects/vrachmedik/markup/components/header/header.jade",
 		"/D/projects/vrachmedik/markup/components/footer/footer.jade",
@@ -257,27 +282,18 @@
 		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.scss",
 		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.scss",
 		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.jade",
-		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.scss",
 		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.jade",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.jade",
 		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.scss",
-		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.jade",
-		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.scss",
-		"/D/projects/vrachmedik/markup/pages/index.jade",
 		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.js",
 		"/D/projects/vrachmedik/markup/components/interview/interview.jade",
 		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/footer/footer.jade",
 		"/D/projects/ozone-fitness/markup/components/footer/footer.scss",
-		"/D/projects/vrachmedik/markup/components/services/services.scss",
-		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.jade",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/libraries/font-awesome.css",
 		"/D/projects/vrachmedik/markup/static/scss/libraries/font-awesome.css",
-		"/D/projects/vrachmedik/markup/components/service-item/service-item.scss",
-		"/D/projects/vrachmedik/markup/components/service-item/service-item.jade",
 		"/D/projects/vrachmedik/markup/components/article-item/article-item.scss",
-		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.scss",
 		"/D/projects/vrachmedik/markup/components/widget/widget.jade",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/_ui/ui.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/_ui/_global-settings.scss",
@@ -285,18 +301,12 @@
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/_ui/_form.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/atmosphere-select/atmosphere-select.jade",
 		"/D/projects/vrachmedik/markup/components/help-search-doctor/help-search-doctor.jade",
-		"/D/projects/vrachmedik/markup/components/article-item/article-item.jade",
 		"/D/projects/vrachmedik/markup/static/scss/normalize.scss",
-		"/D/projects/vrachmedik/markup/components/services/services.jade",
-		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.jade",
-		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.jade",
 		"/D/projects/vrachmedik/markup/components/trust-our-medicine/trust-our-medicine.jade",
 		"/D/projects/vrachmedik/markup/components/trust-our-medicine/trust-our-medicine.scss",
-		"/D/projects/vrachmedik/markup/static/scss/common.scss",
 		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.jade",
 		"/D/projects/vrachmedik/markup/components/articles-items/articles-items.jade",
 		"/D/projects/vrachmedik/markup/components/articles-items/articles-items.scss",
-		"/D/projects/vrachmedik/markup/static/scss/fonts.scss",
 		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
 		"/D/projects/vrachmedik/markup/pages/_layout.jade",
 		"/D/Работа/fonts/Cuprum-Italic/styles.css",
@@ -319,6 +329,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pagination",
+			"title",
+			"pagination-item",
+			"li",
 			"button",
 			"Наташа",
 			"\"></",
@@ -419,19 +433,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "markup/pages/layout.jade",
+					"file": "markup/components/filter/filter.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1406,
+						"buffer_size": 695,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1077,
-								1077
+								259,
+								259
 							]
 						],
 						"settings":
@@ -443,29 +457,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "markup/components/pagination/pagination.jade",
+					"file": "markup/components/filter/filter.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 242,
+						"buffer_size": 689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								242,
-								242
+								101,
+								101
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -473,35 +488,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "markup/components/pagination/pagination.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43,
-								43
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

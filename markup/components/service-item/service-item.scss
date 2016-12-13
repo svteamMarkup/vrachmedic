@@ -19,10 +19,12 @@
 	    font-size: 18px;
 	    text-decoration: none;
 	    letter-spacing: -0.1px;
+	    border-bottom: 1px solid #daeaf6;
+	    display: inline-block;
 	    margin-left: 58px;
 	    @include transition;
 		&:hover {
-			text-decoration: underline;
+			border-bottom: none;
 		}	    
 	}
 	&__description {

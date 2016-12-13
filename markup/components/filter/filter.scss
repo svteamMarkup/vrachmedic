@@ -3,15 +3,40 @@
 		color: #7ba041;
 	}
 	&__speciality-wrapper {
-		width: 367px;
+		width: 282px;
 		display: flex;
 		justify-content: space-between;
 	}
+	&__text {
+		font-size: 18px;
+	}
+	&__address-wrapper {
+		width: 190px;
+		display: flex;
+		justify-content: space-between;
+	}	
+	&__select {
+		color: #005497;
+		border-bottom: 1px dotted $black;
+		cursor: pointer;
+		font-size: 18px;
+		padding-bottom: 3px;
+		@include transition;
+		&:hover {
+			border-bottom: none;
+		}		
+	}
 	&__content {
-		padding: 19px 0;
+		padding: 18px 0 13px 0;
 		background-color: #f0f0f0;
 		margin-top: 15px;
 		border-radius: 5px;
+	}
+	&__content-inner {
+		display: flex;
+		justify-content: space-between;
+		width: 563px;
+		margin-left: 17px;
 	}
 	&__label {
 		margin-left: 22px;

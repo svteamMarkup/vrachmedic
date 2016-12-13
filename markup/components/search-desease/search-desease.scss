@@ -1,0 +1,44 @@
+.search-desease {
+	background-color: #f7f7f7;
+	&-alphabet {
+		padding: 18px 0;
+		border-bottom: 1px solid #e0e0e0;
+		&-inner {
+			width: 898px;
+			margin: auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		&__search .input-form {
+			width: 276px;
+			height: 34px;
+			border: 1px solid #e0e0e0;
+			padding-left: 17px;
+			font-style: italic;
+		}
+		&__link {
+			font-size: 17px;
+			color: #00a3dd;
+			margin: 0 4px;
+			text-transform: uppercase;
+			text-decoration: none;
+			border-bottom: 1px solid #daeaf6;
+			@include transition;
+			&:hover {
+				border-bottom: none;
+			}
+		}
+	}
+	&-speciality-inner {
+		margin-left: 22px;
+		width: 898px;
+		display: flex;
+		justify-content: space-between;
+		padding: 22px 0 25px 0;
+		margin-left: 26px;
+	}
+	&-speciality__items {
+		width: 200px;
+	}	
+}

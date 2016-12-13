@@ -1,0 +1,31 @@
+.category {
+	margin-bottom: 45px;
+	&__title {
+		font-size: 24px;
+		color: $dark-blue;
+		position: relative;
+		padding-left: 33px;
+		margin-bottom: 20px;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 6px;
+			left: 0;
+			@include bg($category-icon);
+			width: 19px;
+			height: 16px;
+		}
+		a {
+			text-decoration: none;
+			color: $dark-blue;
+			border-bottom: 2px solid #14a2dd;
+			@include transition;
+			&:hover {
+				border-bottom: none;
+			}
+		}
+	}
+	&-list {
+		padding-left: 30px;
+	}
+}

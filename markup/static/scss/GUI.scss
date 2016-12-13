@@ -84,10 +84,12 @@
 .sidebar {
 	max-width: 276px;
 	width: 100%;
+	padding-bottom: 60px; /* для страницы карта сайта */
 }
 .input-form {
 	border: none;
 	border: 1px solid #cdcdcd;
+	border-radius: 5px;
 }
 .meta-info {
 	font-size: 12px;

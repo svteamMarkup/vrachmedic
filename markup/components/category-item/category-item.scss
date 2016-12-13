@@ -1,0 +1,29 @@
+.category-item {
+	position: relative;
+	padding-left: 15px;
+	@include transition;
+	display: block;
+	margin-bottom: 5px;
+	&:hover {
+		text-decoration: none;
+	}
+	&:before {
+		content: '';
+		height: 7px;
+		width: 7px;
+		border-radius: 50%;
+		background-color: #ef5363;
+		position: absolute;
+		top: 5px;
+		left: 0;
+	}
+	a {
+		display: inline-block;
+		color: #00a3dd;
+		text-decoration: none;
+		border-bottom: 1px solid #89d0ee;
+		&:hover {
+			border-bottom: none;
+		}
+	}
+}

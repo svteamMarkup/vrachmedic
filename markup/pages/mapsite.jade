@@ -15,10 +15,23 @@ block content
 			.category-list
 				+category-item
 block sidebar
-	+recommend-read
-	+our-offer__search-wrapper
-	+our-offer__search-wrapper
+	.sidebar__recommend-read
+		+recommend-read
+		+recommend-read-item('50x50')
+		+recommend-read-item('50x50')
+		+recommend-read-item('50x50')
+		+recommend-read-item('50x50')
+		+recommend-read-item('50x50')
+		+recommend-read-item('50x50')
+	.sidebar__our-offer
+		+our-offer__search-wrapper
+		+our-offer__search-wrapper
 	+interview._blue
-	+services
+	.sidebar__services
+		+services
+		+service-item
+		+service-item
+		+service-item
+		+service-item
 	+interview._purple
 	+widget

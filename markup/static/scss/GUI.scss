@@ -85,6 +85,9 @@
 	max-width: 276px;
 	width: 100%;
 	padding-bottom: 60px; /* для страницы карта сайта */
+	&__recommend-read {
+		margin-bottom: 49px;
+	}	
 }
 .input-form {
 	border: none;

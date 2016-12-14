@@ -1,5 +1,40 @@
 // Common styles of the project
-
+::-webkit-input-placeholder {
+	color: #999;
+}
+:-moz-placeholder {
+	color: #999;
+}
+::-moz-placeholder {
+	color: #999;
+}
+:-ms-input-placeholder {
+	color: #999;
+}
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+input:focus:-moz-placeholder {
+	color: transparent;
+}
+input:focus::-moz-placeholder {
+	color: transparent;
+}
+input:focus::-ms-input-placeholder {
+	color: transparent;
+}
+textarea:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+textarea:focus:-moz-placeholder {
+	color: transparent;
+}
+textarea:focus::-moz-placeholder {
+	color: transparent;
+}
+textarea:focus::-ms-input-placeholder {
+	color: transparent;
+}
 html, body {
     height: 100%;
 }
@@ -8,11 +43,16 @@ body {
 	font-size: $default-font-size;
 	font-family: 'Cuprum';
 	color: $black;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;	
 }
 input {
 	outline: none;
 }
-ul {
+li {
 	list-style: none;
 }
 .main {

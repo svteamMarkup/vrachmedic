@@ -4,19 +4,39 @@
 		"selected_items":
 		[
 			[
-				"pad",
-				"padding-left"
-			],
-			[
-				"tetx",
-				"text-decoration"
-			],
-			[
 				"mar",
 				"margin-bottom"
 			],
 			[
+				"bo",
+				"border-bottom"
+			],
+			[
 				"text",
+				"text-decoration"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tetx",
 				"text-decoration"
 			],
 			[
@@ -36,20 +56,8 @@
 				"text-decoration"
 			],
 			[
-				"bor",
-				"border-bottom"
-			],
-			[
 				"ba",
 				"background"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"wdi",
@@ -72,16 +80,8 @@
 				"color"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
 				"margi",
 				"margin"
-			],
-			[
-				"bo",
-				"border"
 			],
 			[
 				"op",
@@ -168,21 +168,30 @@
 	"buffers":
 	[
 		{
-			"file": "markup/components/filter/filter.jade",
+			"file": "markup/pages/health-a-z.jade",
 			"settings":
 			{
-				"buffer_size": 695,
+				"buffer_size": 1297,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "markup/components/filter/filter.scss",
+			"file": "markup/components/pagination/pagination.scss",
 			"settings":
 			{
-				"buffer_size": 689,
+				"buffer_size": 473,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/pages/layout.jade",
+			"settings":
+			{
+				"buffer_size": 1854,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -225,54 +234,68 @@
 	[
 		"/D/projects/vrachmedik/markup",
 		"/D/projects/vrachmedik/markup/components",
-		"/D/projects/vrachmedik/markup/components/filter",
-		"/D/projects/vrachmedik/markup/components/services/data",
+		"/D/projects/vrachmedik/markup/pages",
+		"/D/projects/vrachmedik/markup/static",
 		"/D/projects/vrachmedik/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.jade",
 		"/D/projects/vrachmedik/markup/components/pagination/pagination.jade",
-		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.scss",
-		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.scss",
-		"/D/projects/vrachmedik/markup/components/pagination/pagination.scss",
-		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
-		"/D/projects/vrachmedik/markup/static/scss/mixins.scss",
+		"/D/projects/vrachmedik/markup/components/article-item/article-item.jade",
+		"/D/projects/vrachmedik/markup/pages/index.jade",
+		"/D/projects/vrachmedik/markup/pages/mapsite.jade",
 		"/D/projects/vrachmedik/markup/pages/doctors.jade",
-		"/D/projects/vrachmedik/markup/components/filter/filter.scss",
+		"/D/projects/vrachmedik/markup/pages/clinics.jade",
+		"/D/projects/vrachmedik/markup/pages/health-a-z.jade",
+		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.jade",
+		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.jade",
+		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.jade",
+		"/D/projects/vrachmedik/markup/pages/layout.jade",
+		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
+		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.jade",
+		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.scss",
 		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.jade",
 		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.jade",
-		"/D/projects/vrachmedik/markup/pages/index.jade",
-		"/D/projects/vrachmedik/markup/pages/clinics.jade",
-		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
-		"/D/projects/vrachmedik/markup/static/scss/fonts.scss",
-		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
-		"/D/projects/vrachmedik/markup/pages/layout.jade",
-		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.jade",
 		"/D/projects/vrachmedik/markup/components/services/services.scss",
+		"/D/projects/vrachmedik/markup/components/services/services.jade",
+		"/D/projects/vrachmedik/markup/components/service-item/service-item.jade",
+		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
 		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.scss",
+		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.scss",
+		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
+		"/D/projects/vrachmedik/markup/components/category-item/category-item.jade",
+		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.scss",
+		"/D/projects/vrachmedik/markup/components/category-item/category-item.scss",
+		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.jade",
+		"/D/projects/vrachmedik/markup/components/search-desease-item/search-desease-item.jade",
+		"/D/projects/vrachmedik/markup/components/search-desease-item/search-desease-item.scss",
+		"/D/projects/vrachmedik/markup/components/service-item/service-item.scss",
+		"/D/projects/vrachmedik/markup/components/header/header.scss",
+		"/D/projects/vrachmedik/markup/components/category/category.jade",
+		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.jade",
+		"/D/projects/vrachmedik/markup/components/category/category.scss",
+		"/D/projects/vrachmedik/markup/static/scss/fonts.scss",
+		"/D/projects/vrachmedik/markup/components/filter/filter.jade",
+		"/D/projects/vrachmedik/markup/components/filter/filter.scss",
+		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.jade",
+		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.scss",
+		"/D/projects/vrachmedik/markup/components/pagination/pagination.scss",
+		"/D/projects/vrachmedik/markup/static/scss/mixins.scss",
+		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
+		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
+		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.jade",
 		"/D/projects/ozone-fitness/markup/pages/clubs.jade",
 		"/D/projects/ozone-fitness/markup/pages/contacts.jade",
 		"/D/projects/ozone-fitness/markup/pages/index.jade",
-		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.scss",
 		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.scss",
-		"/D/projects/vrachmedik/markup/components/service-item/service-item.scss",
-		"/D/projects/vrachmedik/markup/components/services/services.jade",
-		"/D/projects/vrachmedik/markup/components/service-item/service-item.jade",
-		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
 		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.scss",
 		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.jade",
-		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.jade",
 		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.jade",
-		"/D/projects/vrachmedik/markup/components/article-item/article-item.jade",
-		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.jade",
 		"/D/projects/vrachmedik/markup/static/scss/common.scss",
 		"/D/projects/dating/css/style.css",
 		"/D/projects/dating/index.html",
 		"/D/projects/dating/4_1.html",
-		"/D/projects/vrachmedik/markup/components/filter/filter.jade",
 		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
-		"/D/projects/vrachmedik/markup/components/header/header.scss",
 		"/D/projects/vrachmedik/markup/components/header/header.jade",
 		"/D/projects/vrachmedik/markup/components/footer/footer.jade",
 		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
@@ -281,14 +304,10 @@
 		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.scss",
 		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.scss",
 		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.scss",
-		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.jade",
-		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.jade",
-		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.jade",
 		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.scss",
 		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.js",
 		"/D/projects/vrachmedik/markup/components/interview/interview.jade",
-		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/footer/footer.jade",
 		"/D/projects/ozone-fitness/markup/components/footer/footer.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/libraries/font-awesome.css",
@@ -315,7 +334,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -329,6 +348,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"search-desease-item",
+			"a(href=\"#\" tit)",
+			"a(href=\"#\")",
+			"article-middle-view",
+			"category-item",
 			"pagination",
 			"title",
 			"pagination-item",
@@ -428,53 +452,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "markup/components/filter/filter.jade",
+					"file": "markup/pages/health-a-z.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 695,
+						"buffer_size": 1297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								259,
-								259
+								1124,
+								1124
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "markup/components/filter/filter.scss",
+					"file": "markup/components/pagination/pagination.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 689,
+						"buffer_size": 473,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								473,
+								473
 							]
 						],
 						"settings":
@@ -487,7 +512,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/pages/layout.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1517,
+								1517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

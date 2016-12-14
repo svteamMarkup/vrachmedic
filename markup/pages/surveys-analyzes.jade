@@ -1,15 +1,7 @@
 extends ./layout.jade
 
 block content
-	+last-articles
-	.articles-small-view
-		+article-small-view
-		+article-small-view
-		+article-small-view
-		+article-small-view
-		+article-small-view
-		+article-small-view
-	+our-offers
+	+breadcrumbs
 	.articles-middle-view
 		+article-middle-view('304x228')
 		+article-middle-view('304x228')
@@ -20,6 +12,19 @@ block content
 		+article-middle-view('304x228')
 		+article-middle-view('304x228')
 		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+		+article-middle-view('304x228')
+	+pagination-second
 	+help-search-doctor
 block sidebar
 	.sidebar__recommend-read
@@ -30,6 +35,9 @@ block sidebar
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
+	.sidebar__our-offer
+		+our-offer__search-wrapper
+		+our-offer__search-wrapper
 	+interview._blue
 	.sidebar__services
 		+services

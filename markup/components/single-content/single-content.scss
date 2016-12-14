@@ -1,0 +1,42 @@
+.single-content {
+	p {
+		font-size: 18px;
+		color: $light-black;
+	}
+	h3 {
+		font-size: 24px;
+		color: $dark-blue;
+		margin-bottom: 10px;
+	}
+	li {
+		margin-bottom: 6px;
+	}
+	.purple-marker,
+	.blue-marker {
+		padding-left: 16px;
+		li {
+			position: relative;
+			padding-left: 16px;
+		}
+	}	
+	.purple-marker li:before {
+		content: '';
+		height: 8px;
+		width: 8px;
+		border-radius: 50%;
+		background-color: $purple;
+		position: absolute;
+		top: 5px;
+		left: 0;
+	}
+	.blue-marker li:before {
+		content: '';
+		height: 8px;
+		width: 8px;
+		border-radius: 50%;
+		background-color: $blue;
+		position: absolute;
+		top: 5px;
+		left: 0;
+	}	
+}

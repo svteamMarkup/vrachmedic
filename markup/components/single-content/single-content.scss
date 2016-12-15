@@ -8,9 +8,12 @@
 		color: $dark-blue;
 		margin-bottom: 10px;
 	}
-	li {
+	ul li {
 		margin-bottom: 6px;
 	}
+	ol li {
+		margin-bottom: 14px;
+	}	
 	.purple-marker,
 	.blue-marker {
 		padding-left: 16px;
@@ -38,5 +41,46 @@
 		position: absolute;
 		top: 5px;
 		left: 0;
-	}	
+	}
+	.number-marker {
+		li {
+			position: relative;
+			padding-left: 16px;
+		}
+	}
+	.number-marker li:before {
+		content: '';
+		height: 23px;
+		width: 23px;
+		border-radius: 50%;
+		position: absolute;
+		border: 1px solid $blue;
+		top: -4px;
+		left: -22px;
+	}
+	.comment {
+		padding: 22px 0 25px 0;
+		margin-bottom: 23px;
+		background-color: #f7f7f7;
+	}
+	.comment p {
+		font-style: italic;
+		position: relative;
+		padding-left: 50px;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 16px;
+			height: 26px;
+			width: 26px;
+			@include bg($message-icon);
+		}
+	}
+	.social-block {
+		border: 5px solid $silver;
+		img {
+			display: block;
+		}
+	}
 }

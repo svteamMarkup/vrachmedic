@@ -55,6 +55,26 @@
 		}	
 	}
 }
+.button-second {
+	display: inline-block;
+	color: $dark-blue;
+	cursor: pointer;
+	box-shadow: 0 0 7px 0 rgba(0,0,0,.14);
+	&._print {
+		padding: 11px 18px 11px 36px;
+		text-decoration: none;
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 23px;
+			width: 21px;
+			@include bg($social-share-icon);			
+		}
+	}
+}
 .main-title {
 	color: $dark-blue;
 }

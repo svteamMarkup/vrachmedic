@@ -59,7 +59,7 @@
 		left: -22px;
 	}
 	.comment {
-		padding: 22px 0 25px 0;
+		padding: 22px 72px 25px 0;
 		margin-bottom: 23px;
 		background-color: #f7f7f7;
 	}
@@ -82,5 +82,9 @@
 		img {
 			display: block;
 		}
+	}
+	.articles-small-view {
+		border-bottom: 1px dashed #c7c7c7;
+		margin-bottom: 43px;
 	}
 }

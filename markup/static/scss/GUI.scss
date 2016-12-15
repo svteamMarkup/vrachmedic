@@ -43,12 +43,12 @@
 		}
 	}
 	&._clinic-item {
-	    background: linear-gradient(to bottom,  #6fc3e1 0%,#1babe0 100%);
-	    text-align: center;
-	    border: 1px solid #007ea8;
+		background: linear-gradient(to bottom,  #6fc3e1 0%,#1babe0 100%);
+		text-align: center;
+		border: 1px solid #007ea8;
 		padding: 0 28px;
 		height: 32px;
-    	line-height: 32px;
+		line-height: 32px;
 		border-radius: 14px;
 		&:hover {
 			background: linear-gradient(to bottom,  #1babe0 0%,#6fc3e1 100%);
@@ -60,6 +60,9 @@
 	color: $dark-blue;
 	cursor: pointer;
 	box-shadow: 0 0 7px 0 rgba(0,0,0,.14);
+	&:hover {
+		@include opacity;
+	}
 	&._print {
 		padding: 11px 18px 11px 36px;
 		text-decoration: none;
@@ -67,12 +70,40 @@
 		&:before {
 			content: '';
 			position: absolute;
-			top: 0;
-			left: 0;
+			top: 12px;
+			left: 11px;
 			height: 23px;
 			width: 21px;
-			@include bg($social-share-icon);			
+			@include bg($print);
 		}
+	}
+	&._dislike {
+		position: relative;
+		height: 34px;
+		width: 34px;
+		&:before {
+			height: 17px;
+			width: 17px;
+			content: '';
+			position: absolute;
+			top: 10px;
+			left: 9px;
+			@include bg($dislike);
+		}	
+	}
+	&._like {
+		position: relative;
+		height: 34px;
+		width: 34px;
+		&:before {
+			height: 17px;
+			width: 17px;
+			content: '';
+			position: absolute;
+			top: 8px;
+			left: 9px;
+			@include bg($like);
+		}			
 	}
 }
 .main-title {
@@ -146,5 +177,26 @@
 .checkbox-block {
 	&__label {
 		margin-left: 5px;
+	}
+}
+.side-small-line {
+	color: $dark-blue;
+	text-transform: uppercase;
+	font-size: 20px;
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 25px;
+	&:before {
+		content: '';
+		position: absolute;
+		/* border-left: 3px solid $blue; */
+		width: 3px;
+		height: 30px;
+		background-color: $blue;
+		top: -3px;
+		left: 0;
+	}
+	span {
+		color: $red;
 	}
 }

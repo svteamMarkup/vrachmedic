@@ -34,3 +34,7 @@
 @mixin transition {
     transition: all .33s ease-out;
 }
+
+@mixin opacity {
+    opacity: .8;
+}

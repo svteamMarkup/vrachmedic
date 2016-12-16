@@ -1,7 +1,7 @@
 .interview {
 	margin-bottom: 44px;
 	padding-bottom: 9px;
-	width: 276px;
+	width: 300px;
 	position: relative;
 	overflow: hidden;
 	.interview__heart-icon {
@@ -13,12 +13,6 @@
 	&__content {
 		width: 183px;
 		margin-left: 18px;
-	}
-	&__title:before {
-		content: '';
-		position: absolute;
-		left: 13px;
-		@include bg($question);
 	}
 	&__title {
 		font-size: 21px;
@@ -42,7 +36,19 @@
 }
 .interview__title._blue {
 	color: $blue;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 13px;
+		@include bg($question);
+	}
 }
 .interview__title._purple {
 	color: $purple;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 13px;
+		@include bg($question-red);
+	}	
 }

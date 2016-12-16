@@ -18,7 +18,7 @@
 	    border-bottom: 1px solid #daeaf6;
 	    @include transition;
 		&:hover {
-			border-bottom: none;
+			border-bottom: 1px solid #14a2dd;
 		}	    
 	}	
 }

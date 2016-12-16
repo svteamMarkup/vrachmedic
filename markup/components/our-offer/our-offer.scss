@@ -10,18 +10,25 @@
 	&__title {
 		color: #2f4d6f;
 		position: relative;
-		&:before {
+	}
+	&._good-doctor {
+		background-image: url(%=static=%general/good-doctor.jpg);
+		.our-offer__title:before {
 			content: '';
-			@include bg($search-clinic);
+			@include bg($search-doctor);
 			position: absolute;
 		    top: -5px;
 		    left: 29px;
 		}
 	}
-	&._good-doctor {
-		background-image: url(%=static=%general/good-doctor.jpg);
-	}
 	&._good-clinic {
 		background-image: url(%=static=%general/good-clinic.jpg);
+		.our-offer__title:before {
+			content: '';
+			@include bg($search-clinic);
+			position: absolute;
+		    top: -5px;
+		    left: 29px;
+		}		
 	}	
 }

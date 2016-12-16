@@ -1,5 +1,5 @@
 .service-item {
-	width: 276px;
+	width: 300px;
 	padding: 16px 0;
 	position: relative;
 	border-bottom: 1px solid #ddd;
@@ -7,11 +7,6 @@
 	&__content {
 		width: 233px;
 		margin: auto;
-		&:before {
-			content: '';
-			position: absolute;
-			@include bg($transcript-analyzes);			
-		}
 	}	
 	&__link {
 	    color: $blue;
@@ -24,7 +19,7 @@
 	    margin-left: 58px;
 	    @include transition;
 		&:hover {
-			border-bottom: none;
+			border-bottom: 1px solid $blue;
 		}	    
 	}
 	&__description {
@@ -33,4 +28,29 @@
 		line-height: 21px;
 		margin-left: 58px;
 	}
+	&:before {
+		content: '';
+		position: absolute;
+		left: 20px;
+	}
+	&._check-symptom  {
+		&:before {
+			@include bg($check-symptom);
+		}
+	}
+	&._transcript-analyzes  {
+		&:before {
+			@include bg($transcript-analyzes);		
+		}
+	}
+	&._tests  {
+		&:before {
+			@include bg($tests);		
+		}
+	}
+	&._cardio-risk  {
+		&:before {
+			@include bg($cardio-risk);		
+		}
+	}			
 }

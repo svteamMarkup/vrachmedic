@@ -1,0 +1,12 @@
+extends ./layout.jade
+
+block variables
+	- var page = '404'
+
+block content
+	+breadcrumbs
+	.page-404-info
+		img(src="%=static=%images/content/page-404.png" alt="").page-404-info__img
+		.page-404-info__title Извините! Страница, которую вы запросили,<br> не находится в нашей базе данных.
+		.page-404-info__description Скорее всего вы попали на битую ссылку или опечатались при вводе URL.
+		a(href="#" title="").button._blue._return-main-page На главную страницу

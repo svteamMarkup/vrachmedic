@@ -1,5 +1,6 @@
 mixin service-item(data)
-	.service-item
+	- var modiffer = attributes.class || ''
+	.service-item(class="#{modiffer}")
 		.service-item__content
 			a(href="#" title="").service-item__link Проверка симптомов
 			.service-item__description Укажите симптомы и узнайте предварительный диагноз 

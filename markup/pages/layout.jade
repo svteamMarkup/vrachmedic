@@ -32,17 +32,24 @@ html(class="no-js", lang="ru")
 	include ../components/pagination-second/pagination-second
 	include ../components/single-content/single-content
 	include ../components/social-share/social-share
+	include ../components/comment/comment
 	include ../components/comments/comments
 	include ../components/footer/footer
 
 	head
 		+head(head.defaults)
 	body
+		block variables
+			- var page = 'default'
 		block header
 			+header
 		main.main
-			.content
-				block content
+			- if (page == '404')
+				.content._404
+					block content
+			- else 
+				.content
+					block content
 			.sidebar
 				block sidebar
 		block footer

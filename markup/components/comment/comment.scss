@@ -1,0 +1,19 @@
+.comment {
+	padding: 22px 72px 25px 0;
+	margin-bottom: 23px;
+	background-color: #f7f7f7;
+	p {
+		font-style: italic;
+		position: relative;
+		padding-left: 50px;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 16px;
+			height: 26px;
+			width: 26px;
+			@include bg($message-icon);
+		}
+	}
+}

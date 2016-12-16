@@ -14,69 +14,6 @@
 	ol li {
 		margin-bottom: 14px;
 	}	
-	.purple-marker,
-	.blue-marker {
-		padding-left: 16px;
-		li {
-			position: relative;
-			padding-left: 16px;
-		}
-	}	
-	.purple-marker li:before {
-		content: '';
-		height: 8px;
-		width: 8px;
-		border-radius: 50%;
-		background-color: $purple;
-		position: absolute;
-		top: 5px;
-		left: 0;
-	}
-	.blue-marker li:before {
-		content: '';
-		height: 8px;
-		width: 8px;
-		border-radius: 50%;
-		background-color: $blue;
-		position: absolute;
-		top: 5px;
-		left: 0;
-	}
-	.number-marker {
-		li {
-			position: relative;
-			padding-left: 16px;
-		}
-	}
-	.number-marker li:before {
-		content: '';
-		height: 23px;
-		width: 23px;
-		border-radius: 50%;
-		position: absolute;
-		border: 1px solid $blue;
-		top: -4px;
-		left: -22px;
-	}
-	.comment {
-		padding: 22px 72px 25px 0;
-		margin-bottom: 23px;
-		background-color: #f7f7f7;
-	}
-	.comment p {
-		font-style: italic;
-		position: relative;
-		padding-left: 50px;
-		&:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 16px;
-			height: 26px;
-			width: 26px;
-			@include bg($message-icon);
-		}
-	}
 	.social-block {
 		border: 5px solid $silver;
 		img {
@@ -87,4 +24,62 @@
 		border-bottom: 1px dashed #c7c7c7;
 		margin-bottom: 43px;
 	}
+}
+
+.purple-marker,
+.blue-marker {
+	padding-left: 16px;
+	li {
+		position: relative;
+		padding-left: 16px;
+	}
+}	
+.purple-marker li:before {
+	content: '';
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background-color: $purple;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+.blue-marker li:before {
+	content: '';
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background-color: $blue;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+.number-marker {
+	counter-reset: point; /* задаем переменную для счетчика */
+	list-style: none;
+	padding: 0;
+	li {
+		position: relative;
+		padding-left: 33px;
+		&:before {
+			content: counter(point); /* выводим значение переменной */
+			counter-increment: point 1; /* увеличваем счетчик на 1 */
+			position: absolute;
+			left: 0;
+			top: -5px;
+			height: 23px;
+			width: 23px;
+			color: $dark-blue;
+			border: 1px solid $blue;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 25px;
+		}
+	}
+	&._blue li:before {
+		color: $blue;
+	}
+	&._dark-blue li:before {
+		color: $dark-blue;
+	}		
 }

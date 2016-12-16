@@ -1,6 +1,7 @@
 extends ./layout.jade
 block content
 	+breadcrumbs
+	h1.title-page Здоровье от А до Я
 	+search-desease
 	.articles-middle-view
 		+article-middle-view('304x228')
@@ -41,9 +42,9 @@ block sidebar
 	+interview._blue
 	.sidebar__services
 		+services
-		+service-item
-		+service-item
-		+service-item
-		+service-item
+		+service-item._check-symptom
+		+service-item._transcript-analyzes
+		+service-item._tests
+		+service-item._cardio-risk
 	+interview._purple
 	+widget

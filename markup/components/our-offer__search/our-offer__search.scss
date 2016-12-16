@@ -44,6 +44,9 @@
 		font-size: 28px;
 		padding-left: 68px;
 		&:before {
+			content: '';
+			position: absolute;
+			@include bg($search-doctor);
 			top: 0;
 			left: 0;
 		}
@@ -54,6 +57,9 @@
 		font-size: 22px;
 		padding-left: 58px;
 		&:before {
+			content: '';
+			position: absolute;
+			@include bg($search-clinic);
 			top: 0;
 			left: 0;
 		}		

@@ -39,7 +39,7 @@
 		}
 	}
 }
-.our-offer__search._big {
+/* .our-offer__search._big {
 	.our-offer__title {
 		font-size: 28px;
 		padding-left: 68px;
@@ -51,17 +51,4 @@
 			left: 0;
 		}
 	}
-}
-.our-offer__search._small {
-	.our-offer__title {
-		font-size: 22px;
-		padding-left: 58px;
-		&:before {
-			content: '';
-			position: absolute;
-			@include bg($search-clinic);
-			top: 0;
-			left: 0;
-		}		
-	}
-}
+} */

@@ -1,6 +1,5 @@
 .our-offer {
 	width: 439px;
-	/* box-shadow: 0 0 0 5px #d4d6d7; */
 	box-shadow: 0 0 2px 5px rgba($black, .14);
 	padding-top: 1px;
 	padding-bottom: 31px;
@@ -13,22 +12,28 @@
 	}
 	&._good-doctor {
 		background-image: url(%=static=%general/good-doctor.jpg);
-		.our-offer__title:before {
-			content: '';
-			@include bg($search-doctor);
-			position: absolute;
-		    top: -5px;
-		    left: 29px;
+		.our-offer__title {
+			padding-left: 68px;
+			&:before {
+				content: '';
+				@include bg($search-doctor);
+				position: absolute;
+			    top: -5px;
+			    left: 0;
+			}
 		}
 	}
 	&._good-clinic {
 		background-image: url(%=static=%general/good-clinic.jpg);
-		.our-offer__title:before {
-			content: '';
-			@include bg($search-clinic);
-			position: absolute;
-		    top: -5px;
-		    left: 29px;
-		}		
+		.our-offer__title {
+			padding-left: 68px;
+			&:before {
+				content: '';
+				@include bg($search-clinic);
+				position: absolute;
+			    top: -5px;
+			    left: 0;
+			}
+		}
 	}	
 }

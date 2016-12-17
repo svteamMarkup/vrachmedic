@@ -1,3 +1,4 @@
 mixin our-offer__search-wrapper(data)
-	.our-offer__search-wrapper
+	- var modiffer = attributes.class || ''
+	.our-offer__search-wrapper(class="#{modiffer}")
 		+our-offer__search._small

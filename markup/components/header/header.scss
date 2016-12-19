@@ -3,20 +3,44 @@
 	box-shadow: 2px 2px 2px rgba($black, .11);
 	margin-bottom: 37px;
 	width: 100%;
-	padding-top: 18px;	
+	padding-top: 18px;
 	&__wrapper {
 		@extend .main;
 		align-items: center;
+		@media screen and(max-width: 760px) {
+			padding: 0 10px;
+			width: auto;
+		}
 	}
 	&__logo {
 		display: block;
 		@include bg($logo-header);
+		@media screen and(max-width: 760px) {
+			@include bg($logo-mobile-header);
+			margin: auto;
+			order: 2;
+		}
 	}
+
 }
 
 .header-menu {
+	@media screen and(max-width: 760px) {
+		order: 1;
+    }
+	&__mobile {
+		display: none;
+		@media screen and(max-width: 760px) {
+			display: block;
+			@include bg($header-menu-mobile);
+			cursor: pointer;
+		}
+	}
 	&__list {
 		display: flex;
+		@media screen and(max-width: 760px) {
+			display: none;
+		}
 	}
 	&__item {
 		display: inline-block;
@@ -74,11 +98,32 @@
 }
 
 .header-search {
+	@media screen and(max-width: 760px) {
+		order: 3;
+	}
+    order: 3;
+	&__wrapper {
+		display: none;
+	}
 	&__form {
 
 	}
 	&__icon {
 		cursor: pointer;
 		@include bg($search-header);
+		@media screen and(max-width: 760px) {
+			display: none;
+		}	
+	}
+	@media screen and(max-width: 760px) {
+		&__mobile {
+			@include bg($search-mobile-header);
+			cursor: pointer;
+		}
+	}
+	&__form {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
 	}
 }

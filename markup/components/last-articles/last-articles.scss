@@ -1,11 +1,17 @@
 .last-articles {
 	display: flex;
 	justify-content: space-between;
+	@media screen and (max-width: 760px) {
+		flex-wrap: wrap;
+	}
 	margin-bottom: 59px;
 	&__column {
 		width: 470px;
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		@media screen and (max-width: 760px) {
+			flex-wrap: wrap;
+		}
 	}
 }

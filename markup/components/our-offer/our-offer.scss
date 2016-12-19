@@ -6,9 +6,16 @@
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
+	@media screen and(max-width: 760px) {
+		background-image: none!important;
+	}
 	&__title {
 		color: #2f4d6f;
 		position: relative;
+		@media screen and(max-width: 760px) {
+			font-size: 23px;
+			padding-left: 115px;
+		}
 	}
 	&._good-doctor {
 		background-image: url(%=static=%general/good-doctor.jpg);

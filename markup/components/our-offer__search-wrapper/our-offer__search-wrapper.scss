@@ -6,26 +6,26 @@
 .our-offer__search-wrapper._good-doctor {
 	.our-offer__title {
 		font-size: 22px;
-		padding-left: 50px;
+		padding-left: 92px;
 		&:before {
 			content: '';
 			@include bg($search-doctor);
 			position: absolute;
-		    top: -5px;
-		    left: 0;
+		    top: 5px;
+		    left: 28px;
 		}
 	}	
 }
 .our-offer__search-wrapper._good-clinic {
 	.our-offer__title {
 		font-size: 22px;
-		padding-left: 50px;
+		padding-left: 92px;
 		&:before {
 			content: '';
 			@include bg($search-clinic);
 			position: absolute;
-		    top: -5px;
-		    left: 0;
+		    top: 5px;
+		    left: 28px;
 		}
 	}	
 }

@@ -1,14 +1,18 @@
 .article-item {
 	position: relative;
+	img{
+		width: 100%;
+		display: block;
+	}
 	&__content {
 		background-color: rgba($dark-blue, 0.8);
 		padding: 5px 0 5px 11px;
 		width: 96%;
 		position: absolute;
-	    box-sizing: border-box;
-	    right: 0;
-    	left: 0;
-    	margin: auto;
+		box-sizing: border-box;
+		right: 0;
+		left: 0;
+		margin: auto;
 	}
 	&__category {
 		color: $red;
@@ -36,6 +40,10 @@
 	&._big {
 		width: 470px;
 		height: 353px;
+		@media screen and(max-width: 760px) {
+			width: 100%;
+			height: auto;
+		}
 		.article-item__content {
 			bottom: 12px;
 			width: 95%;
@@ -48,12 +56,20 @@
 	&._small {
 		width: 231px;
 		height: 173px;
+		@media screen and(max-width: 760px) {
+			width: 50%;
+			height: auto;
+			margin-bottom: 0;
+		}
 		.article-item__content {
 			bottom: 5px;
 		}
 		&:nth-child(1),
 		&:nth-child(2) {
 			margin-bottom: 7px;
+			@media screen and(max-width: 760px) {
+				margin-bottom: 0;
+			}
 		}
 	}
 

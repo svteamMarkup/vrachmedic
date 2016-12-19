@@ -3,4 +3,7 @@
 	justify-content: space-around;
 	flex-flow: row wrap;
 	margin-bottom: 24px;
+	@media screen and(max-width: 760px) {
+		padding: 0 10px;
+	}
 }

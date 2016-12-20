@@ -22,9 +22,6 @@
 		text-decoration: none;
 		margin-top: 3px;
 		@include transition;
-		&:hover {
-			text-decoration: underline;
-		}
 	}	
 	&__link {
 		color: $white;

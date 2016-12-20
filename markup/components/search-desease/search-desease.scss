@@ -20,14 +20,14 @@
 		}
 		&__link {
 			font-size: 17px;
-			color: #00a3dd;
+			color: $blue;
 			margin: 0 4px;
 			text-transform: uppercase;
 			text-decoration: none;
 			border-bottom: 1px solid #daeaf6;
 			@include transition;
 			&:hover {
-				border-bottom: none;
+				border-color: darken($blue, 2%);
 			}
 		}
 	}

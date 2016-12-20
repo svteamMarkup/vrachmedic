@@ -4,6 +4,9 @@
 	&__wrapper {
 		@extend .main;
 		align-items: center;
+		@media screen and(max-width: 760px) {
+			padding-bottom: 0px;
+		}
 	}
 	width: 100%;
 	display: flex;
@@ -13,11 +16,20 @@
 	&__logo {
 		display: block;
 		@include bg($logo-footer);
-	}	
+		@media screen and(max-width: 760px) {
+			margin: auto;
+		}
+	}
+	@media screen and(max-width: 760px) {
+		padding: 15px 0 9px 0;
+	}
 }
 .footer-menu {
 	&__list {
 		display: flex;
+		@media screen and(max-width: 760px) {
+			display: none;
+		}
 	}
 	&__item {
 		display: block;

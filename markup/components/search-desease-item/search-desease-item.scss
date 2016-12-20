@@ -9,8 +9,10 @@
 		color: $dark-blue;
 		border-bottom: 1px solid $blue;
 		text-decoration: none;
+		@include transition;
 		&:hover {
-			border-bottom: none;
+			border-color: $red;
+			color: $blue;
 		}
 	}
 }

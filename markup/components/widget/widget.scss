@@ -1,1 +1,6 @@
-.widget {}
+.widget {
+	&__content {
+		width: 276px;
+		margin: auto;
+	}
+}

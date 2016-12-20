@@ -4,11 +4,11 @@ mixin our-offer__search(data)
 		h1.our-offer__title._bold Нужен хороший<br>врач?	
 		.our-offer__search-inner
 			.our-offer__search__title-search._bold._text-center Поиск врача
-			.our-offer__search__form
+			form(method="POST" action="").our-offer__search__form
 				select(type="text").input-form
 					option Варшавское шоссе
 					option Садовое кольцо
 				select(type="text").input-form
 					option Варшавское шоссе
 					option Садовое кольцо
-				.button._light-blue._middle Найти
+				input(type="submit" value="Найти").button._light-blue._middle

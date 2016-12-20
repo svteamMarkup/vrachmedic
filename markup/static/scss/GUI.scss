@@ -137,11 +137,19 @@
 	max-width: 950px;
 	width: 100%;
 	padding-bottom: 129px;
+	@media screen and(max-width: 760px) {
+		padding-bottom: 50px;
+	}
 }
 .sidebar {
 	max-width: 300px;
 	width: 100%;
 	padding-bottom: 60px; /* для страницы карта сайта */
+	@media screen and(max-width: 760px) {
+		margin: auto;
+		width: auto;
+		padding: 0 10px;
+	}
 	&__recommend-read {
 		margin-bottom: 49px;
 	}	

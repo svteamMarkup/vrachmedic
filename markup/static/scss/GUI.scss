@@ -59,6 +59,10 @@
 		padding: 0 81px;
 		font-size: 18px;
 		line-height: 59px;
+		@media screen and(max-width: 760px) {
+			padding: 0 50px;
+			line-height: 48px;
+		}
 	}
 }
 .button-second {
@@ -147,12 +151,18 @@
 	padding-bottom: 60px; /* для страницы карта сайта */
 	@media screen and(max-width: 760px) {
 		margin: auto;
-		width: auto;
-		padding: 0 10px;
+		width: 280px;
+		/* padding: 0 10px; */
 	}
 	&__recommend-read {
 		margin-bottom: 49px;
-	}	
+	}
+	@media screen and(max-width: 760px) {
+		&__our-offer {
+			padding: 0 10px;
+    		margin: 0 auto 32px auto;
+    	}
+	}
 }
 .input-form {
 	border: none;
@@ -217,6 +227,9 @@
 .title-page {
 	font-size: 38px;
 	color: $dark-blue;
+	@media screen and(max-width: 760px) {
+	    text-align: center;
+	}
 }
 .content._404 {
 	max-width: 1305px;
@@ -224,6 +237,9 @@
 .page-404-info {
 	text-align: center;
 	margin-top: 90px;
+	@media screen and(max-width: 760px) {
+		margin-top: 75px;
+	}
 	&:before {
 		content: '';
 		position: absolute;
@@ -233,19 +249,32 @@
 		background: url("%=static=%general/bg-404.png") repeat-x;
 		top: 235px;
 		left: 0;
+		@media screen and(max-width: 760px) {
+			display: none;
+		}
 	}
 	&__img {
 		margin-bottom: 20px;
+		@media screen and(max-width: 760px) {
+			width: 100%;
+    		height: auto;
+    	}
 	}
 	&__title {
 		font-size: 37px;
 		color: $dark-blue;
 		text-align: center;
 		margin-bottom: 20px;
+		@media screen and(max-width: 760px) {
+			font-size: 20px;
+		}
 	}
 	&__description {
 		font-size: 22px;
 		color: $silver;
 		margin-bottom: 27px;
+		@media screen and(max-width: 760px) {
+			font-size: 18px;
+		}
 	}
 }

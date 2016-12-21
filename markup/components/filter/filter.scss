@@ -2,10 +2,21 @@
 	&__counts {
 		color: #7ba041;
 	}
+	@media screen and(max-width: 760px) {
+		.input-form {
+			display: table;
+			margin: auto;
+		}
+	}
 	&__speciality-wrapper {
 		width: 282px;
 		display: flex;
 		justify-content: space-between;
+		@media screen and(max-width: 760px) {
+			display: inline-block;
+			width: auto;
+			margin-bottom: 5px;
+		}
 	}
 	&__text {
 		font-size: 18px;
@@ -14,16 +25,21 @@
 		width: 190px;
 		display: flex;
 		justify-content: space-between;
+		@media screen and(max-width: 760px) {
+			display: inline-block;
+			width: auto;
+		}
 	}	
 	&__select {
-		color: #005497;
+		color: $dark-blue;
 		border-bottom: 1px dotted $black;
 		cursor: pointer;
 		font-size: 18px;
 		padding-bottom: 3px;
 		@include transition;
 		&:hover {
-			border-bottom: none;
+			color: $blue;
+			border-color: lighten($black, 2%);
 		}		
 	}
 	&__content {
@@ -37,6 +53,10 @@
 		justify-content: space-between;
 		width: 563px;
 		margin-left: 17px;
+		@media screen and(max-width: 760px) {
+			width: 100%;
+			display: block;
+		}
 	}
 	&__label {
 		margin-left: 22px;
@@ -44,15 +64,36 @@
 	&__title {
 		font-size: 20px;
 		margin: 20px 0 24px 0;
+		@media screen and(max-width: 760px) {
+			text-align: center;
+			margin-bottom: 9px;
+		}	
 	}
 	&-sortingby {
 		display: flex;
 		justify-content: space-between;
 		padding-bottom: 11px;
+		@media screen and(max-width: 760px) {
+			display: block;
+		}
 	}
 	&-sortingby__left {
 		display: flex;
 		justify-content: space-between;
+		@media screen and(max-width: 760px) {
+			display: block;
+		}		
+	}
+	@media screen and(max-width: 760px) {
+		&-sortingby__right {
+			.checkbox-block {
+				text-align: center;
+				display: block;
+			}
+		}
+	}
+	&-sortingby__text {
+		text-align: center;
 	}
 	&-sortingby__item {
 		cursor: pointer;
@@ -62,5 +103,13 @@
 		border: 1px dashed $dark-blue;
 		border-radius: 4px;
 		margin-top: -4px;
+		@media screen and(max-width: 760px) {
+			text-align: center;
+			margin-top: 5px;
+			margin-left: 0;
+			&:last-child {
+				margin-bottom: 10px;
+			}
+		}		
 	}
 }

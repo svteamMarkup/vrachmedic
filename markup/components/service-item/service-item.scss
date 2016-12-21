@@ -4,6 +4,9 @@
 	position: relative;
 	border-bottom: 1px solid #ddd;
 	background-color: #f7f7f7;
+	@media screen and(max-width: 760px) {
+		width: 280px;
+	}
 	&__content {
 		width: 233px;
 		margin: auto;
@@ -14,7 +17,7 @@
 	    font-size: 18px;
 	    text-decoration: none;
 	    letter-spacing: -0.1px;
-	    border-bottom: 1px solid #daeaf6;
+	    border-bottom: 1px solid $light-blue;
 	    display: inline-block;
 	    margin-left: 58px;
 	    @include transition;

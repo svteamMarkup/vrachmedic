@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
-				"bac",
-				"background-color"
+				"pad",
+				"padding-left"
 			],
 			[
 				"mar",
+				"margin-bottom"
+			],
+			[
+				"ma",
 				"margin"
 			],
 			[
-				"pad",
-				"padding"
+				"w",
+				"width"
+			],
+			[
+				"bac",
+				"background-color"
 			],
 			[
 				"pa",
@@ -22,10 +30,6 @@
 			[
 				"b",
 				"block"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"z",
@@ -188,46 +192,82 @@
 	"buffers":
 	[
 		{
-			"file": "markup/components/our-offer__search/our-offer__search.scss",
+			"file": "markup/components/header/header.js",
 			"settings":
 			{
-				"buffer_size": 1005,
+				"buffer_size": 107,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "markup/components/our-offer/our-offer.scss",
+			"file": "markup/components/breadcrumbs/breadcrumbs.scss",
 			"settings":
 			{
-				"buffer_size": 929,
+				"buffer_size": 628,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/static/scss/GUI.scss",
+			"settings":
+			{
+				"buffer_size": 4333,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/User/AppData/Local/Temp/_tcx/0/0/public_html/themes/prodachu/assets/css/main.css",
+			"file": "markup/components/card-doctor/card-doctor.scss",
 			"settings":
 			{
-				"buffer_size": 226005,
+				"buffer_size": 3462,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/main.css",
+			"file": "markup/components/filter/filter.scss",
 			"settings":
 			{
-				"buffer_size": 226146,
+				"buffer_size": 1906,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "markup/components/header/header.scss",
+			"file": "markup/components/filter/filter.jade",
 			"settings":
 			{
-				"buffer_size": 2247,
+				"buffer_size": 842,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/static/scss/vars.scss",
+			"settings":
+			{
+				"buffer_size": 299,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/pagination/pagination.scss",
+			"settings":
+			{
+				"buffer_size": 609,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/static/scss/common.scss",
+			"settings":
+			{
+				"buffer_size": 710,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -271,53 +311,70 @@
 	[
 		"/D/projects/vrachmedik/markup",
 		"/D/projects/vrachmedik/markup/components",
-		"/D/projects/vrachmedik/markup/components/header",
-		"/D/projects/vrachmedik/markup/components/our-offer",
-		"/D/projects/vrachmedik/markup/components/our-offer__search",
-		"/D/projects/vrachmedik/markup/components/our-offers",
-		"/D/projects/vrachmedik/markup/pages"
+		"/D/projects/vrachmedik/markup/components/card-doctor",
+		"/D/projects/vrachmedik/markup/components/filter",
+		"/D/projects/vrachmedik/markup/components/footer",
+		"/D/projects/vrachmedik/markup/components/pagination",
+		"/D/projects/vrachmedik/markup/static",
+		"/D/projects/vrachmedik/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/D/projects/vrachmedik/markup/pages/surveys-analyzes.jade",
+		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
+		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
+		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
+		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
 		"/D/projects/vrachmedik/markup/components/header/header.jade",
+		"/D/projects/vrachmedik/markup/components/header/header.scss",
+		"/D/projects/vrachmedik/markup/components/help-search-doctor/help-search-doctor.scss",
+		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
+		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
+		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.scss",
+		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.scss",
+		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.scss",
+		"/D/projects/vrachmedik/tars-config.js",
 		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.scss",
+		"/D/projects/vrachmedik/markup/components/article-item/article-item.jade",
+		"/D/projects/vrachmedik/markup/components/article-item/article-item.scss",
+		"/D/projects/vrachmedik/markup/static/scss/common.scss",
+		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.jade",
 		"/D/projects/vrachmedik/markup/pages/clinics.jade",
 		"/D/projects/vrachmedik/markup/pages/doctors.jade",
 		"/D/projects/vrachmedik/markup/pages/health-a-z.jade",
-		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.jade",
-		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.scss",
-		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.scss",
-		"/D/projects/vrachmedik/markup/pages/single.jade",
-		"/D/projects/vrachmedik/markup/pages/mapsite.jade",
 		"/D/projects/vrachmedik/markup/pages/index.jade",
+		"/D/projects/vrachmedik/markup/pages/mapsite.jade",
+		"/D/projects/vrachmedik/markup/pages/single.jade",
+		"/D/projects/vrachmedik/markup/pages/surveys-analyzes.jade",
+		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.jade",
+		"/D/projects/vrachmedik/markup/components/search-desease-item/search-desease-item.scss",
+		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.scss",
+		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.jade",
+		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
+		"/D/projects/vrachmedik/markup/components/interview/interview.jade",
+		"/D/projects/vrachmedik/markup/components/widget/widget.scss",
+		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.scss",
+		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.scss",
+		"/D/Development/start-page/start-page-bootstrap/css/style.css",
+		"/C/Users/User/AppData/Local/Temp/_tcx/0/0/public_html/themes/prodachu/assets/css/main.css",
+		"/D/main.css",
+		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.jade",
 		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.scss",
-		"/D/projects/vrachmedik/markup/components/header/header.scss",
 		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.jade",
-		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.scss",
-		"/D/projects/vrachmedik/markup/components/article-item/article-item.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.jade",
-		"/D/projects/vrachmedik/markup/static/scss/common.scss",
-		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
 		"/D/projects/ozone-fitness/markup/components/about-content/about-content.scss",
 		"/D/projects/ozone-fitness/markup/components/header/header.scss",
 		"/D/projects/ozone-fitness/markup/components/header/header.jade",
 		"/D/projects/ozone-fitness/markup/components/footer/footer.scss",
 		"/D/projects/vrachmedik/markup/components/single-content/single-content.jade",
-		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.jade",
 		"/D/main.js",
 		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.jade",
 		"/D/projects/vrachmedik/markup/static/scss/mixins.scss",
-		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
 		"/D/projects/vrachmedik/markup/components/single-content/single-content.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/menu/menu.jade",
 		"/D/projects/vrachmedik/markup/pages/layout.jade",
 		"/D/projects/vrachmedik/markup/pages/404.jade",
-		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.jade",
 		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.scss",
-		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
-		"/D/projects/vrachmedik/markup/components/interview/interview.jade",
 		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.jade",
 		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.scss",
 		"/D/projects/vrachmedik/markup/components/services/services.scss",
@@ -326,30 +383,23 @@
 		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.scss",
 		"/D/projects/vrachmedik/markup/components/comment/comment.scss",
 		"/D/projects/vrachmedik/markup/components/comment/comment.jade",
-		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
-		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.scss",
 		"/D/projects/vrachmedik/markup/components/comments/comments.scss",
 		"/D/projects/vrachmedik/markup/components/comments/comments.jade",
 		"/D/projects/vrachmedik/markup/components/social-share/social-share.scss",
 		"/D/projects/vrachmedik/markup/components/social-share/social-share.jade",
 		"/C/Users/User/Downloads/Telegram Desktop/single-content.scss",
-		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.scss",
 		"/D/Development/start-page/start-page/css/style.css",
 		"/D/projects/vrachmedik/markup/components/pagination-second/pagination-second.scss",
-		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.scss",
 		"/D/projects/vrachmedik/markup/components/pagination/pagination.jade",
 		"/D/projects/vrachmedik/markup/components/pagination-second/pagination-second.jade",
 		"/D/projects/vrachmedik/markup/components/pagination/pagination.scss",
-		"/D/projects/vrachmedik/markup/components/article-item/article-item.jade",
 		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.jade",
 		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.jade",
 		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.jade",
 		"/D/projects/vrachmedik/markup/components/services/services.jade",
 		"/D/projects/vrachmedik/markup/components/category-item/category-item.jade",
 		"/D/projects/vrachmedik/markup/components/category-item/category-item.scss",
-		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.jade",
 		"/D/projects/vrachmedik/markup/components/search-desease-item/search-desease-item.jade",
-		"/D/projects/vrachmedik/markup/components/search-desease-item/search-desease-item.scss",
 		"/D/projects/vrachmedik/markup/components/category/category.jade",
 		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.jade",
 		"/D/projects/vrachmedik/markup/components/category/category.scss",
@@ -358,18 +408,14 @@
 		"/D/projects/vrachmedik/markup/components/filter/filter.scss",
 		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.jade",
 		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.scss",
-		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
-		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
 		"/D/projects/ozone-fitness/markup/pages/clubs.jade",
 		"/D/projects/ozone-fitness/markup/pages/contacts.jade",
 		"/D/projects/ozone-fitness/markup/pages/index.jade",
 		"/D/projects/dating/css/style.css",
 		"/D/projects/dating/index.html",
 		"/D/projects/dating/4_1.html",
-		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
 		"/D/projects/vrachmedik/markup/components/footer/footer.jade",
 		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.jade",
-		"/D/projects/vrachmedik/markup/components/help-search-doctor/help-search-doctor.scss",
 		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.js",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/footer/footer.jade",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/libraries/font-awesome.css",
@@ -408,6 +454,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rating",
+			"card-doctor-rating__text",
+			".card-doctor__rating",
+			"rating",
+			"display: block;",
+			"main",
+			".main",
+			"main",
+			"#00a3dd",
 			"5px",
 			"68",
 			"media",
@@ -527,24 +582,53 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "markup/components/our-offer__search/our-offer__search.scss",
+					"file": "markup/components/header/header.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1005,
+						"buffer_size": 107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								256,
-								256
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/breadcrumbs/breadcrumbs.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
 							]
 						],
 						"settings":
@@ -552,6 +636,154 @@
 							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/static/scss/GUI.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2853,
+								2853
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "markup/components/card-doctor/card-doctor.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1267,
+								1267
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 407.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "markup/components/filter/filter.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								885,
+								887
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 407.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "markup/components/filter/filter.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "markup/static/scss/vars.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -561,20 +793,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "markup/components/our-offer/our-offer.scss",
+					"buffer": 7,
+					"file": "markup/components/pagination/pagination.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 929,
+						"buffer_size": 609,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								384,
-								391
+								503,
+								503
 							]
 						],
 						"settings":
@@ -587,84 +819,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/User/AppData/Local/Temp/_tcx/0/0/public_html/themes/prodachu/assets/css/main.css",
+					"buffer": 8,
+					"file": "markup/static/scss/common.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 226005,
+						"buffer_size": 710,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203224,
-								203198
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 196715.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 226146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								199851,
-								199851
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 194234.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "markup/components/header/header.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								357,
+								394
 							]
 						],
 						"settings":
@@ -674,10 +846,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]

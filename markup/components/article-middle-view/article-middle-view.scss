@@ -31,7 +31,7 @@
 		text-decoration: none;
 		letter-spacing: -0.1px;
 		padding-bottom: 3px;
-		border-bottom: 1px solid #daeaf6;
+		border-bottom: 1px solid $light-blue;
 		@include transition;
 		&:hover {
 			border-bottom: 1px solid $blue;

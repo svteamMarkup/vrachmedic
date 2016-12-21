@@ -1,6 +1,10 @@
 .search-desease {
 	background-color: #f7f7f7;
 	margin-bottom: 53px;
+	@media screen and(max-width: 760px) {
+		width: 300px;
+    	margin: auto;
+    }
 	&-alphabet {
 		padding: 18px 0;
 		border-bottom: 1px solid #e0e0e0;
@@ -10,13 +14,38 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			@media screen and(max-width: 760px) {
+				display: block;
+				width: auto;
+			}
 		}
+		@media screen and(max-width: 760px) {
+			&__search {
+				margin-bottom: 7px;
+			}
+		}
+		@media screen and(max-width: 760px) {
+			&__text {
+				display: flex;
+			    flex-wrap: wrap;
+			    width: 280px;
+			    justify-content: flex-start;
+			    margin: auto;
+			}
+		}	
 		&__search .input-form {
 			width: 276px;
 			height: 34px;
 			border: 1px solid #e0e0e0;
 			padding-left: 17px;
 			font-style: italic;
+			margin-bottom: 8px;
+			@media screen and(max-width: 760px) {
+				width: 280px;
+				margin: auto;
+    			box-sizing: border-box;
+    			display: block;
+			}
 		}
 		&__link {
 			font-size: 17px;
@@ -24,10 +53,17 @@
 			margin: 0 4px;
 			text-transform: uppercase;
 			text-decoration: none;
-			border-bottom: 1px solid #daeaf6;
+			border-bottom: 1px solid $light-blue;
 			@include transition;
 			&:hover {
 				border-color: darken($blue, 2%);
+			}
+			@media screen and(max-width: 760px) {
+				width: 30px;
+				line-height: 30px;
+				border: 1px solid $light-blue;
+				text-align: center;
+				margin-bottom: 3px;
 			}
 		}
 	}

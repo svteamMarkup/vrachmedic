@@ -18,10 +18,10 @@
 		a {
 			text-decoration: none;
 			color: $dark-blue;
-			border-bottom: 2px solid #14a2dd;
+			border-bottom: 2px solid $blue;
 			@include transition;
 			&:hover {
-				border-bottom: none;
+				border-color: $red;
 			}
 		}
 	}

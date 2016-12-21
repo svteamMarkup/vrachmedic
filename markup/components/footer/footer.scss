@@ -56,7 +56,7 @@
 			}
 		}				
 		&:hover {
-			text-decoration: underline;
+			color: lighten($light-silver, 10%);
 		}
 	}
 }

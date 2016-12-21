@@ -30,8 +30,14 @@ ul li {
 	padding-top: 28px;
 	width: 950px;
 	margin: 0 auto 47px auto;
+	@media screen and(max-width: 760px) {
+		width: 277px;
+	}
 }
 .content__items-inner {
 	width: 893px;
 	margin: auto;
+	@media screen and(max-width: 760px) {
+		width: 100%;
+	}
 }

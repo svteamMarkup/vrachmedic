@@ -1,5 +1,5 @@
 mixin filter(data)
-	.filter
+	form(method="" action="").filter
 		select(type="text").input-form
 			option Москва
 			option Саратов
@@ -14,7 +14,8 @@ mixin filter(data)
 		.filter-sorting
 			.filter__title._bold Найдено <span class="filter__counts">6186</span> врачей
 			.filter-sortingby
-				.filter-sortingby__left Сортировка по
+				.filter-sortingby__left 
+					.filter-sortingby__text Сортировка по
 					.filter-sortingby__item Рейтингу
 					.filter-sortingby__item Стажу
 					.filter-sortingby__item Стоимости

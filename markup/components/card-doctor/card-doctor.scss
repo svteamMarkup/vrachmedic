@@ -8,11 +8,22 @@
 	padding-top: 20px;
 	padding-bottom: 47px;
 	border-top: 1px solid #e6e6e6;
+	@media screen and(max-width: 760px) {
+		display: block;
+		padding-bottom: 17px;
+	}
 	&__left {
 		width: 148px;
+		@media screen and(max-width: 760px) {
+			margin: 0 auto 14px auto;
+		}
 	}
 	&__center {
 		width: 550px;
+		@media screen and(max-width: 760px) {
+			width: 100%;
+			margin-bottom: 8px;
+		}
 	}
 	&__counts-comments {
 		padding: 5px 0;
@@ -44,24 +55,39 @@
 		font-size: 18px;
 		display: block;
 		font-weight: bold;
-		color: #005497;
+		color: $dark-blue;
 		margin-bottom: 6px;
 		text-decoration: none;
+		@media screen and(max-width: 760px) {
+			text-align: center;
+		}
 		&:hover {
-			text-decoration: underline;
+			color: $blue;
+			@include transition;
 		}
 	}
 	&__speciality {
 		font-size: 14px;
 		margin-bottom: 8px;	
+		@media screen and(max-width: 760px) {
+			text-align: center;
+		}		
 	}
 	&__expirience {
 		font-size: 14px;
 		margin-bottom: 16px;
+		@media screen and(max-width: 760px) {
+			text-align: center;
+			margin-bottom: 8px;
+		}		
 	}
 	&__address-metro-wrapper {
 		display: flex;
 		margin-bottom: 7px;
+		@media screen and(max-width: 760px) {
+			display: table;
+			margin: 0 auto 8px auto;
+		}
 	}
 	&__address-metro_item {
 		position: relative;
@@ -88,15 +114,29 @@
 		border-bottom: 1px dashed $black;
 		display: inline-block;
 		margin-bottom: 17px;
+		@media screen and(max-width: 760px) {
+			text-align: center;
+			border-bottom: none;
+			margin-bottom: 4px;
+		}			  
 	}
 	&__description {
 		margin-bottom: 20px;
+		@media screen and(max-width: 760px) {
+			padding: 0 15px;
+    		text-align: justify;
+		}
 	}
-	&__price {
-
+	@media screen and(max-width: 760px) {
+		&__price {
+			padding-left: 15px;
+		}
 	}
 	&__right {
 		width: 130px;
+		@media screen and(max-width: 760px) {
+			width: auto;
+		}
 	}
 	&__rating-number {
 		color: $silver;
@@ -110,17 +150,13 @@
 			font-size: 32px;
 		}
 	}
-	&__rating-text {
-		text-align: right;
-		font-size: 14px;
-		margin-bottom: 21px;
-		position: relative;
-		top: -5px;
-	}
 }
 .card-doctor-rating {
 	text-align: right;
 	line-height: 1;
+	@media screen and(max-width: 760px) {
+		text-align: center;
+	}	
 	&__current-rating {
 		color: #7ba041;
 		font-weight: bold;
@@ -132,5 +168,22 @@
 	&__max-rating {
 		font-size: 22px;
 		color: $silver;
+	}
+	&__text {
+		text-align: right;
+		font-size: 14px;
+		margin-bottom: 21px;
+		position: relative;
+		top: -5px;
+		@media screen and(max-width: 760px) {
+			text-align: center;
+			margin-bottom: 8px;
+		}
+	}
+}
+@media screen and(max-width: 760px) {
+	.card-doctor__rating-wrapper {
+		margin: auto;
+    	display: table;
 	}
 }

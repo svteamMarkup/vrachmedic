@@ -2,6 +2,9 @@
 	font-size: 17px;
 	display: block;
 	margin-bottom: 6px;
+	@media screen and(max-width: 760px) {
+		text-align: center;
+	}
 	&:hover {
 		border-bottom: none;
 	}

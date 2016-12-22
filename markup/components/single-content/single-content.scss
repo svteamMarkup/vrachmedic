@@ -8,6 +8,12 @@
 		color: $dark-blue;
 		margin-bottom: 10px;
 	}
+	@media screen and(max-width: 760px) {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
 	ul li {
 		margin-bottom: 6px;
 	}
@@ -23,6 +29,9 @@
 	.articles-small-view {
 		border-bottom: 1px dashed #c7c7c7;
 		margin-bottom: 43px;
+	}
+	@media screen and(max-width: 760px) {
+		padding: 0 10px;
 	}
 }
 

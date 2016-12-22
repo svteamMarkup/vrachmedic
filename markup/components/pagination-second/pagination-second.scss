@@ -6,24 +6,35 @@
 	margin: 0;
 	border-bottom: 4px solid #f7f7f7;
 	margin-bottom: 95px;
+	@media screen and(max-width: 760px) {
+		width: 280px;
+    	margin: 0 auto 32px auto;
+	}
 	&__wrapper-items {
 		width: 691px;
 		display: flex;
-		justify-content: space-between;		
+		justify-content: space-between;
+		@media screen and(max-width: 760px) {
+			width: 213px;
+			overflow: hidden;
+		}
 	}
 	&__item {
 		font-size: 22px;
 		font-weight: bold;
-		width: 82px;
 		text-align: center;
 		a{
 			color: $silver;
 			text-decoration: none;
 			display: block;
+			padding: 0 31px;
 			&:hover {
 				color: $dark-blue;
 				border-bottom: 4px solid #0089b5;
 				padding-bottom: 4px;				
+			}
+			@media screen and(max-width: 760px) {
+				padding: 0 10px;
 			}
 		}
 		&._current-item {
@@ -45,6 +56,16 @@
 			&:hover {
 				background: darken(#ededed, 2%);
 			}
+			@media screen and(max-width: 760px) {
+				line-height: 30px;
+				padding: 7px 0;
+			}
+		}
+		@media screen and(max-width: 760px) {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			width: 64px;
+    		background-color: #ededed;
 		}
 	}
 }

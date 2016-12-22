@@ -1,11 +1,20 @@
 .category {
 	margin-bottom: 45px;
+	&:last-child {
+		margin-bottom: 0;
+	}
 	&__title {
 		font-size: 24px;
 		color: $dark-blue;
 		position: relative;
 		padding-left: 33px;
 		margin-bottom: 20px;
+		br {
+			display: none;
+			@media screen and(max-width: 760px) {
+				display: block;
+			}	
+		}
 		&:before {
 			content: '';
 			position: absolute;

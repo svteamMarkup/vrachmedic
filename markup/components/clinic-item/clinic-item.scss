@@ -6,24 +6,49 @@
 	border: 1px solid #dedede;
 	padding: 24px 23px 9px 13px;
 	margin-bottom: 24px;
+	@media screen and(max-width: 760px) {
+		display: block;
+		width: 280px;
+		padding: 7px 10px;
+		box-sizing: border-box;
+	}
 	&__left {
 		width: 151px;
+		@media screen and(max-width: 760px) {
+			margin: auto;
+		}
 	}
 	&__right {
 		display: flex;
 		justify-content: space-between;		
 		width: 690px;
+		@media screen and(max-width: 760px) {
+			width: 100%;
+			display: block;
+		}
 	}
 	&__content {
 		width: 458px;
+		@media screen and(max-width: 760px) {
+			width: 100%;
+			padding-bottom: 7px;
+		}
 	}
 	&__title {
 		margin-bottom: 9px;
 		text-decoration: none;
 		color: $black;
 		display: inline-block;
-		&:hover {
-			text-decoration: underline;
+		@media screen and(max-width: 760px) {
+			display: table;
+			margin: auto;
+			padding-bottom: 4px;
 		}
+	}
+	&__metro {
+		padding-bottom: 4px;
+	}
+	&__description {
+		text-align: justify;
 	}
 }

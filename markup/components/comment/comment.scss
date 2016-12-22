@@ -2,6 +2,9 @@
 	padding: 22px 72px 25px 0;
 	margin-bottom: 23px;
 	background-color: #f7f7f7;
+	@media screen and(max-width: 760px) {
+		padding-right: 10px;
+	}
 	p {
 		font-style: italic;
 		position: relative;

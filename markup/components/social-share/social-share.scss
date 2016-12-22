@@ -5,6 +5,20 @@
 	padding: 30px 22px 34px 11px;
 	background-color: #fcfcfc;
 	margin-bottom: 48px;
+	@media screen and(max-width: 760px) {
+		display: block;
+		padding-top: 22px;
+		padding-bottom: 22px;
+	}
+	@media screen and(max-width: 760px) {
+		&__left {
+			margin-bottom: 10px;
+		}
+		&__right {
+			margin: auto;
+			display: table;
+		}		
+	}
 	&__title {
 		font-size: 20px;
 		color: $dark-blue;
@@ -12,6 +26,9 @@
 		margin-bottom: 14px;
 		&._icon {
 			padding-left: 30px;
+			@media screen and(max-width: 760px) {
+				text-align: center;
+			}
 			&:before {
 				content: '';
 				position: absolute;
@@ -20,6 +37,9 @@
 				height: 23px;
 				width: 21px;
 				@include bg($social-share-icon);
+				@media screen and(max-width: 760px) {
+					left: 34px;
+				}
 			}
 		}
 	}
@@ -27,6 +47,22 @@
 		width: 549px;
 		display: flex;
 		justify-content: space-between;
+		@media screen and(max-width: 760px) {
+			display: block;
+			width: 100%;
+		}
+		.button-second._print {
+			padding: 11px 18px 11px 36px;
+			@media screen and(max-width: 760px) {
+				margin: auto;
+				display: table;
+			}
+		}
+		img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
 	}
 	&__counts-wrapper {
 		display: flex;

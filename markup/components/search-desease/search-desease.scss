@@ -2,8 +2,9 @@
 	background-color: #f7f7f7;
 	margin-bottom: 53px;
 	@media screen and(max-width: 760px) {
-		width: 300px;
+		width: 280px;
     	margin: auto;
+    	padding: 0 10px;
     }
 	&-alphabet {
 		padding: 18px 0;
@@ -67,6 +68,11 @@
 			}
 		}
 	}
+	@media screen and(max-width: 760px) {
+		&-speciality {
+			margin-bottom: 32px;
+		}
+	}
 	&-speciality-inner {
 		margin-left: 22px;
 		width: 898px;
@@ -74,8 +80,15 @@
 		justify-content: space-between;
 		padding: 22px 0 25px 0;
 		margin-left: 26px;
+		@media screen and(max-width: 760px) {
+			display: block;
+			width: 280px;
+		}
 	}
 	&-speciality__items {
 		width: 200px;
+		@media screen and(max-width: 760px) {
+			width: 250px;
+		}
 	}	
 }

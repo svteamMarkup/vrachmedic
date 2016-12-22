@@ -40,6 +40,13 @@
 			cursor: pointer;
 		}
 	}
+	@media screen and(max-width: 760px) {
+		&__mobile.active {
+			color: $silver;
+			font-size: 46px;
+			cursor: pointer;		
+		}
+	}
 	&__list {
 		display: flex;
 		@media screen and(max-width: 760px) {

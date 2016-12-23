@@ -1,10 +1,14 @@
 .article-small-view {
 	display: flex;
 	justify-content: space-around;
+	align-items: flex-start;
 	width: 310px;
 	margin-bottom: 22px;
 	@media screen and(max-width: 760px) {
 		width: 300px;
+	}	
+	@media screen and(max-width: 960px) {
+		width: 260px;
 	}	
 	&__right {
 		padding-top: 7px;

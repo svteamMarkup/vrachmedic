@@ -152,10 +152,14 @@
 	max-width: 300px;
 	width: 100%;
 	padding-bottom: 60px; /* для страницы карта сайта */
+	@media screen and(max-width: 960px) {
+		display: none;
+	}
 	@media screen and(max-width: 760px) {
 		margin: auto;
 		width: 280px;
 		/* padding: 0 10px; */
+		display: block;
 	}
 	&__recommend-read {
 		margin-bottom: 49px;

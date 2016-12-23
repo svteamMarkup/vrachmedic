@@ -41,6 +41,10 @@
 			width: 100%;
 			height: auto;
 		}
+		@media screen and(max-width: 960px) {
+			width: 100%;
+			height: auto;
+		}
 		.article-item__content {
 			bottom: 12px;
 			width: 95%;
@@ -53,6 +57,9 @@
 	&._small {
 		width: 231px;
 		height: 173px;
+		@media screen and(max-width: 960px) {
+			width: 185px;
+		}
 		@media screen and(max-width: 760px) {
 			width: 50%;
 			height: auto;

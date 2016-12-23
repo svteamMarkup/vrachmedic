@@ -11,6 +11,10 @@
 			margin: auto;
 			width: 226px;
 		}
+		@media screen and(max-width: 960px) {
+			margin: auto;
+			width: 210px;
+		}		
 	}
 	&__title-search {
 		color: $dark-orange;
@@ -50,6 +54,9 @@
 	@media screen and(max-width: 760px) {
 		margin-left: 0;
 	}
+	@media screen and(max-width: 960px) {
+		margin: 0 20px;
+	}	
 }
 .our-offer__search {
     &._small {

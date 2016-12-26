@@ -1,5 +1,10 @@
 .breadcrumbs {
 	margin-bottom: 18px;
+	@media screen and(max-width: 960px) {
+		padding-top: 15px;
+		display: table;
+    	margin: auto;
+	}
 	@media screen and(max-width: 760px) {
 		padding-top: 15px;
 		display: table;

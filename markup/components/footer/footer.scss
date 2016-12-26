@@ -16,6 +16,9 @@
 	&__logo {
 		display: block;
 		@include bg($logo-footer);
+		@media screen and(max-width: 960px) {
+			margin: auto;
+		}		
 		@media screen and(max-width: 760px) {
 			margin: auto;
 		}
@@ -27,6 +30,9 @@
 .footer-menu {
 	&__list {
 		display: flex;
+		@media screen and(max-width: 960px) {
+			display: none;
+		}		
 		@media screen and(max-width: 760px) {
 			display: none;
 		}

@@ -6,6 +6,9 @@
 	margin: 0;
 	border-bottom: 4px solid #f7f7f7;
 	margin-bottom: 95px;
+	@media screen and(max-width: 960px) {
+		margin: 0 auto 32px auto;
+	}
 	@media screen and(max-width: 760px) {
 		width: 280px;
     	margin: 0 auto 32px auto;
@@ -14,6 +17,9 @@
 		width: 691px;
 		display: flex;
 		justify-content: space-between;
+		@media screen and(max-width: 960px) {
+			overflow: hidden;
+		}
 		@media screen and(max-width: 760px) {
 			width: 213px;
 			overflow: hidden;
@@ -33,6 +39,9 @@
 				border-bottom: 4px solid #0089b5;
 				padding-bottom: 4px;				
 			}
+			@media screen and(max-width: 960px) {
+				padding: 0 10px;
+			}			
 			@media screen and(max-width: 760px) {
 				padding: 0 10px;
 			}
@@ -56,11 +65,21 @@
 			&:hover {
 				background: darken(#ededed, 2%);
 			}
+			@media screen and(max-width: 960px) {
+				line-height: 30px;
+				padding: 7px 0;
+			}			
 			@media screen and(max-width: 760px) {
 				line-height: 30px;
 				padding: 7px 0;
 			}
 		}
+		@media screen and(max-width: 960px) {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			width: 64px;
+    		background-color: #ededed;
+		}		
 		@media screen and(max-width: 760px) {
 			overflow: hidden;
 			text-overflow: ellipsis;

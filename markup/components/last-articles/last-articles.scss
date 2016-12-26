@@ -1,28 +1,40 @@
 .last-articles {
 	display: flex;
 	justify-content: space-between;
+	@media screen and (max-width: 960px) {
+		/* width: 320px; */
+		margin:0 auto 20px auto;
+	}	
 	@media screen and (max-width: 760px) {
 		/* width: 320px; */
 		flex-wrap: wrap;
 		margin:0 auto 20px auto;
 	}
-	@media screen and (max-width: 960px) {
-		/* width: 320px; */
-		margin:0 auto 20px auto;
-	}	
 	margin-bottom: 59px;
 	&__column {
 		width: 470px;
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-		@media screen and (max-width: 760px) {
-			flex-wrap: wrap;
-			width: 100%;
-		}
 		@media screen and (max-width: 960px) {
 			flex-wrap: wrap;
 			width: auto;
+			&:first-child {
+				width: 40%;
+			}
+			&:last-child {
+				width: 60%;
+			}			
+		}		
+		@media screen and (max-width: 760px) {
+			flex-wrap: wrap;
+			width: 100%;
+			&:first-child {
+				width: 100%;
+			}
+			&:last-child {
+				width: 100%;
+			}
 		}		
 	}
 }

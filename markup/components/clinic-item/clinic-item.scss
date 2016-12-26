@@ -6,6 +6,11 @@
 	border: 1px solid #dedede;
 	padding: 24px 23px 9px 13px;
 	margin-bottom: 24px;
+	@media screen and(max-width: 960px) {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 24px 9px;
+	}
 	@media screen and(max-width: 760px) {
 		display: block;
 		width: 280px;
@@ -14,6 +19,12 @@
 	}
 	&__left {
 		width: 151px;
+		img {
+			@media screen and(max-width: 960px) {
+				width: 100%;
+				height: auto;	
+			}
+		}
 		@media screen and(max-width: 760px) {
 			margin: auto;
 		}
@@ -22,6 +33,9 @@
 		display: flex;
 		justify-content: space-between;		
 		width: 690px;
+		@media screen and(max-width: 960px) {
+			width: 76%;
+		}
 		@media screen and(max-width: 760px) {
 			width: 100%;
 			display: block;
@@ -29,6 +43,9 @@
 	}
 	&__content {
 		width: 458px;
+		@media screen and(max-width: 960px) {
+			width: 73%;
+		}
 		@media screen and(max-width: 760px) {
 			width: 100%;
 			padding-bottom: 7px;

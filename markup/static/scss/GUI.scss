@@ -234,6 +234,10 @@
 .title-page {
 	font-size: 38px;
 	color: $dark-blue;
+	@media screen and(max-width: 960px) {
+	    text-align: center;
+	    font-size: 32px;
+	}
 	@media screen and(max-width: 760px) {
 	    text-align: center;
 	    font-size: 32px;
@@ -286,8 +290,12 @@
 		}
 	}
 }
-@media screen and(max-width: 760px) {
-	.categories-wrapper {
+
+.categories-wrapper {
+	@media screen and(max-width: 960px) {
+		padding: 0 10px;
+	}
+	@media screen and(max-width: 760px) {
 		width: 280px;
 		margin: auto;
 		padding: 0 10px;

@@ -5,32 +5,45 @@ mixin header(data)
 			.header-menu
 				.header-menu__mobile
 				.header-menu__list
-					a(href="#" title="").header-menu__item Обследования и анализы
-					.header-menu__dropdown
-						a(href="#" title="").header-menu__item Здоровье от А до Я
-						.header-menu__dropdown-content
-							.header-menu__dropdown-content-inner
-								.header-menu__dropdown-items-wrapper
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-								.header-menu__dropdown-items-wrapper
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-								.header-menu__dropdown-items-wrapper
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-									a(href="#" title="").header-menu__item._dropdown Лекарства
-					a(href="#" title="").header-menu__item Лекарства
-					a(href="#" title="").header-menu__item Врачи
-					a(href="#" title="").header-menu__item Клиники
-					a(href="#" title="").header-menu__item Сервисы
+					.header-menu__item
+						a(href="#" title="") Обследования и анализы
+					.header-menu__item
+						a(href="#" title="") Здоровье от А до Я
+						.header-menu-dropdown
+							.header-menu-dropdown__column
+								.header-menu-dropdown__item 
+									a(href="#" title="") Офтальмология
+								.header-menu-dropdown__item
+									a(href="#" title="") Офтальмология
+								.header-menu-dropdown__item
+									a(href="#" title="") Офтальмология
+							.header-menu-dropdown__column
+								.header-menu-dropdown__item 
+									a(href="#" title="") Офтальмология
+								.header-menu-dropdown__item
+									a(href="#" title="") Офтальмология
+								.header-menu-dropdown__item
+									a(href="#" title="") Офтальмология
+							.header-menu-dropdown__column
+								.header-menu-dropdown__item 
+									a(href="#" title="") Офтальмология
+								.header-menu-dropdown__item
+									a(href="#" title="") Офтальмология
+								.header-menu-dropdown__item
+									a(href="#" title="") Офтальмология
+					.header-menu__item
+						a(href="#" title="") Лекарства
+					.header-menu__item
+						a(href="#" title="") Врачи
+					.header-menu__item
+						a(href="#" title="") Клиники
+					.header-menu__item
+						a(href="#" title="") Сервисы
 			.header-search
 				.header-search__mobile
 				.header-search__wrapper
 					.header-search__form
 						input(type="text" placeholder="Поиск").input-form
-						input(type="submit" value="Найти")
+						input.button._blue(type="submit" value="Найти")
 				.header-search__form
 					.header-search__icon

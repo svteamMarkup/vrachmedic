@@ -26,6 +26,9 @@
 	&__logo {
 		display: block;
 		@include bg($logo-header);
+		@media screen and(max-width: 1025px) {
+			margin-bottom: 15px;
+		}
 		@media screen and(max-width: 960px) {
 			@include bg($logo-mobile-header);
 			margin: auto;
@@ -52,26 +55,29 @@
 			display: block;
 			@include bg($header-menu-mobile);
 			cursor: pointer;
+			&._active {
+				@include bg($close);
+				cursor: pointer;
+			}			
 		}
 		@media screen and(max-width: 760px) {
 			display: block;
 			@include bg($header-menu-mobile);
 			cursor: pointer;
-		}
-	}
-	@media screen and(max-width: 760px) {
-		&__mobile.active {
-			color: $silver;
-			font-size: 46px;
-			cursor: pointer;		
+			&._active {
+				@include bg($close);
+				cursor: pointer;
+			}
 		}
 	}
 	&__list {
 		display: flex;
+		justify-content: space-between;
 		@media screen and(max-width: 960px) {
 			display: none;
 			position: absolute;
 			top: 57px;
+			left: 0;
 			z-index: 999;
     		width: 100%;
 		}				
@@ -79,20 +85,39 @@
 			display: none;
 			position: absolute;
 			top: 57px;
+			left: 0;
 			z-index: 999;
     		width: 100%;
 		}
 	}
 	&__item {
-		display: inline-block;
-		margin: 0 30px;
-		text-decoration: none;
-		color: $dark-blue;
-		font-size: 17px;
-		border-bottom: 2px solid $blue;
-		text-transform: uppercase;
-		padding-bottom: 2px;
 		position: relative;
+		padding-top: 22px;
+		& > a {
+			display: inline-block;
+			margin: 0 30px;
+			text-decoration: none;
+			color: $dark-blue;
+			font-size: 17px;
+			border-bottom: 2px solid $blue;
+			text-transform: uppercase;
+			padding-bottom: 2px;
+			&:hover {
+				color: $blue;
+				border-color: $red;
+				@include transition;
+			}
+		}
+		&:hover > .header-menu-dropdown {
+			visibility: visible;
+			opacity: 1;
+			@media screen and(max-width: 960px) {
+				display: none;
+			}		
+			@media screen and(max-width: 760px) {
+				display: none;
+			}		
+		}
 		@media screen and(max-width: 960px) {
 			display: block;
 			text-align: center;
@@ -116,7 +141,7 @@
 			display: block;
 			position: absolute;
 			top: -19px;
-			right: -30px;
+			right: 0;
     		background: linear-gradient(to bottom,  #fafafb 0%,#e7e8ec 50%,#fafafb 100%);
 		}
 		&:last-child {
@@ -124,39 +149,41 @@
 				display: none;
 			}
 		}
-		&:hover {
-			color: $blue;
-			border-color: $red;
-			@include transition;
-		}
 	}
-	&__dropdown-content {
-		display: none;
+	&-dropdown {
+		visibility: hidden;
+		opacity: 0;
 		position: absolute;
+		top: 57px;
 		z-index: 999;
 		background-color: #f7f7f7;
 		box-shadow: 0 0 7px 0 rgba(19,49,82,.43);
-		padding: 28px 0;
-		&-inner {
-			display: flex;
-			justify-content: space-between;
+		padding: 28px 20px;
+		display: flex;
+		width: 500px;
+		align-items: flex-start;
+		justify-content: space-between;
+		&__item {
+			margin-bottom: 11px;
+			&:hover {
+				background-color: #f7f7f7;
+				box-shadow: 0 -3px 7px 0 rgba(19,49,82,.43);
+			}
+			& > a {
+				text-align: left;
+				text-decoration: none;
+			    color: #2f4d6f;
+			    font-size: 17px;
+			    border-bottom: 2px solid #14a2dd;
+			    padding-bottom: 2px;
+				width: 166px;
+				&:hover {
+					color: $blue;
+					border-color: $red;
+					@include transition;
+				}
+			}
 		}
-	}
-	&__item._dropdown {
-		margin-bottom: 7px;
-		text-align: left;
-	}
-	&__dropdown-items-wrapper {
-		width: 166px;
-	}
-	&__dropdown:hover .header-menu__dropdown-content {
-		display: block;
-		@media screen and(max-width: 960px) {
-			display: none;
-		}		
-		@media screen and(max-width: 760px) {
-			display: none;
-		}		
 	}
 }
 
@@ -174,7 +201,7 @@
     	position: absolute;
     	left: 0;
     	z-index: 999;
-    	top: 75px;
+    	top: 56px;
 	}
 	&__form {
 		.input-form {
@@ -182,10 +209,14 @@
 			@media screen and(max-width: 960px) {
 				width: 100%;
 				height: 30px;
+				padding-left: 10px;
+				box-sizing: border-box;				
 			}			
 			@media screen and(max-width: 760px) {
 				width: 100%;
 				height: 30px;
+				padding-left: 10px;
+				box-sizing: border-box;
 			}			
 		}
 	}
@@ -203,12 +234,20 @@
 		&__mobile {
 			@include bg($search-mobile-header);
 			cursor: pointer;
+			&._active {
+				@include bg($close);
+				cursor: pointer;
+			}
 		}
 	}		
 	@media screen and(max-width: 760px) {
 		&__mobile {
 			@include bg($search-mobile-header);
 			cursor: pointer;
+			&._active {
+				@include bg($close);
+				cursor: pointer;
+			}
 		}
 	}
 	&__form {

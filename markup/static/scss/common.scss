@@ -4,7 +4,7 @@ html, body {
 }
 body {
 	font-size: $default-font-size;
-	font-family: 'Cuprum';
+	font-family: $font-cuprum;
 	color: $black;
 }
 input, textarea {

@@ -5,6 +5,9 @@
 	border-bottom: 1px solid #ddd;
 	background-color: #f7f7f7;
 	@media screen and(max-width: 760px) {
+		width: auto;
+	}
+	@media screen and(max-width: 480px) {
 		width: 280px;
 	}
 	&__content {
@@ -35,6 +38,12 @@
 		content: '';
 		position: absolute;
 		left: 20px;
+		@media screen and(max-width: 760px) {
+			left: 107px;
+		}
+		@media screen and(max-width: 480px) {
+			left: 22px;
+		}		
 	}
 	&._check-symptom  {
 		&:before {

@@ -144,18 +144,36 @@
 	max-width: 950px;
 	width: 100%;
 	padding-bottom: 129px;
+	@media screen and(max-width: 1025px) {
+		width: 74%;
+	}
+	@media screen and(max-width: 960px) {
+		width: 100%;
+	}
 	@media screen and(max-width: 760px) {
 		padding-bottom: 50px;
+		width: 100%;
 	}
 }
 .sidebar {
 	max-width: 300px;
 	width: 100%;
 	padding-bottom: 60px; /* для страницы карта сайта */
+	@media screen and(max-width: 1025px) {
+		width: 26%;
+		display: block;
+	}
 	@media screen and(max-width: 960px) {
 		display: none;
 	}
 	@media screen and(max-width: 760px) {
+		width: 450px;
+		margin: auto;
+		max-width: 740px;
+		padding: 0 10px;
+		display: block;
+	}
+	@media screen and(max-width: 480px) {
 		margin: auto;
 		width: 280px;
 		/* padding: 0 10px; */

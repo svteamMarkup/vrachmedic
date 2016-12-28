@@ -1,12 +1,15 @@
 .recommend-read {
-	width: 300px;
+	width: auto;
 	position: relative;
-	@media screen and(max-width: 760px) {
-		width: 280px;
-	}
 	.main-title {
 		padding: 11px 0 11px 17px;
 		background-color: #eaeaea;
+		@media screen and(max-width: 760px){
+			text-align: center;
+		}
+		@media screen and(max-width: 480px){
+			text-align: left;
+		}
 	}
 	.main-title:after {
 		content: '';

@@ -10,6 +10,16 @@
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
+		img {
+			@media screen and(max-width: 1025px) {
+				width: 100%;
+				height: auto;
+			}
+			@media screen and(max-width: 760px) {
+				width: 100%;
+				height: auto;
+			}
+		}
 	}
 	&__right {
 		width: 187px;

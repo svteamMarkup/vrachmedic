@@ -12,6 +12,13 @@
 		}
 	}	
 	@media screen and(max-width: 760px) {
+		width: 50%;
+		img {
+			width: 100%;
+    		height: auto;
+		}
+	}
+	@media screen and(max-width: 480px) {
 		margin-bottom: 20px;
 		width: 280px;
 		&:last-child {
@@ -20,7 +27,7 @@
 		img {
 			width: 100%;
     		height: auto;
-		}
+		}		
 	}
 	&__content {
 		margin-left: 13px;

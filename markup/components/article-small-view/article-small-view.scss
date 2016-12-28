@@ -8,6 +8,9 @@
 		width: 30%;
 	}	
 	@media screen and(max-width: 760px) {
+		width: 50%;
+	}		
+	@media screen and(max-width: 480px) {
 		width: 100%;
 	}	
 	&__right {

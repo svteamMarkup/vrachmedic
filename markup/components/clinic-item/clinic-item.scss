@@ -6,19 +6,31 @@
 	border: 1px solid #dedede;
 	padding: 24px 23px 9px 13px;
 	margin-bottom: 24px;
+	@media screen and(max-width: 1025px) {
+		width: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}	
 	@media screen and(max-width: 960px) {
 		width: 100%;
 		box-sizing: border-box;
 		padding: 24px 9px;
 	}
 	@media screen and(max-width: 760px) {
+		width: auto;
+		display: block;
+	}
+	@media screen and(max-width: 480px) {
 		display: block;
 		width: 280px;
 		padding: 7px 10px;
 		box-sizing: border-box;
-	}
+	}	
 	&__left {
 		width: 151px;
+		@media screen and(max-width: 1025px) {
+			width: 23px;	
+		}
 		img {
 			@media screen and(max-width: 960px) {
 				width: 100%;
@@ -64,8 +76,5 @@
 	}
 	&__metro {
 		padding-bottom: 4px;
-	}
-	&__description {
-		text-align: justify;
 	}
 }

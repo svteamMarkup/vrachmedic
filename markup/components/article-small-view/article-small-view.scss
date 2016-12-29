@@ -4,6 +4,9 @@
 	align-items: flex-start;
 	width: 310px;
 	margin-bottom: 22px;
+	@media screen and(max-width: 1200px) {
+		width: 30%;
+	}	
 	@media screen and(max-width: 960px) {
 		width: 30%;
 	}	

@@ -7,12 +7,24 @@
 	.our-offer__title {
 		font-size: 22px;
 		padding-left: 92px;
+		@media screen and(max-width: 760px) {
+			padding-left: 174px;
+		}
+		@media screen and(max-width: 480px) {
+			padding-left: 92px;
+		}
 		&:before {
 			content: '';
 			@include bg($search-doctor);
 			position: absolute;
 		    top: 5px;
 		    left: 28px;
+			@media screen and(max-width: 760px) {
+				left: 109px;
+			}
+			@media screen and(max-width: 480px) {
+				left: 25px;
+			}
 		}
 	}	
 }
@@ -20,12 +32,24 @@
 	.our-offer__title {
 		font-size: 22px;
 		padding-left: 92px;
+		@media screen and(max-width: 760px) {
+			padding-left: 174px;
+		}
+		@media screen and(max-width: 480px) {
+			padding-left: 92px;
+		}		
 		&:before {
 			content: '';
 			@include bg($search-clinic);
 			position: absolute;
 		    top: 5px;
 		    left: 28px;
+			@media screen and(max-width: 760px) {
+				left: 109px;
+			}
+			@media screen and(max-width: 480px) {
+				left: 25px;
+			}		    
 		}
 	}	
 }

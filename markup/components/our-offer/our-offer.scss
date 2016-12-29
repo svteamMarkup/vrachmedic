@@ -6,6 +6,9 @@
 	background-size: cover;
 	width: 430px;
 	background-repeat: no-repeat;
+	@media screen and(max-width: 1200px) {
+		width: 50%;
+	}
 	@media screen and(max-width: 1025px) {
 		width: 50%;
 	}

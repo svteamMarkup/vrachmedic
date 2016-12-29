@@ -28,7 +28,7 @@
 			position: absolute;
 			@include bg($search-icon);
 			@media screen and(max-width: 760px) {
-				
+				left: 37px;
 			}	
 		}
 	}

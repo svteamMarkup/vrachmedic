@@ -3,11 +3,7 @@
 	img{
 		width: 100%;
 		display: block;
-		@media screen and(max-width: 1025px) {
-			height: auto;
-			width: 100%;
-		}		
-		@media screen and(max-width: 960px) {
+		@media screen and(max-width: 1200px) {
 			height: auto;
 			width: 100%;
 		}
@@ -71,6 +67,9 @@
 	&._small {
 		width: 231px;
 		height: 173px;
+		@media screen and(max-width: 1200px) {
+			width: 50%;
+		}
 		@media screen and(max-width: 1025px) {
 			width: 49%;
 		}

@@ -2,14 +2,19 @@
 	background-color: #f7f7f7;
 	margin-bottom: 53px;
 	@media screen and(max-width: 960px) {
-		padding: 0 10px;
-    	margin: 0 auto 32px auto;
+		margin: 0 10px 32px 10px;
     }
 	@media screen and(max-width: 760px) {
+		padding: 0 10px;
+    	margin: 0 auto 32px auto;
+    	width: 450px;
+    	max-width: 740px;
+    }
+	@media screen and(max-width: 480px) {
 		width: 280px;
     	padding: 0 10px;
     	margin: 0 auto 32px auto;
-    }
+    }    
 	&-alphabet {
 		padding: 18px 0;
 		border-bottom: 1px solid #e0e0e0;
@@ -19,6 +24,9 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			@media screen and(max-width: 1200px) {
+				width: auto;
+			}
 			@media screen and(max-width: 960px) {
 				width: auto;
 			}
@@ -33,6 +41,11 @@
 			}
 		}
 		&__text {
+			@media screen and(max-width: 1200px) {
+				display: flex;
+				flex-wrap: wrap;
+				width: auto;
+			}
 			@media screen and(max-width: 960px) {
 				display: flex;
 				flex-wrap: wrap;
@@ -87,12 +100,16 @@
 		justify-content: space-between;
 		padding: 22px 0 25px 0;
 		margin-left: 26px;
+		@media screen and(max-width: 1200px) {
+			width: auto;
+		}
 		@media screen and(max-width: 960px) {
 			width: auto;
 		}
 		@media screen and(max-width: 760px) {
 			display: block;
 			width: 280px;
+			margin: auto;
 		}
 	}
 	&-speciality__items {

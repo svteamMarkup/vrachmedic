@@ -19,6 +19,7 @@
 		}
 		@media screen and(max-width: 760px) {
 			margin: 0 auto 14px auto;
+			text-align: center;
 		}
 	}
 	&__center {
@@ -56,10 +57,13 @@
 	&__photo {
 		border: 1px solid #999;
 		border-radius: 6px;
-		@media screen and(max-width: 960px) {
+		@media screen and(max-width: 1025px) {
 			width: 100%;
 			height: auto;
 		}
+		@media screen and(max-width: 760px) {
+			width: auto;
+		}	
 	}
 	&__fio {
 		font-size: 18px;
@@ -134,8 +138,7 @@
 		margin-bottom: 20px;
 		@media screen and(max-width: 760px) {
 			padding: 0 15px;
-    		text-align: justify;
-		}
+    	}
 	}
 	@media screen and(max-width: 760px) {
 		&__price {

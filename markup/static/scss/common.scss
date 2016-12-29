@@ -30,18 +30,31 @@ ul li {
 	padding-top: 28px;
 	width: 950px;
 	margin: 0 auto 47px auto;
+	@media screen and(max-width: 1200px) {
+		width: auto;
+	}		
+	@media screen and(max-width: 1024px) {
+		width: auto;
+	}
 	@media screen and(max-width: 960px) {
-		padding: 25px 10px 0 10px;
+		padding-top: 25px;
 		width: auto;
 		margin: 0 10px 47px 10px;
 	}
-	@media screen and(max-width: 760px) {
+	@media screen and(max-width: 480px) {
 		width: 280px;
+		margin: auto;
 	}
 }
 .content__items-inner {
 	width: 893px;
 	margin: auto;
+	@media screen and(max-width: 1200px) {
+		width: auto;
+	}	
+	@media screen and(max-width: 1024px) {
+		width: auto;
+	}	
 	@media screen and(max-width: 960px) {
 		width: 100%;
 	}

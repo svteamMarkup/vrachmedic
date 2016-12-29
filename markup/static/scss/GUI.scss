@@ -144,8 +144,12 @@
 	max-width: 950px;
 	width: 100%;
 	padding-bottom: 129px;
+	@media screen and(max-width: 1200px) {
+		display: block;
+		width: 73%;
+	}	
 	@media screen and(max-width: 1025px) {
-		width: 74%;
+		width: 73%;
 	}
 	@media screen and(max-width: 960px) {
 		width: 100%;
@@ -159,6 +163,10 @@
 	max-width: 300px;
 	width: 100%;
 	padding-bottom: 60px; /* для страницы карта сайта */
+	@media screen and(max-width: 1200px) {
+		display: block;
+		width: 26%;
+	}
 	@media screen and(max-width: 1025px) {
 		width: 26%;
 		display: block;

@@ -2,6 +2,9 @@
 	p {
 		font-size: 18px;
 		color: $light-black;
+		@media screen and(max-width: 480px) {
+			font-size: $default-font-size;
+		}	
 	}
 	h3 {
 		font-size: 24px;

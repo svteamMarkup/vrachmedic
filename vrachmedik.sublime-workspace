@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding"
+			],
+			[
 				"mar",
 				"margin-left"
 			],
 			[
 				"pa",
 				"padding-top"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"fun",
@@ -200,48 +200,84 @@
 	"buffers":
 	[
 		{
-			"file": "markup/components/service-item/service-item.scss",
+			"file": "markup/components/search-desease/search-desease.scss",
 			"settings":
 			{
-				"buffer_size": 1184,
+				"buffer_size": 2522,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/components/pagination-second/pagination-second.scss",
+			"settings":
+			{
+				"buffer_size": 2118,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/components/header/header.scss",
+			"settings":
+			{
+				"buffer_size": 5179,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "markup/static/scss/GUI.scss",
+			"file": "markup/components/article-middle-view/article-middle-view.scss",
 			"settings":
 			{
-				"buffer_size": 5504,
+				"buffer_size": 1076,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "markup/components/recommend-read-item/recommend-read-item.scss",
+			"file": "markup/components/card-doctor/card-doctor.scss",
 			"settings":
 			{
-				"buffer_size": 844,
+				"buffer_size": 3782,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/components/clinic-item/clinic-item.scss",
+			"settings":
+			{
+				"buffer_size": 1467,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/components/help-search-doctor/help-search-doctor.scss",
+			"settings":
+			{
+				"buffer_size": 469,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "markup/components/article-item/article-item.scss",
+			"file": "markup/static/scss/common.scss",
 			"settings":
 			{
-				"buffer_size": 1698,
+				"buffer_size": 1129,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "markup/components/last-articles/last-articles.scss",
+			"file": "markup/components/filter/filter.scss",
 			"settings":
 			{
-				"buffer_size": 852,
+				"buffer_size": 2180,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -284,33 +320,42 @@
 	[
 		"/D/projects/vrachmedik/markup",
 		"/D/projects/vrachmedik/markup/components",
-		"/D/projects/vrachmedik/markup/components/article-item",
 		"/D/projects/vrachmedik/markup/components/article-middle-view/data",
-		"/D/projects/vrachmedik/markup/components/last-articles",
-		"/D/projects/vrachmedik/markup/components/our-offer",
+		"/D/projects/vrachmedik/markup/components/clinic-item",
 		"/D/projects/vrachmedik/markup/pages",
 		"/D/projects/vrachmedik/markup/static",
 		"/D/projects/vrachmedik/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.scss",
-		"/D/projects/vrachmedik/markup/components/header/header.jade",
+		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
+		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
+		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.jade",
+		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.scss",
 		"/D/projects/vrachmedik/markup/components/header/header.scss",
-		"/D/projects/vrachmedik/markup/static/scss/common.scss",
-		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
+		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.scss",
 		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.scss",
+		"/D/projects/vrachmedik/markup/components/pagination-second/pagination-second.scss",
+		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.scss",
+		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.scss",
+		"/D/projects/vrachmedik/markup/components/service-item/service-item.scss",
+		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.scss",
+		"/D/projects/vrachmedik/markup/components/article-item/article-item.scss",
+		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.scss",
+		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.scss",
+		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.scss",
+		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
+		"/C/Users/User/AppData/Local/Temp/_tc/flesh/index.php",
+		"/D/projects/vrachmedik/markup/components/header/header.jade",
+		"/D/projects/vrachmedik/markup/static/scss/common.scss",
 		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.scss",
 		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
-		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
 		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.scss",
 		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
-		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.scss",
 		"/D/projects/vrachmedik/markup/static/scss/fonts.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/fonts.scss",
 		"/D/Работа/projects/forex/index.html",
 		"/C/Users/User/AppData/Local/Temp/_tc/landx/index.php",
-		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.scss",
 		"/D/Работа/projects/forex/5fa573a7b48b6528207076dd6783ef03/assets/2.5/default.css.source",
 		"/D/Работа/projects/forex/default.js",
 		"/D/projects/vrachmedik/markup/components/header/header.js",
@@ -318,8 +363,6 @@
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/menu/menu.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/menu/menu.jade",
 		"/D/Development/start-page/start-page-bootstrap/css/style.css",
-		"/D/projects/vrachmedik/markup/components/article-item/article-item.scss",
-		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
 		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.jade",
 		"/D/projects/ozone-fitness/markup/components/about-content/about-content.jade",
 		"/D/projects/ozone-fitness/markup/components/menu/menu.js",
@@ -329,30 +372,23 @@
 		"/D/projects/vrachmedik/markup/components/single-content/single-content.scss",
 		"/D/projects/vrachmedik/markup/pages/clinics.jade",
 		"/D/projects/vrachmedik/markup/components/social-share/social-share.scss",
-		"/D/projects/vrachmedik/markup/components/pagination-second/pagination-second.scss",
 		"/D/projects/vrachmedik/markup/pages/doctors.jade",
 		"/D/projects/vrachmedik/markup/pages/mapsite.jade",
 		"/D/projects/vrachmedik/markup/pages/404.jade",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/partners/partners.scss",
 		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.scss",
-		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.scss",
-		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.scss",
-		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/facilities/facilities.scss",
 		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/header/header.scss",
 		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.jade",
 		"/D/projects/vrachmedik/markup/components/filter/filter.scss",
 		"/D/projects/vrachmedik/markup/components/category/category.jade",
 		"/D/projects/vrachmedik/markup/components/search-desease-item/search-desease-item.scss",
-		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.scss",
 		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.jade",
 		"/D/projects/vrachmedik/markup/components/comment/comment.scss",
 		"/D/projects/vrachmedik/markup/components/help-search-doctor/help-search-doctor.scss",
 		"/D/projects/vrachmedik/markup/components/category/category.scss",
 		"/D/projects/vrachmedik/markup/components/social-share/social-share.jade",
 		"/D/projects/vrachmedik/markup/components/comments/comments.scss",
-		"/D/projects/vrachmedik/markup/components/service-item/service-item.scss",
-		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.jade",
 		"/D/projects/vrachmedik/markup/components/filter/filter.jade",
 		"/D/projects/vrachmedik/markup/components/pagination/pagination.scss",
 		"/D/projects/vrachmedik/markup/pages/layout.jade",
@@ -370,7 +406,6 @@
 		"/C/Users/User/AppData/Local/Temp/_tcx/0/0/public_html/themes/prodachu/assets/css/main.css",
 		"/D/main.css",
 		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.jade",
-		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.jade",
 		"/D/projects/ozone-fitness/markup/components/about-content/about-content.scss",
 		"/D/projects/ozone-fitness/markup/components/header/header.scss",
@@ -420,8 +455,7 @@
 		"/D/projects/vrachmedik/markup/components/articles-items/articles-items.jade",
 		"/D/projects/vrachmedik/markup/components/articles-items/articles-items.scss",
 		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
-		"/D/projects/vrachmedik/markup/pages/_layout.jade",
-		"/D/Работа/fonts/Cuprum-Italic/styles.css"
+		"/D/projects/vrachmedik/markup/pages/_layout.jade"
 	],
 	"find":
 	{
@@ -439,6 +473,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"wrapper",
+			"content",
+			"before",
+			"163px",
+			"\t\t@media screen and(max-width: 480px) {\n\t\t\tpadding-left: 92px;\n\t\t}",
+			"__title",
 			"_small",
 			"$font-cuprum",
 			"'Cuprum'",
@@ -560,13 +600,7 @@
 			"filter",
 			"input",
 			"header",
-			"eader",
-			"_purple",
-			"inter",
-			"purple",
-			"blue",
-			"meta",
-			"header"
+			"eader"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -584,24 +618,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "markup/components/service-item/service-item.scss",
+					"file": "markup/components/search-desease/search-desease.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1184,
+						"buffer_size": 2522,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								858,
-								858
+								2314,
+								2314
 							]
 						],
 						"settings":
@@ -611,27 +645,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "markup/static/scss/GUI.scss",
+					"file": "markup/components/pagination-second/pagination-second.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5504,
+						"buffer_size": 2118,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2757,
-								2757
+								1114,
+								1114
 							]
 						],
 						"settings":
@@ -641,87 +675,57 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2807.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "markup/components/recommend-read-item/recommend-read-item.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								317,
-								317
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "markup/components/article-item/article-item.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1698,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1348,
-								1348
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 600.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "markup/components/last-articles/last-articles.scss",
+					"buffer": 2,
+					"file": "markup/components/header/header.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 852,
+						"buffer_size": 5179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								294,
-								295
+								2100,
+								2100
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "markup/components/article-middle-view/article-middle-view.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
 							]
 						],
 						"settings":
@@ -734,7 +738,157 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "markup/components/card-doctor/card-doctor.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2728,
+								2728
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "markup/components/clinic-item/clinic-item.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								658,
+								658
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "markup/components/help-search-doctor/help-search-doctor.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "markup/static/scss/common.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								576,
+								576
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "markup/components/filter/filter.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								609,
+								609
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 107.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]

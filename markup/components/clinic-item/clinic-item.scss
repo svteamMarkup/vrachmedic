@@ -6,6 +6,11 @@
 	border: 1px solid #dedede;
 	padding: 24px 23px 9px 13px;
 	margin-bottom: 24px;
+	@media screen and(max-width: 1200px) {
+		width: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}		
 	@media screen and(max-width: 1025px) {
 		width: auto;
 		padding-left: 0;
@@ -18,7 +23,6 @@
 	}
 	@media screen and(max-width: 760px) {
 		width: auto;
-		display: block;
 	}
 	@media screen and(max-width: 480px) {
 		display: block;
@@ -29,7 +33,7 @@
 	&__left {
 		width: 151px;
 		@media screen and(max-width: 1025px) {
-			width: 23px;	
+			width: 23%;	
 		}
 		img {
 			@media screen and(max-width: 960px) {
@@ -39,19 +43,33 @@
 		}
 		@media screen and(max-width: 760px) {
 			margin: auto;
+			width: 40%;
+		}
+		@media screen and(max-width: 480px) {
+			width: 100%;
 		}
 	}
 	&__right {
 		display: flex;
 		justify-content: space-between;		
 		width: 690px;
+		@media screen and(max-width: 1200px) {
+			width: 77%;
+		}		
+		@media screen and(max-width: 1025px) {
+			width: 77%;
+		}		
 		@media screen and(max-width: 960px) {
 			width: 76%;
 		}
 		@media screen and(max-width: 760px) {
-			width: 100%;
+			width: 60%;
+			margin-left: 7px;
 			display: block;
 		}
+		@media screen and(max-width: 480px) {
+			width: 100%;
+		}		
 	}
 	&__content {
 		width: 458px;

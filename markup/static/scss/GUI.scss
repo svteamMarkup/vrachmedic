@@ -31,7 +31,7 @@
 		}
 	}
 	&._big {
-		padding: 10px 50px;	
+		padding: 10px 50px;
 	}
 	&._card-doctor {
 		background-color: #00469a;
@@ -39,6 +39,7 @@
 		text-align: center;
 		font-size: 14px;
 		float: right;
+		box-sizing: border-box;
 		&:hover {
 			background-color: lighten(#00469a, 2%);
 		}
@@ -271,6 +272,10 @@
 }
 .content._404 {
 	max-width: 1305px;
+	@media screen and(max-width: 1200px) {
+		width: auto;
+		margin: auto;
+	}
 }
 .page-404-info {
 	text-align: center;

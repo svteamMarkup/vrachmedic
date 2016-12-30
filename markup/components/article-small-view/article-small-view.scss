@@ -12,13 +12,24 @@
 	}	
 	@media screen and(max-width: 760px) {
 		width: 50%;
+		display: flex;
 	}		
 	@media screen and(max-width: 480px) {
 		width: 100%;
-	}	
+		display: block;
+	}
+	img {
+		@media screen and(max-width: 760px){
+			width: 100%;
+			height: auto;
+		}
+	}
 	&__right {
 		padding-top: 7px;
 		padding-left: 13px;
+		@media screen and(max-width: 480px) {
+			padding-left: 0;
+		}
 	}
 	&__category {
 		color: $red;

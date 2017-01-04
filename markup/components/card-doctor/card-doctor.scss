@@ -153,6 +153,17 @@
 		@media screen and(max-width: 760px) {
 			width: auto;
 		}
+		.button._card-doctor {
+			background-color: #00469a;
+			padding: 7px;
+			text-align: center;
+			font-size: 14px;
+			float: right;
+			box-sizing: border-box;
+			&:hover {
+				background-color: lighten(#00469a, 2%);
+			}
+		}		
 	}
 	&__rating-number {
 		color: $silver;

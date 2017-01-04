@@ -67,6 +67,16 @@
 			}
 		}
 	}
+	&__right {
+		.button-second._dislike {
+			height: 34px;
+			width: 34px;
+		}
+		.button-second._like {
+			height: 34px;
+			width: 34px;
+		}
+	}
 	&__counts-wrapper {
 		display: flex;
 		justify-content: space-between;

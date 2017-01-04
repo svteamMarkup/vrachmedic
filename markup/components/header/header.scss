@@ -219,21 +219,31 @@
     	top: 56px;
 	}
 	&__form {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
 		.input-form {
 			width: 100%;
+			padding-left: 10px;
+    		box-sizing: border-box;
 			@media screen and(max-width: 960px) {
 				width: 100%;
-				height: 30px;
+				height: 50px;
 				padding-left: 10px;
 				box-sizing: border-box;				
 			}			
 			@media screen and(max-width: 760px) {
 				width: 100%;
-				height: 30px;
+				height: 50px;
 				padding-left: 10px;
 				box-sizing: border-box;
 			}			
 		}
+	}
+	._search-submit {
+		width: 97px;
+		line-height: 50px;
+		font-size: 18px;
 	}
 	&__icon {
 		cursor: pointer;
@@ -264,10 +274,5 @@
 				cursor: pointer;
 			}
 		}
-	}
-	&__form {
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
 	}
 }

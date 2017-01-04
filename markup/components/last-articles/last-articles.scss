@@ -1,6 +1,5 @@
 .last-articles {
-	/* display: flex; */
-	display: none;
+	display: flex;
 	justify-content: space-between;
 	@media screen and (max-width: 1200px) {
 		margin-bottom: 27px;

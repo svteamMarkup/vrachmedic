@@ -33,42 +33,6 @@
 	&._big {
 		padding: 10px 50px;
 	}
-	&._card-doctor {
-		background-color: #00469a;
-		padding: 7px;
-		text-align: center;
-		font-size: 14px;
-		float: right;
-		box-sizing: border-box;
-		&:hover {
-			background-color: lighten(#00469a, 2%);
-		}
-	}
-	&._clinic-item {
-		background: linear-gradient(to bottom,  #6fc3e1 0%,#1babe0 100%);
-		text-align: center;
-		border: 1px solid #007ea8;
-		padding: 0 28px;
-		height: 32px;
-		line-height: 32px;
-		border-radius: 14px;
-		&:hover {
-			background: linear-gradient(to bottom,  #1babe0 0%,#6fc3e1 100%);
-		}	
-		@media screen and(max-width: 760px) {
-			display: table;
-			margin: auto;
-		}
-	}
-	&._return-main-page {
-		padding: 0 81px;
-		font-size: 18px;
-		line-height: 59px;
-		@media screen and(max-width: 760px) {
-			padding: 0 50px;
-			line-height: 48px;
-		}
-	}
 }
 .button-second {
 	display: inline-block;
@@ -93,8 +57,6 @@
 	}
 	&._dislike {
 		position: relative;
-		height: 34px;
-		width: 34px;
 		&:before {
 			height: 17px;
 			width: 17px;
@@ -107,8 +69,6 @@
 	}
 	&._like {
 		position: relative;
-		height: 34px;
-		width: 34px;
 		&:before {
 			height: 17px;
 			width: 17px;
@@ -274,7 +234,7 @@
 	max-width: 1305px;
 	@media screen and(max-width: 1200px) {
 		width: auto;
-		margin: auto; /*ss*/
+		margin: auto;
 	}
 }
 .page-404-info {
@@ -318,6 +278,15 @@
 		margin-bottom: 27px;
 		@media screen and(max-width: 760px) {
 			font-size: 18px;
+		}
+	}
+	.button._return-main-page {
+		padding: 0 81px;
+		font-size: 18px;
+		line-height: 59px;
+		@media screen and(max-width: 760px) {
+			padding: 0 50px;
+			line-height: 48px;
 		}
 	}
 }

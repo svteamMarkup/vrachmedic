@@ -128,10 +128,6 @@
 		display: block;
 		width: 26%;
 	}
-	@media screen and(max-width: 1025px) {
-		width: 26%;
-		display: block;
-	}
 	@media screen and(max-width: 960px) {
 		display: none;
 	}
@@ -207,7 +203,6 @@
 	&:before {
 		content: '';
 		position: absolute;
-		/* border-left: 3px solid $blue; */
 		width: 3px;
 		height: 30px;
 		background-color: $blue;
@@ -222,10 +217,6 @@
 	font-size: 38px;
 	color: $dark-blue;
 	@media screen and(max-width: 960px) {
-	    text-align: center;
-	    font-size: 32px;
-	}
-	@media screen and(max-width: 760px) {
 	    text-align: center;
 	    font-size: 32px;
 	}

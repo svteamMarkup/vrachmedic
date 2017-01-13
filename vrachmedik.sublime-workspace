@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-transform"
+				"margn",
+				"margin-top"
 			],
 			[
-				"pad",
-				"padding-bottom"
+				"fon",
+				"font-size"
 			],
 			[
 				"mar",
-				"margin-left"
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"c",
+				"content"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-bottom"
 			],
 			[
 				"pa",
@@ -28,10 +64,6 @@
 				"bottom"
 			],
 			[
-				"padd",
-				"padding-bottom"
-			],
-			[
 				"ov",
 				"overflow"
 			],
@@ -42,10 +74,6 @@
 			[
 				"w",
 				"width"
-			],
-			[
-				"bac",
-				"background-color"
 			],
 			[
 				"b",
@@ -60,20 +88,8 @@
 				"text-align"
 			],
 			[
-				"bor",
-				"border-radius"
-			],
-			[
 				"repe",
 				"repeat-x"
-			],
-			[
-				"back",
-				"background"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"te",
@@ -90,10 +106,6 @@
 			[
 				"cur",
 				"cursor"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"ba",
@@ -200,30 +212,21 @@
 	"buffers":
 	[
 		{
-			"file": "/D/Работа/help/help.html",
+			"file": "/D/projects/auto-services/markup/components/header/header.jade",
 			"settings":
 			{
-				"buffer_size": 347,
+				"buffer_size": 321,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "markup/pages/404.jade",
+			"file": "/D/projects/auto-services/markup/components/header/header.scss",
 			"settings":
 			{
-				"buffer_size": 458,
+				"buffer_size": 1915,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "markup/components/social-share/social-share.jade",
-			"settings":
-			{
-				"buffer_size": 481,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -243,7 +246,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 432.0
 	},
 	"console":
 	{
@@ -264,44 +267,117 @@
 	},
 	"expanded_folders":
 	[
-		"/D/projects/vrachmedik/markup",
-		"/D/projects/vrachmedik/markup/components",
-		"/D/projects/vrachmedik/markup/components/article-small-view",
-		"/D/projects/vrachmedik/markup/components/social-share",
-		"/D/projects/vrachmedik/markup/pages",
-		"/D/projects/vrachmedik/markup/static",
-		"/D/projects/vrachmedik/markup/static/scss"
+		"/D/projects/auto-services/markup",
+		"/D/projects/auto-services/markup/components",
+		"/D/projects/auto-services/markup/components/header"
 	],
 	"file_history":
 	[
-		"/D/projects/vrachmedik/markup/pages/single.jade",
-		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
-		"/D/projects/ozone-fitness/markup/static/scss/vars.scss",
-		"/D/projects/vrachmedik/markup/pages/index.jade",
+		"/D/projects/vrachmedik/markup/components/header/header.jade",
+		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
 		"/D/projects/vrachmedik/markup/components/header/header.scss",
-		"/D/projects/vrachmedik/markup/static/scss/common.scss",
-		"/D/projects/ozone-fitness/markup/static/scss/common.scss",
-		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
+		"/D/projects/auto-services/markup/components/map/map.js",
+		"/D/projects/auto-services/markup/components/news-item/data/data.js",
+		"/D/projects/auto-services/markup/components/about-us/about-us.scss",
+		"/D/projects/auto-services/markup/static/scss/common.scss",
+		"/D/projects/auto-services/markup/static/scss/mixins.scss",
+		"/D/projects/vrachmedik/markup/components/article-item/article-item.scss",
 		"/D/Работа/help/help.html",
+		"/D/projects/ozone-fitness/markup/components/timetable/timetable.scss",
+		"/D/projects/ozone-fitness/markup/static/scss/mixins.scss",
 		"/D/projects/vrachmedik/markup/static/scss/mixins.scss",
+		"/D/projects/ozone-fitness/markup/components/team/data/data.js",
+		"/D/projects/auto-services/markup/components/offer/data/data.js",
+		"/D/projects/auto-services/markup/components/news-item/news-item.jade",
+		"/D/projects/auto-services/markup/components/last-news/last-news.jade",
+		"/D/projects/auto-services/markup/components/news-item/news-item.scss",
+		"/D/projects/auto-services/markup/components/header/header.jade",
+		"/D/projects/auto-services/markup/components/offer/offer.scss",
+		"/D/projects/auto-services/markup/components/offer/offer.jade",
+		"/D/projects/ozone-fitness/markup/components/team/team.jade",
+		"/D/projects/auto-services/markup/components/our-offers/our-offers.jade",
+		"/D/projects/auto-services/markup/components/our-offers/our-offers.js",
+		"/D/projects/ozone-fitness/markup/pages/club.jade",
+		"/D/projects/ozone-fitness/markup/pages/member-me.jade",
+		"/D/projects/ozone-fitness/markup/pages/index.jade",
+		"/D/projects/auto-services/markup/components/about-us/about-us.jade",
+		"/D/projects/auto-services/markup/components/about-us/about-us.js",
+		"/D/projects/auto-services/markup/components/offer/offer.js",
+		"/D/projects/ozone-fitness/markup/components/your-app/data/data.js",
+		"/D/projects/auto-services/markup/components/menu/menu.scss",
+		"/D/projects/auto-services/markup/components/our-offers/our-offers.scss",
+		"/D/projects/auto-services/markup/components/header/header.scss",
+		"/D/projects/auto-services/markup/components/menu/menu.js",
+		"/D/projects/auto-services/markup/components/menu/menu.jade",
+		"/C/Users/User/AppData/Local/Temp/_tc/antishum/js/script.js",
+		"/C/Users/User/AppData/Local/Temp/_tc/mart-design/js/script.js",
+		"/D/projects/auto-services/markup/static/scss/GUI.scss",
+		"/D/projects/auto-services/markup/components/footer/footer.scss",
+		"/D/projects/auto-services/markup/components/footer/footer.jade",
+		"/D/projects/auto-services/markup/components/last-news/last-news.scss",
+		"/D/projects/auto-services/markup/pages/index.jade",
+		"/D/projects/auto-services/tars-config.js",
+		"/D/projects/ozone-fitness/tars-config.js",
+		"/D/projects/auto-services/markup/components/social-bar/social-bar.scss",
+		"/D/projects/auto-services/markup/components/map/map.scss",
+		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
+		"/D/projects/ozone-fitness/markup/components/slider/slider.js",
+		"/D/projects/ozone-fitness/markup/static/scss/GUI.scss",
+		"/D/projects/ozone-fitness/markup/static/scss/vars.scss",
+		"/D/projects/ozone-fitness/markup/static/scss/common.scss",
+		"/D/projects/ozone-fitness/markup/components/default_component_scheme.json",
+		"/D/projects/ozone-fitness/markup/components/slider/data/data.js",
+		"/D/projects/ozone-fitness/package.json",
+		"/D/projects/auto-services/gulpfile.js",
+		"/D/projects/ozone-fitness/markup/components/slider/slider.jade",
+		"/D/projects/auto-services/node_modules/slick/index.js",
+		"/D/projects/auto-services/node_modules/slick/finder.js",
+		"/D/projects/vrachmedik/markup/components/header/header.js",
+		"/D/projects/ozone-fitness/markup/components/parallax/data/data.js",
+		"/D/projects/ozone-fitness/markup/components/parallax/parallax.jade",
+		"/D/projects/auto-services/markup/components/head/head.jade",
+		"/D/projects/auto-services/markup/components/map/map.jade",
+		"/D/projects/auto-services/markup/components/social-bar/social-bar.jade",
+		"/D/projects/auto-services/markup/static/js/main.js",
+		"/D/projects/auto-services/markup/components/big-car-bg/big-car-bg.scss",
+		"/D/projects/auto-services/markup/components/big-car-bg/big-car-bg.jade",
+		"/D/projects/auto-services/markup/pages/layout.jade",
+		"/D/projects/auto-services/markup/static/scss/vars.scss",
+		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
+		"/D/projects/vrachmedik/markup/static/scss/common.scss",
+		"/D/projects/vrachmedik/markup/components/footer/footer.jade",
+		"/D/projects/vrachmedik/markup/pages/index.jade",
+		"/D/projects/vrachmedik/markup/pages/layout.jade",
+		"/D/projects/auto-services/markup/static/scss/fonts.scss",
+		"/D/projects/vrachmedik/markup/pages/doctors.jade",
+		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
+		"/D/projects/vrachmedik/markup/static/scss/fonts.scss",
+		"/D/projects/ozone-fitness/markup/pages/_layout.jade",
+		"/D/projects/ozone-fitness/markup/pages/contacts.jade",
+		"/D/projects/ozone-fitness/markup/pages/clubs.jade",
+		"/D/projects/ozone-fitness/markup/pages/trainers.jade",
+		"/D/projects/vrachmedik/markup/pages/404.jade",
+		"/D/projects/vrachmedik/markup/pages/single.jade",
+		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.jade",
+		"/D/Работа/list.php",
+		"/D/projects/vrachmedik/markup/components/social-share/social-share.jade",
+		"/D/Работа/_product.php",
+		"/D/Работа/prodachu.php",
+		"/D/Работа/view.php",
+		"/D/Работа/index.php",
+		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
 		"/D/Работа/projects/maguwo/maguwo/sass/main.scss",
 		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.jade",
-		"/D/projects/vrachmedik/markup/components/header/header.jade",
 		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.jade",
 		"/D/projects/vrachmedik/markup/components/clinic-item/clinic-item.scss",
 		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.scss",
 		"/D/projects/vrachmedik/markup/components/social-share/social-share.scss",
-		"/D/projects/vrachmedik/markup/pages/404.jade",
 		"/D/projects/ozone-fitness/markup/components/menu/menu.scss",
-		"/D/projects/ozone-fitness/markup/static/scss/mixins.scss",
 		"/D/projects/ozone-fitness/markup/components/_ui/ui.scss",
-		"/D/projects/vrachmedik/markup/components/header/header.js",
 		"/D/projects/vrachmedik/markup/components/article-item/article-item.jade",
 		"/D/projects/vrachmedik/markup/components/single-content/single-content.jade",
-		"/D/projects/vrachmedik/markup/pages/layout.jade",
 		"/D/projects/vrachmedik/markup/components/help-search-doctor/help-search-doctor.jade",
 		"/D/projects/vrachmedik/markup/components/card-doctor/card-doctor.jade",
-		"/D/projects/vrachmedik/markup/components/article-item/article-item.scss",
 		"/D/projects/vrachmedik/markup/components/last-articles/last-articles.scss",
 		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.jade",
 		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.jade",
@@ -311,15 +387,11 @@
 		"/D/Работа/main.css",
 		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.scss",
 		"/D/projects/vrachmedik/markup/components/pagination-second/pagination-second.scss",
-		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
 		"/D/projects/vrachmedik/markup/components/single-content/single-content.scss",
 		"/D/projects/vrachmedik/markup/components/article-small-view/article-small-view.scss",
-		"/D/Работа/prodachu.php",
 		"/D/Работа/style.css",
-		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
 		"/D/projects/vrachmedik/markup/components/help-search-doctor/help-search-doctor.scss",
 		"/D/projects/vrachmedik/markup/components/filter/filter.scss",
-		"/D/projects/vrachmedik/markup/components/footer/footer.scss",
 		"/D/projects/vrachmedik/markup/components/search-desease/search-desease.jade",
 		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.scss",
 		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.scss",
@@ -328,80 +400,7 @@
 		"/D/projects/vrachmedik/markup/components/service-item/service-item.scss",
 		"/D/projects/vrachmedik/markup/components/recommend-read-item/recommend-read-item.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.scss",
-		"/C/Users/User/AppData/Local/Temp/_tc/flesh/index.php",
-		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.scss",
-		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.scss",
-		"/D/projects/vrachmedik/markup/static/scss/fonts.scss",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/fonts.scss",
-		"/D/Работа/projects/forex/index.html",
-		"/C/Users/User/AppData/Local/Temp/_tc/landx/index.php",
-		"/D/Работа/projects/forex/5fa573a7b48b6528207076dd6783ef03/assets/2.5/default.css.source",
-		"/D/Работа/projects/forex/default.js",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/menu/menu.js",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/menu/menu.scss",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/menu/menu.jade",
-		"/D/Development/start-page/start-page-bootstrap/css/style.css",
-		"/D/projects/ozone-fitness/markup/components/about-content/about-content.jade",
-		"/D/projects/ozone-fitness/markup/components/menu/menu.js",
-		"/D/projects/vrachmedik/markup/components/category-item/category-item.scss",
-		"/D/projects/vrachmedik/markup/pages/clinics.jade",
-		"/D/projects/vrachmedik/markup/pages/doctors.jade",
-		"/D/projects/vrachmedik/markup/pages/mapsite.jade",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/partners/partners.scss",
-		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.scss",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/facilities/facilities.scss",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/header/header.scss",
-		"/D/projects/vrachmedik/markup/components/category/category.jade",
-		"/D/projects/vrachmedik/markup/components/search-desease-item/search-desease-item.scss",
-		"/D/projects/vrachmedik/markup/components/comment/comment.scss",
-		"/D/projects/vrachmedik/markup/components/category/category.scss",
-		"/D/projects/vrachmedik/markup/components/social-share/social-share.jade",
-		"/D/projects/vrachmedik/markup/components/comments/comments.scss",
-		"/D/projects/vrachmedik/markup/components/filter/filter.jade",
-		"/D/projects/vrachmedik/markup/components/pagination/pagination.scss",
-		"/D/projects/vrachmedik/tars-config.js",
-		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.jade",
-		"/D/projects/vrachmedik/markup/pages/health-a-z.jade",
-		"/D/projects/vrachmedik/markup/pages/surveys-analyzes.jade",
-		"/D/projects/vrachmedik/markup/components/our-offer__search/our-offer__search.jade",
-		"/D/projects/vrachmedik/markup/components/interview/interview.jade",
-		"/D/projects/vrachmedik/markup/components/widget/widget.scss",
-		"/C/Users/User/AppData/Local/Temp/_tcx/0/0/public_html/themes/prodachu/assets/css/main.css",
-		"/D/main.css",
-		"/D/projects/vrachmedik/markup/components/our-offer__search-wrapper/our-offer__search-wrapper.jade",
-		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.jade",
-		"/D/projects/ozone-fitness/markup/components/about-content/about-content.scss",
-		"/D/projects/ozone-fitness/markup/components/header/header.scss",
-		"/D/projects/ozone-fitness/markup/components/header/header.jade",
-		"/D/projects/ozone-fitness/markup/components/footer/footer.scss",
-		"/D/main.js",
-		"/D/projects/vrachmedik/markup/components/our-offer/our-offer.jade",
-		"/D/projects/vrachmedik/markup/components/our-offers/our-offers.jade",
-		"/D/projects/vrachmedik/markup/components/services/services.scss",
-		"/D/projects/vrachmedik/markup/components/service-item/service-item.jade",
-		"/D/projects/vrachmedik/markup/components/comment/comment.jade",
-		"/D/projects/vrachmedik/markup/components/comments/comments.jade",
-		"/C/Users/User/Downloads/Telegram Desktop/single-content.scss",
-		"/D/Development/start-page/start-page/css/style.css",
-		"/D/projects/vrachmedik/markup/components/pagination/pagination.jade",
-		"/D/projects/vrachmedik/markup/components/pagination-second/pagination-second.jade",
-		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.jade",
-		"/D/projects/vrachmedik/markup/components/services/services.jade",
-		"/D/projects/vrachmedik/markup/components/category-item/category-item.jade",
-		"/D/projects/vrachmedik/markup/components/search-desease-item/search-desease-item.jade",
-		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.jade",
-		"/D/projects/ozone-fitness/markup/pages/clubs.jade",
-		"/D/projects/ozone-fitness/markup/pages/contacts.jade",
-		"/D/projects/ozone-fitness/markup/pages/index.jade",
-		"/D/projects/dating/css/style.css",
-		"/D/projects/dating/index.html",
-		"/D/projects/dating/4_1.html",
-		"/D/projects/vrachmedik/markup/components/footer/footer.jade",
-		"/D/projects/vrachmedik/markup/components/recommend-read/recommend-read.js",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/components/footer/footer.jade",
-		"/D/Работа/projects/ozone-fitness/ozone-fitness/markup/static/scss/libraries/font-awesome.css",
-		"/D/projects/vrachmedik/markup/static/scss/libraries/font-awesome.css",
-		"/D/projects/vrachmedik/markup/components/widget/widget.jade"
+		"/C/Users/User/AppData/Local/Temp/_tc/flesh/index.php"
 	],
 	"find":
 	{
@@ -419,6 +418,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1050",
+			"760",
+			"description",
+			"title",
+			"img",
+			"item",
+			".akpp-repair",
+			"size",
+			"760px",
+			"760",
+			"760px",
+			"width:",
+			"slick",
+			"text",
+			"offer",
+			"wrapper",
+			"form",
+			"search",
+			"toggle",
+			"left",
 			"+article-small-view",
 			"button",
 			"right",
@@ -526,27 +545,7 @@
 			"filter",
 			"content-wrapper",
 			".button._form",
-			"content-filter__inner",
-			"__wrapper",
-			"button__wra",
-			"button_wra",
-			"content-want-sex__name",
-			"0.3s all",
-			"v4",
-			"v3",
-			"v4",
-			"v3",
-			".content-want-sex__item.v4",
-			"v4",
-			"v3",
-			"v4",
-			".v3",
-			".show-info__counts",
-			"90x111",
-			"_photo",
-			"inline",
-			"body",
-			"<div class=\"content-want-sex__name\">Наташа</div>"
+			"content-filter__inner"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -564,58 +563,31 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/Работа/help/help.html",
+					"file": "/D/projects/auto-services/markup/components/header/header.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 347,
+						"buffer_size": 321,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								244,
+								244
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "markup/pages/404.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -625,29 +597,30 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "markup/components/social-share/social-share.jade",
+					"buffer": 1,
+					"file": "/D/projects/auto-services/markup/components/header/header.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 481,
+						"buffer_size": 1915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								480,
-								480
+								909,
+								909
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

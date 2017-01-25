@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"sh",
+				"show_data"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"data",
+				"data_button"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
 				"bo",
 				"bottom"
 			],
@@ -18,22 +58,6 @@
 			[
 				"bor",
 				"border-color"
-			],
-			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"bac",
@@ -219,41 +243,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/projects/mosmama_light/markup/components/menu/menu.scss",
-			"settings":
-			{
-				"buffer_size": 2305,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/projects/mosmama_light/markup/pages/article.jade",
-			"settings":
-			{
-				"buffer_size": 1085,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/projects/mosmama_light/markup/components/menu/menu.jade",
-			"settings":
-			{
-				"buffer_size": 194,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/projects/mosmama_light/markup/static/scss/common.scss",
-			"settings":
-			{
-				"buffer_size": 2898,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -268,7 +257,7 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
+				"Package Control: Remove Package"
 			]
 		],
 		"width": 432.0
@@ -292,59 +281,104 @@
 	},
 	"expanded_folders":
 	[
-		"/D/projects/mosmama_light/markup",
-		"/D/projects/mosmama_light/markup/components",
-		"/D/projects/mosmama_light/markup/components/article-block",
-		"/D/projects/mosmama_light/markup/components/article-content",
-		"/D/projects/mosmama_light/markup/components/header-article",
-		"/D/projects/mosmama_light/markup/components/menu",
-		"/D/projects/mosmama_light/markup/pages",
-		"/D/projects/mosmama_light/markup/static",
-		"/D/projects/mosmama_light/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/D/projects/mosmama_light/markup/components/article-content/article-content.scss",
-		"/D/projects/mosmama_light/markup/pages/layout.jade",
-		"/D/projects/mosmama_light/markup/components/header/header.scss",
-		"/D/projects/mosmama_light/markup/components/article-block/article-block.scss",
-		"/D/projects/mosmama_light/markup/static/scss/common.scss",
-		"/D/projects/mosmama_light/markup/components/header-article/header-article.scss",
-		"/D/projects/mosmama_light/markup/pages/article.jade",
-		"/D/projects/mosmama_light/markup/components/list-sub-categories/list-sub-categories.js",
-		"/D/projects/mosmama_light/markup/pages/catalog.jade",
+		"/D/Development/Frontend/learn/index.html",
+		"/D/Development/Frontend/learn/index2.html",
+		"/D/Development/Frontend/learn/data.html",
+		"/D/Development/Frontend/learn/index3.html",
+		"/D/projects/mosmama_light/tars-config.js",
+		"/D/projects/mosmama_light/.git/hooks/commit-msg.sample",
 		"/D/projects/mosmama_light/markup/components/header/header.js",
+		"/D/projects/mosmama_light/markup/components/menu/menu.js",
+		"/D/projects/mosmama_light/markup/components/list-sub-categories/list-sub-categories.js",
+		"/D/projects/mosmama_light/markup/components/list-sub-categories/list-sub-categories.scss",
+		"/D/projects/mosmama_light/markup/components/menu/menu.scss",
+		"/D/projects/mosmama_light/markup/components/header/header.scss",
+		"/D/projects/mosmama_light/tars/tasks/css/make-sprite.js",
+		"/D/projects/mosmama_light/tars/tasks/html/helpers/jade-helpers.js",
+		"/D/projects/mosmama_light/tars/tasks/images/minify-images.js",
+		"/D/projects/mosmama_light/gulpfile.js",
+		"/D/projects/mosmama_light/markup/components/default_component_scheme.json",
+		"/D/projects/mosmama_light/tars/tars.js",
+		"/D/projects/mosmama_light/webpack.config.js",
+		"/D/projects/mosmama_light/markup/static/scss/common.scss",
 		"/D/projects/mosmama_light/markup/static/scss/GUI.scss",
-		"/D/projects/mosmama_light/markup/components/header-article/header-article.js",
+		"/D/projects/mosmama_light/markup/components/article-block-second/article-block-second.scss",
+		"/D/projects/mosmama_light/markup/components/article-block/article-block.scss",
 		"/D/projects/mosmama_light/markup/components/header/header.jade",
-		"/D/projects/mosmama_light/markup/components/footer/footer.jade",
-		"/D/projects/mosmama_light/markup/components/head/head.jade",
+		"/D/projects/mosmama_light/markup/components/header-article/header-article.scss",
+		"/D/projects/mosmama_light/markup/components/footer/footer.scss",
+		"/D/projects/mosmama_light/markup/components/comments/comments.scss",
+		"/D/projects/mosmama_light/markup/components/breadcrumbs/breadcrumbs.scss",
+		"/D/projects/mosmama_light/markup/components/article-content/article-content.scss",
+		"/D/projects/mosmama_light/markup/components/article-block-third/article-block-third.scss",
+		"/D/projects/mosmama_light/markup/components/social/social.scss",
+		"/D/projects/mosmama_light/markup/components/widget/widget.scss",
+		"/D/projects/mosmama_light/markup/components/article-block/article-block.jade",
+		"/D/projects/mosmama_light/markup/pages/article.jade",
+		"/D/projects/mosmama_light/markup/pages/layout.jade",
+		"/D/projects/mosmama_light/markup/pages/index.jade",
+		"/D/projects/mosmama_light/markup/components/list-sub-categories/list-sub-categories.jade",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/CSScomb/Default.sublime-keymap",
+		"/D/projects/mosmama_light/markup/pages/catalog2.jade",
+		"/D/projects/mosmama_light/markup/components/menu/menu.jade",
+		"/D/Работа/t_drugs.tpl",
+		"/D/Работа/t_drugs_list.tpl",
+		"/D/Работа/medias.css",
+		"/D/Работа/t_drugs_main.tpl",
+		"/D/projects/ozone-fitness/markup/components/_ui/ui.scss",
+		"/D/projects/mosmama_light/markup/static/scss/fonts.scss",
+		"/D/projects/ozone-fitness/markup/components/partners/partners.jade",
+		"/D/projects/ozone-fitness/markup/components/facilities/facilities.jade",
+		"/D/projects/ozone-fitness/markup/components/ezfacility/ezfacility.jade",
+		"/D/projects/ozone-fitness/markup/components/contacts/contacts.jade",
+		"/D/projects/ozone-fitness/markup/components/clubs/clubs.jade",
+		"/D/projects/ozone-fitness/markup/components/atmosphere-select/atmosphere-select.jade",
+		"/D/projects/ozone-fitness/markup/components/about-content/about-content.js",
+		"/D/projects/ozone-fitness/markup/components/about-content/about-content.jade",
+		"/D/projects/ozone-fitness/markup/components/about-club/about-club.jade",
+		"/D/projects/ozone-fitness/markup/components/_ui/_typography.scss",
+		"/D/projects/ozone-fitness/markup/pages/about.jade",
+		"/D/projects/ozone-fitness/markup/pages/club.jade",
+		"/D/projects/ozone-fitness/markup/components/slider/slider.jade",
+		"/D/projects/ozone-fitness/markup/components/parallax/parallax.jade",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/D/projects/ozone-fitness/markup/static/scss/mixins.scss",
+		"/D/projects/mosmama_light/markup/components/header-article/header-article.js",
+		"/D/projects/auto-services/markup/components/menu/menu.js",
+		"/D/Работа/help/help.html",
+		"/C/Users/User/AppData/Local/Temp/_tc/llc-adaptive/js/script.js",
+		"/C/Users/User/AppData/Local/Temp/_tc/flesh/js/script.js",
+		"/C/Users/User/AppData/Local/Temp/_tc/mart-design/js/script.js",
+		"/D/projects/auto-services/markup/components/map/map.js",
+		"/D/projects/vrachmedik/markup/pages/health-a-z.jade",
+		"/D/projects/vrachmedik/markup/pages/index.jade",
+		"/D/projects/vrachmedik/markup/pages/mapsite.jade",
+		"/D/projects/vrachmedik/markup/pages/surveys-analyzes.jade",
+		"/D/projects/vrachmedik/markup/pages/404.jade",
+		"/D/projects/vrachmedik/markup/pages/clinics.jade",
+		"/D/projects/vrachmedik/markup/pages/doctors.jade",
+		"/D/projects/vrachmedik/markup/pages/single.jade",
+		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.jade",
+		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
+		"/D/projects/vrachmedik/markup/components/header/header.jade",
+		"/D/projects/auto-services/markup/components/header/header.jade",
+		"/D/projects/auto-services/markup/components/menu/menu.jade",
 		"/D/projects/auto-services/markup/components/head/head.jade",
+		"/D/projects/auto-services/markup/pages/index.jade",
+		"/D/projects/mosmama_light/markup/static/scss/vars.scss",
+		"/D/projects/mosmama_light/markup/components/header-article/header-article.jade",
+		"/D/projects/mosmama_light/markup/components/footer/footer.jade",
+		"/D/projects/mosmama_light/markup/pages/catalog.jade",
+		"/D/projects/mosmama_light/markup/components/head/head.jade",
 		"/D/projects/auto-services/markup/components/footer/footer.jade",
 		"/D/projects/auto-services/markup/pages/layout.jade",
-		"/D/projects/auto-services/markup/pages/index.jade",
-		"/D/projects/mosmama_light/markup/pages/index.jade",
-		"/D/projects/mosmama_light/markup/components/article-block/article-block.jade",
-		"/D/projects/mosmama_light/markup/pages/catalog2.jade",
 		"/D/projects/mosmama_light/markup/components/article-block/article-block.js",
-		"/D/projects/mosmama_light/markup/static/scss/vars.scss",
-		"/D/projects/mosmama_light/markup/components/list-sub-categories/list-sub-categories.scss",
-		"/D/projects/mosmama_light/markup/components/breadcrumbs/breadcrumbs.scss",
-		"/D/projects/mosmama_light/markup/components/menu/menu.scss",
-		"/D/projects/mosmama_light/markup/components/article-block-second/article-block-second.scss",
-		"/D/projects/mosmama_light/markup/components/comments/comments.scss",
-		"/D/projects/mosmama_light/markup/components/list-sub-categories/list-sub-categories.jade",
-		"/D/projects/mosmama_light/markup/components/header-article/header-article.jade",
-		"/D/projects/mosmama_light/markup/components/footer/footer.scss",
-		"/D/projects/mosmama_light/markup/components/menu/menu.js",
-		"/D/projects/mosmama_light/markup/components/menu/menu.jade",
 		"/D/projects/vrachmedik/markup/components/header/header.scss",
-		"/D/projects/mosmama_light/markup/static/scss/fonts.scss",
-		"/C/Users/User/AppData/Local/Temp/_tc/llc-adaptive/js/script.js",
 		"/D/projects/vrachmedik/markup/components/header/header.js",
-		"/D/projects/ozone-fitness/markup/static/scss/mixins.scss",
 		"/D/projects/vrachmedik/markup/static/scss/mixins.scss",
-		"/D/projects/mosmama_light/tars-config.js",
 		"/D/projects/vrachmedik/tars-config.js",
 		"/D/projects/mosmama_light/markup/components/comments/comments.jade",
 		"/D/projects/mosmama_light/markup/components/comment/comments.scss",
@@ -354,7 +388,6 @@
 		"/D/projects/mosmama_light/markup/components/comment/data/data.js",
 		"/D/projects/vrachmedik/markup/components/single-content/single-content.jade",
 		"/D/projects/vrachmedik/markup/components/single-content/single-content.scss",
-		"/D/projects/vrachmedik/markup/pages/single.jade",
 		"/D/projects/mosmama_light/markup/components/breadcrumbs/breadcrumbs.jade",
 		"/D/projects/mosmama_light/markup/components/social/social.jade",
 		"/D/projects/vrachmedik/markup/components/breadcrumbs/breadcrumbs.scss",
@@ -362,76 +395,23 @@
 		"/D/projects/mosmama_light/markup/components/article-block-second/article-block-second.jade",
 		"/D/projects/mosmama_light/markup/components/article-block-second/article-block-second.js",
 		"/D/projects/mosmama_light/markup/components/widget/widget.jade",
-		"/D/projects/mosmama_light/markup/components/widget/widget.scss",
-		"/D/projects/mosmama_light/markup/components/article-block-third/article-block-third.scss",
 		"/D/projects/mosmama_light/markup/components/article-block-third/article-block-third.jade",
 		"/D/projects/vrachmedik/markup/static/scss/GUI.scss",
 		"/D/projects/vrachmedik/markup/static/scss/common.scss",
-		"/D/projects/vrachmedik/markup/pages/404.jade",
 		"/D/projects/auto-services/markup/components/last-news/last-news.jade",
 		"/D/projects/vrachmedik/markup/pages/layout.jade",
 		"/D/projects/auto-services/markup/components/offer/offer.jade",
-		"/D/projects/auto-services/markup/components/menu/menu.jade",
-		"/D/projects/auto-services/markup/components/header/header.jade",
 		"/D/projects/auto-services/markup/pages/catalog.jade",
 		"/D/projects/auto-services/markup/components/news-item/news-item.jade",
-		"/D/projects/vrachmedik/markup/components/header/header.jade",
 		"/D/projects/vrachmedik/markup/components/article-item/article-item.jade",
 		"/D/projects/mosmama_light/markup/static/scss/mixins.scss",
-		"/D/projects/vrachmedik/markup/pages/index.jade",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.scss",
 		"/D/projects/vrachmedik/markup/components/articles-small-view/articles-small-view.jade",
 		"/D/projects/vrachmedik/markup/components/articles-middle-view/articles-middle-view.jade",
 		"/D/projects/vrachmedik/markup/static/scss/vars.scss",
 		"/D/projects/mosmama_light/markup/pages/_template.jade",
 		"/D/Работа/projects/mosmama_light/templates/webfontkit-20170116-001831/stylesheet.css",
-		"/D/projects/auto-services/markup/components/header/header.scss",
-		"/D/projects/vrachmedik/markup/components/interview/interview.scss",
-		"/D/projects/auto-services/markup/components/map/map.js",
-		"/D/projects/auto-services/markup/components/news-item/data/data.js",
-		"/D/projects/auto-services/markup/components/about-us/about-us.scss",
-		"/D/projects/auto-services/markup/static/scss/common.scss",
-		"/D/projects/auto-services/markup/static/scss/mixins.scss",
-		"/D/projects/vrachmedik/markup/components/article-item/article-item.scss",
-		"/D/Работа/help/help.html",
-		"/D/projects/ozone-fitness/markup/components/timetable/timetable.scss",
-		"/D/projects/ozone-fitness/markup/components/team/data/data.js",
-		"/D/projects/auto-services/markup/components/offer/data/data.js",
-		"/D/projects/auto-services/markup/components/news-item/news-item.scss",
-		"/D/projects/auto-services/markup/components/offer/offer.scss",
-		"/D/projects/ozone-fitness/markup/components/team/team.jade",
-		"/D/projects/auto-services/markup/components/our-offers/our-offers.jade",
-		"/D/projects/auto-services/markup/components/our-offers/our-offers.js",
-		"/D/projects/ozone-fitness/markup/pages/club.jade",
-		"/D/projects/ozone-fitness/markup/pages/member-me.jade",
-		"/D/projects/ozone-fitness/markup/pages/index.jade",
-		"/D/projects/auto-services/markup/components/about-us/about-us.jade",
-		"/D/projects/auto-services/markup/components/about-us/about-us.js",
-		"/D/projects/auto-services/markup/components/offer/offer.js",
-		"/D/projects/ozone-fitness/markup/components/your-app/data/data.js",
-		"/D/projects/auto-services/markup/components/menu/menu.scss",
-		"/D/projects/auto-services/markup/components/our-offers/our-offers.scss",
-		"/D/projects/auto-services/markup/components/menu/menu.js",
-		"/C/Users/User/AppData/Local/Temp/_tc/antishum/js/script.js",
-		"/C/Users/User/AppData/Local/Temp/_tc/mart-design/js/script.js",
-		"/D/projects/auto-services/markup/static/scss/GUI.scss",
-		"/D/projects/auto-services/markup/components/footer/footer.scss",
-		"/D/projects/auto-services/markup/components/last-news/last-news.scss",
-		"/D/projects/auto-services/tars-config.js",
-		"/D/projects/ozone-fitness/tars-config.js",
-		"/D/projects/auto-services/markup/components/social-bar/social-bar.scss",
-		"/D/projects/auto-services/markup/components/map/map.scss",
-		"/D/projects/vrachmedik/markup/components/article-middle-view/article-middle-view.scss",
-		"/D/projects/ozone-fitness/markup/components/slider/slider.js",
-		"/D/projects/ozone-fitness/markup/static/scss/GUI.scss",
-		"/D/projects/ozone-fitness/markup/static/scss/vars.scss",
-		"/D/projects/ozone-fitness/markup/static/scss/common.scss",
-		"/D/projects/ozone-fitness/markup/components/default_component_scheme.json",
-		"/D/projects/ozone-fitness/markup/components/slider/data/data.js",
-		"/D/projects/ozone-fitness/package.json",
-		"/D/projects/auto-services/gulpfile.js",
-		"/D/projects/ozone-fitness/markup/components/slider/slider.jade",
-		"/D/projects/auto-services/node_modules/slick/index.js"
+		"/D/projects/auto-services/markup/components/header/header.scss"
 	],
 	"find":
 	{
@@ -449,6 +429,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"d",
+			"button",
+			"a",
+			"this.",
+			"hide",
+			"data",
+			"index",
+			"+article-middle-view('304x228')",
+			"26px",
 			"294x192",
 			"'294x192'",
 			"'Беременность и роды'",
@@ -567,16 +556,7 @@
 			"margin",
 			"pagination-second",
 			"777",
-			"1",
-			"search-desease-item",
-			"a(href=\"#\" tit)",
-			"a(href=\"#\")",
-			"article-middle-view",
-			"category-item",
-			"pagination",
-			"title",
-			"pagination-item",
-			"li"
+			"1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -594,128 +574,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/projects/mosmama_light/markup/components/menu/menu.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2305,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1747,
-								1747
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1260.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/projects/mosmama_light/markup/pages/article.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1085,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/projects/mosmama_light/markup/components/menu/menu.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								192,
-								192
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/projects/mosmama_light/markup/static/scss/common.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2898,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

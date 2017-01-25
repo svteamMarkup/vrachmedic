@@ -62,3 +62,14 @@ ul li {
 		width: 100%;
 	}
 }
+.overlay {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: transparent;
+	display: none;
+}

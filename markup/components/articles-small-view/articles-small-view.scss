@@ -1,14 +1,15 @@
 .articles-small-view {
 	display: flex;
-	justify-content: space-around;
-	flex-flow: row wrap;
+
 	margin-bottom: 24px;
-	@media screen and(max-width: 760px) {
-		padding: 0 10px;
-		width: auto;
-		margin: auto;
-	}
+
+	flex-flow: row wrap;
+	justify-content: space-around;
 	@media screen and(max-width: 960px) {
 		padding: 0 10px;
+	}
+	@media screen and(max-width: 760px) {
+		width: auto;
+		margin: auto;
 	}
 }

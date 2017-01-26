@@ -1,27 +1,30 @@
 .interview {
+	position: relative;
+
+	overflow: hidden;
+
+	width: 300px;
 	margin-bottom: 44px;
 	padding-bottom: 9px;
-	width: 300px;
-	position: relative;
-	overflow: hidden;
 	@media screen and(max-width: 760px) {
 		width: 100%;
 	}
 	@media screen and(max-width: 480px) {
 		width: 280px;
-	}	
-	.interview__heart-icon {
+	}
+	&__heart-icon {
 		position: absolute;
 		bottom: 16px;
 		left: 163px;
+
 		@include bg($heart);
 		@media screen and(max-width: 760px) {
 			left: 311px;
 		}
 		@media screen and(max-width: 480px) {
 			left: 140px;
-		}				
-	}	
+		}
+	}
 	&__content {
 		width: 183px;
 		margin-left: 18px;
@@ -30,55 +33,64 @@
 		}
 		@media screen and(max-width: 480px) {
 			margin-left: 18px;
-		}		
+		}
 	}
 	&__title {
-		font-size: 21px;
 		margin-left: 30px;
+
+		font-size: 21px;
 	}
 	&__select-options {
 		margin-top: 15px;
 		margin-bottom: 18px;
 	}
 	&._blue {
-		background-color: #e7f6fc;
-		padding: 23px 0 20px 0;
 		margin-top: 47px;
+		padding-top: 23px;
+		padding-bottom: 20px;
+
+		background-color: #e7f6fc;
 	}
 	&._purple {
-		background-color: #fde5e8;
-		padding: 23px 0 20px 0;
 		margin-top: 49px;
 		margin-bottom: 50px;
+		padding-top: 23px;
+		padding-bottom: 20px;
+
+		background-color: #fde5e8;
 	}
-}
-.interview__title._blue {
-	color: $blue;
-	&:before {
-		content: '';
-		position: absolute;
-		left: 13px;
-		@include bg($question);
-		@media screen and(max-width: 760px) {
-			left: 129px;
+	&__title._blue {
+		color: $blue;
+		&:before {
+			position: absolute;
+			left: 13px;
+
+			content: "";
+
+			@include bg($question);
+			@media screen and(max-width: 760px) {
+				left: 129px;
+			}
+			@media screen and(max-width: 480px) {
+				left: 15px;
+			}
 		}
-		@media screen and(max-width: 480px) {
-			left: 15px;
-		}		
 	}
-}
-.interview__title._purple {
-	color: $purple;
-	&:before {
-		content: '';
-		position: absolute;
-		left: 13px;
-		@include bg($question-red);
-		@media screen and(max-width: 760px) {
-			left: 129px;
+	&__title._purple {
+		color: $purple;
+		&:before {
+			position: absolute;
+			left: 13px;
+
+			content: "";
+
+			@include bg($question-red);
+			@media screen and(max-width: 760px) {
+				left: 129px;
+			}
+			@media screen and(max-width: 480px) {
+				left: 15px;
+			}
 		}
-		@media screen and(max-width: 480px) {
-			left: 15px;
-		}		
-	}	
+	}
 }

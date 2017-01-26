@@ -1,26 +1,35 @@
 .category-item {
 	position: relative;
-	padding-left: 15px;
-	@include transition;
+
 	display: block;
+
 	margin-bottom: 5px;
+	padding-left: 15px;
+
+	@include transition;
 	&:hover {
 		text-decoration: none;
 	}
 	&:before {
-		content: '';
-		height: 7px;
-		width: 7px;
-		border-radius: 50%;
-		background-color: #ef5363;
 		position: absolute;
 		top: 5px;
 		left: 0;
+
+		width: 7px;
+		height: 7px;
+
+		content: "";
+
+		border-radius: 50%;
+		background-color: #ef5363;
 	}
 	a {
-		color: #00a3dd;
 		text-decoration: none;
+
+		color: #00a3dd;
 		border-bottom: 1px solid #89d0ee;
+
+		@include transition;
 		&:hover {
 			border-color: #00a3dd;
 		}

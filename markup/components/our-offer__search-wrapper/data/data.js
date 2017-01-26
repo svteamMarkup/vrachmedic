@@ -1,1 +1,0 @@
-var data = {our-offer__search-wrapper: {}}

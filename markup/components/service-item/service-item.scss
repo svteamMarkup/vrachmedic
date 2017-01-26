@@ -1,68 +1,96 @@
-.service-item {
-	width: 300px;
-	padding: 16px 0;
-	position: relative;
-	border-bottom: 1px solid #ddd;
-	background-color: #f7f7f7;
-	@media screen and(max-width: 760px) {
-		width: auto;
-	}
-	@media screen and(max-width: 480px) {
-		width: 280px;
-	}
-	&__content {
-		width: 233px;
-		margin: auto;
-	}	
-	&__link {
-	    color: $blue;
-	    display: block;
-	    font-size: 18px;
-	    text-decoration: none;
-	    letter-spacing: -0.1px;
-	    border-bottom: 1px solid $light-blue;
-	    display: inline-block;
-	    margin-left: 58px;
-	    @include transition;
-		&:hover {
-			border-bottom: 1px solid $blue;
-		}	    
-	}
-	&__description {
-		font-size: 14px;
-		color: #666;
-		line-height: 21px;
-		margin-left: 58px;
-	}
-	&:before {
-		content: '';
-		position: absolute;
-		left: 20px;
-		@media screen and(max-width: 760px) {
-			left: 107px;
-		}
-		@media screen and(max-width: 480px) {
-			left: 22px;
-		}		
-	}
-	&._check-symptom  {
-		&:before {
-			@include bg($check-symptom);
-		}
-	}
-	&._transcript-analyzes  {
-		&:before {
-			@include bg($transcript-analyzes);		
-		}
-	}
-	&._tests  {
-		&:before {
-			@include bg($tests);		
-		}
-	}
-	&._cardio-risk  {
-		&:before {
-			@include bg($cardio-risk);		
-		}
-	}			
+.service-item
+{
+    position: relative;
+
+    width: 300px;
+    padding: 16px 0;
+
+    border-bottom: 1px solid #ddd;
+    background-color: #f7f7f7;
+    @media screen and(max-width: 760px)
+    {
+        width: auto;
+    }
+    @media screen and(max-width: 480px)
+    {
+        width: 280px;
+    }
+    &:before
+    {
+        position: absolute;
+        left: 20px;
+
+        content: '';
+        @media screen and(max-width: 760px)
+        {
+            left: 107px;
+        }
+        @media screen and(max-width: 480px)
+        {
+            left: 22px;
+        }
+    }
+    &._check-symptom
+    {
+        &:before
+        {
+            @include bg($check-symptom);
+        }
+    }
+    &._transcript-analyzes
+    {
+        &:before
+        {
+            @include bg($transcript-analyzes);
+        }
+    }
+    &._tests
+    {
+        &:before
+        {
+            @include bg($tests);
+        }
+    }
+    &._cardio-risk
+    {
+        &:before
+        {
+            @include bg($cardio-risk);
+        }
+    }
+    &__content
+    {
+        width: 233px;
+        margin: auto;
+    }
+    &__link
+    {
+        font-size: 18px;
+
+        display: block;
+        display: inline-block;
+
+        margin-left: 58px;
+
+        text-decoration: none;
+        letter-spacing: -.1px;
+
+        color: $blue;
+        border-bottom: 1px solid $light-blue;
+
+        @include transition;
+        &:hover
+        {
+            border-bottom: 1px solid $blue;
+        }
+    }
+    &__description
+    {
+        font-size: 14px;
+        line-height: 21px;
+
+        margin-left: 58px;
+
+        color: #666;
+    }
 }

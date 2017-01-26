@@ -1,92 +1,132 @@
-.social-share {
-	display: flex;
-	justify-content: space-between;
-	border: 5px solid #d4d6d7;
-	padding: 30px 22px 34px 11px;
-	background-color: #fcfcfc;
-	margin-bottom: 48px;
-	@media screen and(max-width: 960px) {
-		margin: 0 10px 20px 10px;
-	}	
-	@media screen and(max-width: 760px) {
-		display: block;
-		padding-top: 22px;
-		padding-bottom: 22px;
-		&__left {
-			margin-bottom: 10px;
-		}
-		&__right {
-			margin: auto;
-			display: table;
-		}		
-	}
-	&__title {
-		font-size: 20px;
-		color: $dark-blue;
-		position: relative;
-		margin-bottom: 14px;
-		&._icon {
-			padding-left: 30px;
-			@media screen and(max-width: 760px) {
-				text-align: center;
-			}
-			&:before {
-				content: '';
-				position: absolute;
-				top: 0;
-				left: 0;
-				height: 23px;
-				width: 21px;
-				@include bg($social-share-icon);
-				@media screen and(max-width: 760px) {
-					left: 34px;
-				}
-			}
-		}
-	}
-	&__bar {
-		width: 549px;
-		display: flex;
-		justify-content: space-between;
-		@media screen and(max-width: 760px) {
-			display: block;
-			width: 100%;
-		}
-		.button-second._print {
-			padding: 11px 18px 11px 36px;
-			@media screen and(max-width: 760px) {
-				margin: auto;
-				display: table;
-			}
-		}
-		@media screen and(max-width: 760px) {
-			img {
-				width: 100%;
-				height: auto;
-				margin-bottom: 10px;
-			}
-		}
-	}
-	&__right {
-		.button-second._dislike {
-			height: 34px;
-			width: 34px;
-		}
-		.button-second._like {
-			height: 34px;
-			width: 34px;
-		}
-	}
-	&__counts-wrapper {
-		display: flex;
-		justify-content: space-between;
-		width: 128px;
-	}
-	&__counts {
-		font-size: 24px;
-		color: $green;
-		display: inline-block;
-		vertical-align: top;
-		padding-top: 8px;
-	}
+.social-share
+{
+    display: flex;
+
+    margin-bottom: 48px;
+    padding: 30px 22px 34px 11px;
+
+    border: 5px solid #d4d6d7;
+    background-color: #fcfcfc;
+
+    justify-content: space-between;
+    @media screen and(max-width: 960px)
+    {
+        margin: 0 10px 20px;
+    }
+    @media screen and(max-width: 760px)
+    {
+        display: block;
+
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+    &__left
+    {
+        @media screen and(max-width: 760px)
+        {
+            margin-bottom: 10px;
+        }
+    }
+    &__right
+    {
+        @media screen and(max-width: 760px)
+        {
+            display: table;
+
+            margin: auto;
+        }
+    }
+    &__title
+    {
+        font-size: 20px;
+
+        position: relative;
+
+        margin-bottom: 14px;
+
+        color: $dark-blue;
+        &._icon
+        {
+            padding-left: 30px;
+            @media screen and(max-width: 760px)
+            {
+                text-align: center;
+            }
+            &:before
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                content: '';
+
+                @include bg($social-share-icon);
+                @media screen and(max-width: 760px)
+                {
+                    left: 34px;
+                }
+            }
+        }
+    }
+    &__bar
+    {
+        display: flex;
+
+        width: 549px;
+
+        justify-content: space-between;
+        @media screen and(max-width: 760px)
+        {
+            display: block;
+
+            width: 100%;
+        }
+        .button-second._print
+        {
+            padding: 11px 18px 11px 36px;
+            @media screen and(max-width: 760px)
+            {
+                display: table;
+
+                margin: auto;
+            }
+        }
+        img
+        {
+            @media screen and(max-width: 760px)
+            {
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__right
+    {
+        .button-second
+        {
+            width: 34px;
+            height: 34px;
+        }
+    }
+    &__counts-wrapper
+    {
+        display: flex;
+
+        width: 128px;
+
+        justify-content: space-between;
+    }
+    &__counts
+    {
+        font-size: 24px;
+
+        display: inline-block;
+
+        padding-top: 8px;
+
+        vertical-align: top;
+
+        color: $green;
+    }
 }

@@ -1,104 +1,123 @@
-.pagination-second {
-	display: flex;
-	justify-content: space-between;
-	/* align-items: center; */
-	padding: 0;
-	margin: 0;
-	border-bottom: 4px solid #f7f7f7;
-	margin-bottom: 95px;
-	@media screen and(max-width: 960px) {
-		margin: 0 auto 32px auto;
-		padding: 0 10px;
-	}
-	@media screen and(max-width: 760px) {
-		width: auto;
-    	margin: 0 auto 32px auto;
-    	padding: 0 10px;
-	}
-	@media screen and(max-width: 480px) {
-		width: 280px;
-    	margin: 0 auto 32px auto;
-    	padding: 0;
-	}	
-	&__wrapper-items {
-		width: 691px;
-		display: flex;
-		justify-content: space-between;
-		@media screen and(max-width: 960px) {
-			overflow: hidden;
-		}
-		@media screen and(max-width: 760px) {
-			width: 100%;
-			overflow: hidden;
-		}
-		@media screen and(max-width: 480px) {
-			width: 213px;
-			overflow: hidden;
-		}		
-	}
-	&__item {
-		font-size: 22px;
-		font-weight: bold;
-		text-align: center;
-		a{
-			color: $silver;
-			text-decoration: none;
-			display: block;
-			padding: 0 31px;
-			&:hover {
-				color: $dark-blue;
-				border-bottom: 4px solid #0089b5;
-				padding-bottom: 4px;				
-			}
-			@media screen and(max-width: 1200px) {
-				padding: 0 15px;
-			}			
-			@media screen and(max-width: 960px) {
-				padding: 0 10px;
-			}			
-			@media screen and(max-width: 760px) {
-				padding: 0 10px;
-			}
-		}
-		&._current-item {
-			a {
-				color: $dark-blue;
-				border-bottom: 4px solid #0089b5;
-				padding-bottom: 4px;
-			}
-		}
-	}
-	&__goto {
-		text-align: center;
-		a {
-			text-decoration: none;
-			background-color: #ededed;
-			color: $light-silver;
-			padding: 7px 13px 7px 11px;
-			@include transition;
-			&:hover {
-				background: darken(#ededed, 2%);
-			}
-			@media screen and(max-width: 960px) {
-				line-height: 30px;
-				padding: 7px 0;
-			}			
-			@media screen and(max-width: 760px) {
-				line-height: 30px;
-				padding: 7px 0;
-			}
-		}
-		@media screen and(max-width: 960px) {
-			overflow: hidden;
-			text-overflow: ellipsis;
-			width: 64px;
-    		background-color: #ededed;
-		}		
-		@media screen and(max-width: 760px) {
-			overflow: hidden;
-			text-overflow: ellipsis;
-			width: 64px;
-    		background-color: #ededed;
-		}
-	}
+.pagination-second
+{
+    display: flex;
+
+    margin: 0;
+    margin-bottom: 95px;
+    padding: 0;
+
+    border-bottom: 4px solid #f7f7f7;
+
+    justify-content: space-between;
+    @media screen and(max-width: 960px)
+    {
+        margin: 0 auto 32px;
+        padding: 0 10px;
+    }
+    @media screen and(max-width: 760px)
+    {
+        width: auto;
+    }
+    @media screen and(max-width: 480px)
+    {
+        width: 280px;
+        padding: 0;
+    }
+    &__wrapper-items
+    {
+        display: flex;
+
+        width: 691px;
+
+        justify-content: space-between;
+        @media screen and(max-width: 960px)
+        {
+            overflow: hidden;
+        }
+        @media screen and(max-width: 760px)
+        {
+            width: 100%;
+        }
+        @media screen and(max-width: 480px)
+        {
+            width: 213px;
+        }
+    }
+    &__item
+    {
+        font-size: 22px;
+        font-weight: bold;
+
+        text-align: center;
+        a
+        {
+            display: block;
+
+            padding: 0 31px;
+
+            text-decoration: none;
+
+            color: $silver;
+            @media screen and(max-width: 1200px)
+            {
+                padding: 0 15px;
+            }
+            @media screen and(max-width: 960px)
+            {
+                padding: 0 10px;
+            }
+            &:hover
+            {
+                padding-bottom: 4px;
+
+                color: $dark-blue;
+                border-bottom: 4px solid #0089b5;
+            }
+        }
+        &._current-item
+        {
+            a
+            {
+                padding-bottom: 4px;
+
+                color: $dark-blue;
+                border-bottom: 4px solid #0089b5;
+            }
+        }
+    }
+    &__goto
+    {
+        text-align: center;
+        a
+        {
+            padding: 7px 13px 7px 11px;
+
+            text-decoration: none;
+
+            color: $light-silver;
+            background-color: #ededed;
+
+            @include transition;
+            @media screen and(max-width: 960px)
+            {
+                line-height: 30px;
+
+                padding: 7px 0;
+            }
+            &:hover
+            {
+                background: darken(#ededed, 2%);
+            }
+        }
+        @media screen and(max-width: 960px)
+        {
+            overflow: hidden;
+
+            width: 64px;
+
+            text-overflow: ellipsis;
+
+            background-color: #ededed;
+        }
+    }
 }

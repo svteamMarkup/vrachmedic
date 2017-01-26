@@ -1,21 +1,30 @@
-.recommend-read {
-	width: auto;
-	position: relative;
-	.main-title {
-		padding: 11px 0 11px 17px;
-		background-color: #eaeaea;
-		@media screen and(max-width: 760px){
-			text-align: center;
-		}
-		@media screen and(max-width: 480px){
-			text-align: left;
-		}
-	}
-	.main-title:after {
-		content: '';
-		right: 6px;
-		top: 6px;
-		position: absolute;
-		@include bg($recommend-read);
-	}
+.recommend-read
+{
+    position: relative;
+
+    width: auto;
+    .main-title
+    {
+        padding: 11px 0 11px 17px;
+
+        background-color: #eaeaea;
+        @media screen and(max-width: 760px)
+        {
+            text-align: center;
+        }
+        @media screen and(max-width: 480px)
+        {
+            text-align: left;
+        }
+        &:after
+        {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+
+            content: '';
+
+            @include bg($recommend-read);
+        }
+    }
 }

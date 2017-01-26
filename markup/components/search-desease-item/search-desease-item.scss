@@ -1,21 +1,26 @@
-.search-desease-item {
-	font-size: 17px;
-	display: block;
-	margin-bottom: 6px;
-	@media screen and(max-width: 760px) {
-		text-align: center;
-	}
-	&:hover {
-		border-bottom: none;
-	}
-	a {
-		color: $dark-blue;
-		border-bottom: 1px solid $blue;
-		text-decoration: none;
-		@include transition;
-		&:hover {
-			border-color: $red;
-			color: $blue;
-		}
-	}
+.search-desease-item
+{
+    font-size: 17px;
+
+    display: block;
+
+    margin-bottom: 6px;
+    @media screen and(max-width: 760px)
+    {
+        text-align: center;
+    }
+    a
+    {
+        text-decoration: none;
+
+        color: $dark-blue;
+        border-bottom: 1px solid $blue;
+
+        @include transition;
+        &:hover
+        {
+            color: $blue;
+            border-color: $red;
+        }
+    }
 }

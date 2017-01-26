@@ -1,57 +1,81 @@
-.last-articles {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 59px;
-	@media screen and (max-width: 1200px) {
-		margin-bottom: 27px;
-	}
-	@media screen and (max-width: 960px) {
-		margin: 0 auto 20px;
-	}	
-	@media screen and (max-width: 760px) {
-		flex-wrap: wrap;
-		margin: 0 auto 20px;
-	}
-	&__column {
-		width: 470px;
-		display: flex;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		@media screen and (max-width: 1200px) {
-			&:first-child {
-				width: 41%;
-			}
-			&:last-child {
-				width: 59%;
-			}
-		}		
-		@media screen and (max-width: 1025px) {
-			&:first-child {
-				width: 34%;
-			}
-			&:last-child {
-				width: 66%;
-			}			
-		}
-		@media screen and (max-width: 960px) {
-			flex-wrap: wrap;
-			width: auto;
-			&:first-child {
-				width: 40%;
-			}
-			&:last-child {
-				width: 60%;
-			}			
-		}		
-		@media screen and (max-width: 760px) {
-			flex-wrap: wrap;
-			width: 100%;
-			&:first-child {
-				width: 100%;
-			}
-			&:last-child {
-				width: 100%;
-			}
-		}		
-	}
+.last-articles
+{
+    display: flex;
+
+    margin-bottom: 59px;
+
+    justify-content: space-between;
+    @media screen and (max-width: 1200px)
+    {
+        margin-bottom: 27px;
+    }
+    @media screen and (max-width: 960px)
+    {
+        margin: 0 auto 20px;
+    }
+    @media screen and (max-width: 760px)
+    {
+        margin: 0 auto 20px;
+
+        flex-wrap: wrap;
+    }
+    &__column
+    {
+        display: flex;
+
+        width: 470px;
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media screen and (max-width: 1200px)
+        {
+            &:first-child
+            {
+                width: 41%;
+            }
+            &:last-child
+            {
+                width: 59%;
+            }
+        }
+        @media screen and (max-width: 1025px)
+        {
+            &:first-child
+            {
+                width: 34%;
+            }
+            &:last-child
+            {
+                width: 66%;
+            }
+        }
+        @media screen and (max-width: 960px)
+        {
+            width: auto;
+
+            flex-wrap: wrap;
+            &:first-child
+            {
+                width: 40%;
+            }
+            &:last-child
+            {
+                width: 60%;
+            }
+        }
+        @media screen and (max-width: 760px)
+        {
+            width: 100%;
+
+            flex-wrap: wrap;
+            &:first-child
+            {
+                width: 100%;
+            }
+            &:last-child
+            {
+                width: 100%;
+            }
+        }
+    }
 }

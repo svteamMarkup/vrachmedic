@@ -1,100 +1,134 @@
-.single-content {
-	p {
-		font-size: 18px;
-		color: $light-black;
-		@media screen and(max-width: 480px) {
-			font-size: $default-font-size;
-		}	
-	}
-	h3 {
-		font-size: 24px;
-		color: $dark-blue;
-		margin-bottom: 10px;
-	}
-	@media screen and(max-width: 960px) {
-		padding: 0 10px;
-	}
-	@media screen and(max-width: 760px) {
-		img {
-			width: 100%;
-			height: auto;
-		}
-	}
-	ul li {
-		margin-bottom: 6px;
-	}
-	ol li {
-		margin-bottom: 14px;
-	}	
-	.social-block {
-		border: 5px solid $silver;
-		img {
-			display: block;
-		}
-	}
-	.articles-small-view {
-		border-bottom: 1px dashed #c7c7c7;
-		margin-bottom: 43px;
-	}
-	@media screen and(max-width: 760px) {
-		padding: 0 10px;
-	}
-}
+.single-content
+{
+    @media screen and(max-width: 960px)
+    {
+        padding: 0 10px;
+    }
+    p
+    {
+        font-size: 18px;
 
+        color: $light-black;
+        @media screen and(max-width: 480px)
+        {
+            font-size: $default-font-size;
+        }
+    }
+    h3
+    {
+        font-size: 24px;
+
+        margin-bottom: 10px;
+
+        color: $dark-blue;
+    }
+    img
+    {
+        @media screen and(max-width: 760px)
+        {
+            width: 100%;
+            height: auto;
+        }
+    }
+    ul li
+    {
+        margin-bottom: 6px;
+    }
+    ol li
+    {
+        margin-bottom: 14px;
+    }
+    .social-block
+    {
+        border: 5px solid $silver;
+        img
+        {
+            display: block;
+        }
+    }
+}
 .purple-marker,
-.blue-marker {
-	padding-left: 16px;
-	li {
-		position: relative;
-		padding-left: 16px;
-	}
-}	
-.purple-marker li:before {
-	content: '';
-	height: 8px;
-	width: 8px;
-	border-radius: 50%;
-	background-color: $purple;
-	position: absolute;
-	top: 5px;
-	left: 0;
+.blue-marker
+{
+    padding-left: 16px;
+    li
+    {
+        position: relative;
+
+        padding-left: 16px;
+        &:before
+        {
+            position: absolute;
+            top: 5px;
+            left: 0;
+
+            width: 8px;
+            height: 8px;
+
+            content: '';
+
+            border-radius: 50%;
+        }
+    }
 }
-.blue-marker li:before {
-	content: '';
-	height: 8px;
-	width: 8px;
-	border-radius: 50%;
-	background-color: $blue;
-	position: absolute;
-	top: 5px;
-	left: 0;
+.purple-marker li
+{
+    &:before
+    {
+        background-color: $purple;
+    }
 }
-.number-marker {
-	counter-reset: point; /* задаем переменную для счетчика */
-	list-style: none;
-	padding: 0;
-	li {
-		position: relative;
-		padding-left: 33px;
-		&:before {
-			content: counter(point); /* выводим значение переменной */
-			counter-increment: point 1; /* увеличваем счетчик на 1 */
-			position: absolute;
-			left: 0;
-			top: -5px;
-			height: 23px;
-			width: 23px;
-			color: $dark-blue;
-			border: 1px solid $blue;
-			border-radius: 50%;
-			text-align: center;
-			line-height: 25px;
-		}
-	}
-	&._blue li:before {
-		color: $blue;
-	}
-	&._dark-blue li:before {
-		color: $dark-blue;
-	}		
+.blue-marker li
+{
+    &:before
+    {
+        background-color: $blue;
+    }
+}
+.number-marker
+{
+    padding: 0;
+
+    list-style: none;
+
+    counter-reset: point; /* задаем переменную для счетчика */
+    li
+    {
+        position: relative;
+
+        padding-left: 33px;
+        &:before
+        {
+            line-height: 25px;
+
+            position: absolute;
+            top: -5px;
+            left: 0;
+
+            width: 23px;
+            height: 23px;
+
+            content: counter(point); /* выводим значение переменной */
+            counter-increment: point 1; /* увеличваем счетчик на 1 */
+            text-align: center;
+
+            color: $dark-blue;
+            border: 1px solid $blue;
+            border-radius: 50%;
+        }
+    }
+    &._blue li
+    {
+        &:before
+        {
+            color: $blue;
+        }
+    }
+    &._dark-blue li
+    {
+        &:before
+        {
+            color: $dark-blue;
+        }
+    }
 }

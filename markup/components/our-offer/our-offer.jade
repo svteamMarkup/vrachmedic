@@ -1,12 +1,17 @@
 mixin our-offer(data)
-	.our-offer
-		.our-offer__title Ищите врача?
-		.our-offer-search
-			.our-offer-search__title Ищите врача?
-			form.our-offer-search__form
-				select.input-form
-					option Седьмая улица
-					option Седьмая улица
-				select.input-form
-					option Седьмая улица
-					option Седьмая улица					
+	- var modiffer = attributes.class || ''
+	.our-offer(class="#{modiffer}")
+		.our-offer__inner
+			.our-offer__title Нужен хороший врач?
+			.our-offer-search
+				.our-offer-search__title Поиск врача
+				form.our-offer-search__form
+					select.input-form
+						option Выберите направление
+						option(value="") Седьмая улица
+						option(value="") Седьмая улица
+					select.input-form
+						option Выберите метро
+						option(value="") Седьмая улица
+						option(value="") Седьмая улица					
+					input(type="submit" value="Найти").button.our-offer-search__button

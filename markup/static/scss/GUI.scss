@@ -9,6 +9,7 @@
 	&._light-blue {
 		background: linear-gradient(to bottom,  #6db3ed 0%,#55a1df 100%);
 		border-radius: 8px;
+		color: $white;
 		&:hover {
 			background: linear-gradient(to bottom,  #55a1df 0%,#6db3ed 100%);
 		}

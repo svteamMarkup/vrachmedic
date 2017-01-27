@@ -140,10 +140,7 @@
 		display: block;
 	}
 	@media screen and(max-width: 480px) {
-		margin: auto;
-		width: 280px;
-		/* padding: 0 10px; */
-		display: block;
+		width: 100%;
 	}
 	&__recommend-read {
 		margin-bottom: 49px;
@@ -187,6 +184,9 @@
 	margin-bottom: 11px;
 	&__label {
 		margin-left: 15px;
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}
 	}
 }
 .checkbox-block {

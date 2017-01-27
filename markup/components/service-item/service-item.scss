@@ -13,7 +13,7 @@
     }
     @media screen and(max-width: 480px)
     {
-        width: 280px;
+        width: 100%;
     }
     &:before
     {
@@ -79,6 +79,9 @@
         border-bottom: 1px solid $light-blue;
 
         @include transition;
+        @media screen and(max-width: 480px) {
+            font-size: 21px;
+        }
         &:hover
         {
             border-bottom: 1px solid $blue;
@@ -92,5 +95,8 @@
         margin-left: 58px;
 
         color: #666;
+        @media screen and(max-width: 480px) {
+            font-size: 16px;
+        }
     }
 }

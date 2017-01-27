@@ -12,6 +12,10 @@
 		padding-left: 50px;
 
 		font-style: italic;
+		line-height: 26px;
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}
 		&:before {
 			position: absolute;
 			top: 0;

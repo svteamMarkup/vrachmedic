@@ -5,7 +5,7 @@ mixin our-offer(data)
 			.our-offer__title Нужен хороший врач?
 			.our-offer-search
 				.our-offer-search__title Поиск врача
-				form.our-offer-search__form
+				form(method="GET" action="").our-offer-search__form
 					select.input-form
 						option Выберите направление
 						option(value="") Седьмая улица

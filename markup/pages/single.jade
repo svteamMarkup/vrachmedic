@@ -1,7 +1,6 @@
 extends ./layout.jade
 block content
 	+breadcrumbs
-	h1.title-page Статья
 	+single-content
 	+comment
 	+comment
@@ -26,6 +25,8 @@ block sidebar
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
 	.sidebar__our-offer
+		+our-offer._small._doctor
+		+our-offer._small._clinic
 	+interview._blue
 	.sidebar__services
 		+services

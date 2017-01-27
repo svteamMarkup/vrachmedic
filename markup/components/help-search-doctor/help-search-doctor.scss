@@ -17,6 +17,10 @@
 		}
 		p {
 			margin-bottom: 22px;
+			@media screen and(max-width: 480px) {
+				font-size: 17px;
+				line-height: 26px;
+			}
 		}
 	}
 	.main-title {

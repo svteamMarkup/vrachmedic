@@ -43,6 +43,9 @@
         border-bottom: 1px solid $light-blue;
 
         @include transition;
+        @media screen and(max-width: 480px) {
+            font-size: 17px;
+        }
         &:hover
         {
             border-bottom: 1px solid $blue;

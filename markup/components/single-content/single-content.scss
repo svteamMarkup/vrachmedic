@@ -4,23 +4,38 @@
     {
         padding: 0 10px;
     }
+    h1 {
+        font-size: 38px;
+        color: $dark-blue;
+        margin-bottom: 3px;
+        @media screen and(max-width: 480px) {
+            font-size: 22px;
+            line-height: 34px;
+        }
+    }
     p
     {
         font-size: 18px;
 
         color: $light-black;
+        line-height: 26px;
         @media screen and(max-width: 480px)
         {
-            font-size: $default-font-size;
+            font-size: 17px;
         }
     }
-    h3
+    h2
     {
         font-size: 24px;
 
         margin-bottom: 10px;
 
         color: $dark-blue;
+        @media screen and(max-width: 480px) {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 36px;
+        }        
     }
     img
     {
@@ -30,13 +45,23 @@
             height: auto;
         }
     }
-    ul li
-    {
-        margin-bottom: 6px;
+    li {
+        @media screen and(max-width: 480px) {
+            font-size: 17px;
+            line-height: 26px;
+        }
     }
-    ol li
+    ul
     {
-        margin-bottom: 14px;
+        li {
+            margin-bottom: 6px;
+        }
+    }
+    ol 
+    {
+        li {
+            margin-bottom: 14px;
+        }
     }
     .social-block
     {

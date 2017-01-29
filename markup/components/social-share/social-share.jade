@@ -2,12 +2,12 @@ mixin social-share(data)
 	.social-share
 		.social-share__left
 			.social-share__title._icon Расскажите друзьям:
-			.social-share__bar
+			.social-share-bar
 				img(src="%=static=%images/content/social-bar.png" alt="")
-				a(href="javascript:window.print()" title="").button-second._print Распечатать
+				a(href="javascript:window.print()" title="").social-share-bar__print Распечатать
 		.social-share__right
 			.social-share__title Оцените статью!
-			.social-share__counts-wrapper
-				a(href="#" title="").button-second._dislike
-				.social-share__counts 156
-				a(href="#" title="").button-second._like
+			.social-share-counts
+				a(href="#" title="").social-share-counts__vote._dislike
+				.social-share-counts__all 156
+				a(href="#" title="").social-share-counts__vote._like

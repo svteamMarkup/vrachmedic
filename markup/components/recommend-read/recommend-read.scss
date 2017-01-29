@@ -3,11 +3,17 @@
     position: relative;
 
     width: auto;
-    .main-title
+    &__title
     {
+        font-weight: bold;
+
         padding: 11px 0 11px 17px;
 
+        text-transform: uppercase;
+
         background-color: #eaeaea;
+
+        @extend .main-title;
         @media screen and(max-width: 760px)
         {
             text-align: center;

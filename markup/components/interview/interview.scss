@@ -1,96 +1,111 @@
-.interview {
-	position: relative;
+.interview
+{
+    position: relative;
 
-	overflow: hidden;
+    overflow: hidden;
 
-	width: 300px;
-	margin-bottom: 44px;
-	padding-bottom: 9px;
-	@media screen and(max-width: 760px) {
-		width: 100%;
-	}
-	@media screen and(max-width: 480px) {
-		width: 100%;
-	}
-	&__heart-icon {
-		position: absolute;
-		bottom: 16px;
-		left: 163px;
+    width: 300px;
+    margin-bottom: 44px;
+    padding-bottom: 9px;
+    @media screen and(max-width: 760px)
+    {
+        width: 100%;
+    }
+    @media screen and(max-width: 480px)
+    {
+        width: 100%;
+    }
+    &._blue
+    {
+        margin-top: 47px;
+        padding-top: 23px;
+        padding-bottom: 20px;
 
-		@include bg($heart);
-		@media screen and(max-width: 760px) {
-			left: 311px;
-		}
-		@media screen and(max-width: 480px) {
-			left: 140px;
-		}
-	}
-	&__content {
-		width: 183px;
-		margin-left: 18px;
-		@media screen and(max-width: 760px) {
-			margin: auto;
-		}
-		@media screen and(max-width: 480px) {
-			margin-left: 18px;
-		}
-	}
-	&__title {
-		margin-left: 30px;
+        background-color: #e7f6fc;
+    }
+    &._purple
+    {
+        margin-top: 49px;
+        margin-bottom: 50px;
+        padding-top: 23px;
+        padding-bottom: 20px;
 
-		font-size: 21px;
-	}
-	&__select-options {
-		margin-top: 15px;
-		margin-bottom: 18px;
-	}
-	&._blue {
-		margin-top: 47px;
-		padding-top: 23px;
-		padding-bottom: 20px;
+        background-color: #fde5e8;
+    }
+    &__heart-icon
+    {
+        position: absolute;
+        bottom: 16px;
+        left: 163px;
 
-		background-color: #e7f6fc;
-	}
-	&._purple {
-		margin-top: 49px;
-		margin-bottom: 50px;
-		padding-top: 23px;
-		padding-bottom: 20px;
+        @include bg($heart);
+        @media screen and(max-width: 760px)
+        {
+            left: 311px;
+        }
+        @media screen and(max-width: 480px)
+        {
+            left: 140px;
+        }
+    }
+    &__content
+    {
+        width: 183px;
+        margin-left: 18px;
+        @media screen and(max-width: 760px)
+        {
+            margin: auto;
+        }
+        @media screen and(max-width: 480px)
+        {
+            margin-left: 18px;
+        }
+    }
+    &__select-options
+    {
+        margin-top: 15px;
+        margin-bottom: 18px;
+    }
+    &__title
+    {
+        font-size: 21px;
+        font-weight: bold;
 
-		background-color: #fde5e8;
-	}
-	&__title._blue {
-		color: $blue;
-		&:before {
-			position: absolute;
-			left: 13px;
+        margin-left: 30px;
+        &:before
+        {
+            position: absolute;
+            left: 13px;
 
-			content: "";
-
-			@include bg($question);
-			@media screen and(max-width: 760px) {
-				left: 129px;
-			}
-			@media screen and(max-width: 480px) {
-				left: 15px;
-			}
-		}
-	}
-	&__title._purple {
-		color: $purple;
-		&:before {
-			position: absolute;
-			left: 13px;
-
-			content: "";
-
-			@include bg($question-red);
-			@media screen and(max-width: 760px) {
-				left: 129px;
-			}
-			@media screen and(max-width: 480px) {
-				left: 15px;
-			}
-		}
-	}
+            content: '';
+            @media screen and(max-width: 760px)
+            {
+                left: 129px;
+            }
+            @media screen and(max-width: 480px)
+            {
+                left: 15px;
+            }
+        }
+        &._blue
+        {
+            color: $blue;
+            &:before
+            {
+                @include bg($question);
+            }
+        }
+        &._purple
+        {
+            color: $purple;
+            &:before
+            {
+                @include bg($question-red);
+            }
+        }
+    }
+    &__button
+    {
+        @extend ._big;
+    }
 }

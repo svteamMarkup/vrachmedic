@@ -1,295 +1,171 @@
-// GUI stylies of the project
-// For example, styles of the links, buttons and so on.
-.button {
-	display: inline-block;
-	color: $white;
-	cursor: pointer;
-	text-decoration: none;
-	@include transition;
-	&._light-blue {
-		background: linear-gradient(to bottom,  #6db3ed 0%,#55a1df 100%);
-		border-radius: 8px;
-		color: $white;
-		&:hover {
-			background: linear-gradient(to bottom,  #55a1df 0%,#6db3ed 100%);
-		}
-	}
-	&._middle {
-		padding: 7px 25px;
-	}
-	&._blue {
-		background-color: #0089b5;
-		border-radius: 4px;
-		&:hover {
-			background-color: lighten(#0089b5, 2%);
-		}
-	}
-	&._purple {
-		background-color: $purple;
-		border-radius: 4px;
-		&:hover {
-			background-color: lighten($purple, 2%);
-		}
-	}
-	&._big {
-		padding: 10px 50px;
-	}
-}
-.button-second {
-	display: inline-block;
-	color: $dark-blue;
-	cursor: pointer;
-	box-shadow: 0 0 7px 0 rgba(0,0,0,.14);
-	&:hover {
-		@include opacity;
-	}
-	&._print {
-		text-decoration: none;
-		position: relative;
-		&:before {
-			content: '';
-			position: absolute;
-			top: 12px;
-			left: 11px;
-			height: 23px;
-			width: 21px;
-			@include bg($print);
-		}
-	}
-	&._dislike {
-		position: relative;
-		&:before {
-			height: 17px;
-			width: 17px;
-			content: '';
-			position: absolute;
-			top: 10px;
-			left: 9px;
-			@include bg($dislike);
-		}	
-	}
-	&._like {
-		position: relative;
-		&:before {
-			height: 17px;
-			width: 17px;
-			content: '';
-			position: absolute;
-			top: 8px;
-			left: 9px;
-			@include bg($like);
-		}			
-	}
-}
-.main-title {
-	color: $dark-blue;
-}
-.main-title2 {
-	color: $blue;
-}
-._middle-title {
-	font-size: 21px;
-}
-._big-title {
-	font-size: 38px;
-}
-._bold {
-	font-weight: bold;
-}
-._uppercase {
-	text-transform: uppercase;
-}
-._text-center {
-	text-align: center;
-}
-.content {
-	max-width: 950px;
-	width: 100%;
-	padding-bottom: 129px;
-	@media screen and(max-width: 1200px) {
-		display: block;
-		width: 73%;
-	}	
-	@media screen and(max-width: 1025px) {
-		width: 73%;
-	}
-	@media screen and(max-width: 960px) {
-		width: 100%;
-	}
-	@media screen and(max-width: 760px) {
-		padding-bottom: 50px;
-		width: 100%;
-	}
-}
-.sidebar {
-	max-width: 300px;
-	width: 100%;
-	padding-bottom: 60px; /* для страницы карта сайта */
-	@media screen and(max-width: 1200px) {
-		display: block;
-		width: 26%;
-	}
-	@media screen and(max-width: 960px) {
-		display: none;
-	}
-	@media screen and(max-width: 760px) {
-		width: 450px;
-		margin: auto;
-		max-width: 740px;
-		padding: 0 10px;
-		display: block;
-	}
-	@media screen and(max-width: 480px) {
-		width: 100%;
-	}
-	&__recommend-read {
-		margin-bottom: 49px;
-	}
-	@media screen and(max-width: 760px) {
-		&__our-offer {
-			padding: 0 10px;
-    		margin: 0 auto 32px auto;
-    	}
-	}
-}
-.input-form {
-	border: none;
-	border: 1px solid #cdcdcd;
-	border-radius: 5px;
-}
-.meta-info {
-	font-size: 12px;
-	color: $silver;	
-	&:before {
-		position: absolute;
-		content: '';
-	}
-	&._views {
-		&:before {
-			left: -17px;
-			top: 2px;
-			@include bg($views);
-		}
-	}
-	&._likes {
-		margin-left: 28px;
-		&:before {
-			left: 36px;
-			@include bg($likes);
-		}
-	}
-}
-.radio-block {
-	display: block;
-	margin-bottom: 11px;
-	&__label {
-		margin-left: 15px;
-		@media screen and(max-width: 480px) {
-			font-size: 17px;
-		}
-	}
-}
-.checkbox-block {
-	&__label {
-		margin-left: 5px;
-	}
-}
-.side-small-line {
-	color: $dark-blue;
-	text-transform: uppercase;
-	font-size: 20px;
-	position: relative;
-	padding-left: 20px;
-	margin-bottom: 25px;
-	&:before {
-		content: '';
-		position: absolute;
-		width: 3px;
-		height: 30px;
-		background-color: $blue;
-		top: -3px;
-		left: 0;
-	}
-	span {
-		color: $red;
-	}
-}
-.title-page {
-	font-size: 38px;
-	color: $dark-blue;
-	@media screen and(max-width: 960px) {
-	    text-align: center;
-	    font-size: 32px;
-	}
-}
-.content._404 {
-	max-width: 1305px;
-	@media screen and(max-width: 1200px) {
-		width: auto;
-		margin: auto;
-	}
-}
-.page-404-info {
-	text-align: center;
-	margin-top: 90px;
-	@media screen and(max-width: 760px) {
-		margin-top: 75px;
-	}
-	&:before {
-		content: '';
-		position: absolute;
-		z-index: -1;
-		width: 100%;
-		height: 263px;
-		background: url("%=static=%general/bg-404.png") repeat-x;
-		top: 235px;
-		left: 0;
-		@media screen and(max-width: 760px) {
-			display: none;
-		}
-	}
-	&__img {
-		margin-bottom: 20px;
-		@media screen and(max-width: 760px) {
-			width: 100%;
-    		height: auto;
-    	}
-	}
-	&__title {
-		font-size: 37px;
-		color: $dark-blue;
-		text-align: center;
-		margin-bottom: 20px;
-		@media screen and(max-width: 760px) {
-			font-size: 20px;
-		}
-	}
-	&__description {
-		font-size: 22px;
-		color: $silver;
-		margin-bottom: 27px;
-		@media screen and(max-width: 760px) {
-			font-size: 18px;
-		}
-	}
-	.button._return-main-page {
-		padding: 0 81px;
-		font-size: 18px;
-		line-height: 59px;
-		@media screen and(max-width: 760px) {
-			padding: 0 50px;
-			line-height: 48px;
-		}
-	}
-}
+.button
+{
+    display: inline-block;
 
-.categories-wrapper {
-	@media screen and(max-width: 960px) {
-		padding: 0 10px;
-	}
-	@media screen and(max-width: 760px) {
-		width: 280px;
-		margin: auto;
-		padding: 0 10px;
-	}
+    cursor: pointer;
+    text-decoration: none;
+
+    color: $white;
+
+    @include transition;
+    &._light-blue
+    {
+        border-radius: 8px;
+        background: linear-gradient(to bottom,  #6db3ed 0%,#55a1df 100%);
+        &:hover
+        {
+            background: linear-gradient(to bottom,  #55a1df 0%,#6db3ed 100%);
+        }
+    }
+    &._blue
+    {
+        border-radius: 4px;
+        background-color: $blue;
+        &:hover
+        {
+            background-color: lighten($blue, 2%);
+        }
+    }
+    &._purple
+    {
+        border-radius: 4px;
+        background-color: $purple;
+        &:hover
+        {
+            background-color: lighten($purple, 2%);
+        }
+    }
+    &._middle
+    {
+        padding: 7px 25px;
+    }
+    &._big
+    {
+        padding: 10px 50px;
+    }
+}
+.button-second
+{
+    display: inline-block;
+
+    cursor: pointer;
+
+    color: $dark-blue;
+    box-shadow: 0 0 7px rgba($black, .14);
+    &:hover
+    {
+        @include opacity;
+    }
+    &._print
+    {
+        position: relative;
+
+        text-decoration: none;
+        &:before
+        {
+            position: absolute;
+            top: 12px;
+            left: 11px;
+
+            content: '';
+
+            @include bg($print);
+        }
+    }
+    &._dislike
+    {
+        position: relative;
+        &:before
+        {
+            position: absolute;
+            top: 10px;
+            left: 9px;
+
+            content: '';
+
+            @include bg($dislike);
+        }
+    }
+    &._like
+    {
+        position: relative;
+        &:before
+        {
+            position: absolute;
+            top: 8px;
+            left: 9px;
+
+            content: '';
+
+            @include bg($like);
+        }
+    }
+}
+.main-title
+{
+    color: $dark-blue;
+}
+.main-title2
+{
+    color: $blue;
+}
+._middle-title
+{
+    font-size: 21px;
+}
+._big-title
+{
+    font-size: 38px;
+}
+._bold
+{
+    font-weight: bold;
+}
+._text-center
+{
+    text-align: center;
+}
+.input-form
+{
+    border: none;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+}
+.side-small-line
+{
+    font-size: 20px;
+
+    position: relative;
+
+    margin-bottom: 25px;
+    padding-left: 20px;
+
+    text-transform: uppercase;
+
+    color: $dark-blue;
+    &:before
+    {
+        position: absolute;
+        top: -3px;
+        left: 0;
+
+        width: 3px;
+        height: 30px;
+
+        content: '';
+
+        background-color: $blue;
+    }
+}
+.content__title
+{
+    font-size: 38px;
+
+    color: $dark-blue;
+    @media screen and(max-width: 960px)
+    {
+        font-size: 32px;
+
+        text-align: center;
+    }
 }

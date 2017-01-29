@@ -1,7 +1,7 @@
 extends ./layout.jade
 block content
 	+breadcrumbs
-	h1.title-page Здоровье от А до Я
+	h1.content__title Здоровье от А до Я
 	+search-desease
 	.articles-middle-view
 		+article-middle-view('304x228', false)
@@ -25,10 +25,10 @@ block content
 		+article-middle-view('304x228', false)
 		+article-middle-view('304x228', false)
 		+article-middle-view('304x228', false)
-	+pagination-second
+	+pagination
 	+help-search-doctor
 block sidebar
-	.sidebar__recommend-read
+	.sidebar-recommend-read
 		+recommend-read
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
@@ -36,11 +36,11 @@ block sidebar
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
-	.sidebar__our-offer
+	.sidebar-our-offer
 		+our-offer._small._doctor
 		+our-offer._small._clinic
 	+interview._blue
-	.sidebar__services
+	.sidebar-services
 		+services
 		+service-item._check-symptom
 		+service-item._transcript-analyzes

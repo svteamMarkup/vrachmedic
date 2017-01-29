@@ -1,8 +1,17 @@
-.comments {
-	padding-left: 19px;
-	@media screen and(max-width: 760px) {
-		width: auto;
-		margin: auto;
-		padding: 0 10px;
-	}
+.comments
+{
+    padding-left: 19px;
+    @media screen and(max-width: 760px)
+    {
+        width: auto;
+        margin: auto;
+        padding: 0 10px;
+    }
+    &__title
+    {
+        @extend .side-small-line;
+    }
+    &__total {
+        color: $red;
+    }
 }

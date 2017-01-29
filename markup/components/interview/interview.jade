@@ -3,7 +3,7 @@ mixin interview(data)
 	.interview(class="#{modiffer}")
 		.interview__content
 			.interview__heart-icon
-			.interview__title._bold(class="#{modiffer}") Доверяете ли вы отечественной медицине?
+			.interview__title(class="#{modiffer}") Доверяете ли вы отечественной медицине?
 			form(method="POST" action="").interview__select-options
 				label.radio-block
 					input(type="radio" name="" value="").radio-block__field
@@ -14,4 +14,4 @@ mixin interview(data)
 				label.radio-block
 					input(type="radio" name="" value="").radio-block__field
 					span.radio-block__label Затрудняюсь ответить
-				input(type="submit" value="Ответить" class="#{modiffer}").button._big
+				input(type="submit" value="Ответить" class="#{modiffer}").interview__button.button

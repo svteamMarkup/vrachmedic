@@ -1,50 +1,63 @@
-.breadcrumbs {
-	position: relative;
+.breadcrumbs
+{
+    position: relative;
 
-	display: flex;
+    display: flex;
 
-	margin-bottom: 18px;
+    margin-bottom: 18px;
 
-	justify-content: flex-start;
-	@media screen and(max-width: 960px) {
-		display: table;
+    justify-content: flex-start;
+    @media screen and(max-width: 960px)
+    {
+        display: table;
 
-		margin: auto;
-		margin-top: 15px;
-	}
-	&__item {
-		margin-right: 26px;
+        margin: auto;
+        margin-top: 15px;
+    }
+    &__item
+    {
+        font-size: 14px;
 
-		text-decoration: none;
+        margin-right: 26px;
 
-		color: #999;
+        text-decoration: none;
 
-		font-size: 14px;
-		&:first-child {
-			margin-left: 17px;
-		}
-		&:before {
-			position: absolute;
-			top: 4px;
-			left: 75px;
+        color: #999;
 
-			content: "";
+        @include transition;
+        &:hover
+        {
+            @include opacity;
+        }
+        &:first-child
+        {
+            margin-left: 17px;
+        }
+        &:before
+        {
+            position: absolute;
+            top: 4px;
+            left: 75px;
 
-			@include bg($small-arrow);
-		}
-		&._home-icon:before {
-			position: absolute;
-			top: 2px;
-			left: 0;
+            content: '';
 
-			content: "";
+            @include bg($small-arrow);
+        }
+        &._home-icon:before
+        {
+            position: absolute;
+            top: 2px;
+            left: 0;
 
-			@include bg($home);
-		}
-	}
-	&__title {
-		margin-top: 10px;
+            content: '';
 
-		font-size: 38px;
-	}
+            @include bg($home);
+        }
+    }
+    &__title
+    {
+        font-size: 38px;
+
+        margin-top: 10px;
+    }
 }

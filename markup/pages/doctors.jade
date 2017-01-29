@@ -2,9 +2,9 @@ extends ./layout.jade
 
 block content
 	+breadcrumbs
-	h1.title-page Врачи
-	.content__items-wrapper
-		.content__items-inner
+	h1.content__title Врачи
+	.content-items-wrapper
+		.content-items-wrapper__inner
 			+filter
 			+card-doctor('148x201')
 			+card-doctor('148x201')
@@ -14,10 +14,10 @@ block content
 			+card-doctor('148x201')
 			+card-doctor('148x201')
 			+card-doctor('148x201')
-			+pagination-second
+			+pagination
 	+help-search-doctor
 block sidebar
-	.sidebar__recommend-read
+	.sidebar-recommend-read
 		+recommend-read
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
@@ -25,11 +25,11 @@ block sidebar
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
 		+recommend-read-item('50x50')
-	.sidebar__our-offer
+	.sidebar-our-offer
 		+our-offer._small._doctor
 		+our-offer._small._clinic
 	+interview._blue
-	.sidebar__services
+	.sidebar-services
 		+services
 		+service-item._check-symptom
 		+service-item._transcript-analyzes

@@ -23,7 +23,10 @@
 			}
 		}
 	}
-	.main-title {
+	&__title {
+		@extend .main-title;
+		@extend ._big-title;
+		font-weight: bold;
 		margin-top: 30px;
 		margin-left: 46px;
 		@media screen and(max-width: 760px) {

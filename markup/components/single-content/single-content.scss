@@ -1,46 +1,41 @@
-.single-content
-{
-    @media screen and(max-width: 960px)
-    {
+.single-content {
+    @media screen and(max-width: 960px) {
         padding: 0 10px;
     }
     h1 {
-        font-size: 38px;
-        color: $dark-blue;
         margin-bottom: 3px;
+
+        color: $dark-blue;
+
+        font-size: 38px;
         @media screen and(max-width: 480px) {
             font-size: 22px;
             line-height: 34px;
         }
     }
-    p
-    {
-        font-size: 18px;
-
+    p {
         color: $light-black;
+
+        font-size: 18px;
         line-height: 26px;
-        @media screen and(max-width: 480px)
-        {
+        @media screen and(max-width: 480px) {
             font-size: 17px;
         }
     }
-    h2
-    {
-        font-size: 24px;
-
+    h2 {
         margin-bottom: 10px;
 
         color: $dark-blue;
+
+        font-size: 24px;
         @media screen and(max-width: 480px) {
             font-size: 20px;
             font-weight: 400;
             line-height: 36px;
-        }        
+        }
     }
-    img
-    {
-        @media screen and(max-width: 760px)
-        {
+    img {
+        @media screen and(max-width: 760px) {
             width: 100%;
             height: auto;
         }
@@ -51,38 +46,31 @@
             line-height: 26px;
         }
     }
-    ul
-    {
+    ul {
         li {
             margin-bottom: 6px;
         }
     }
-    ol 
-    {
+    ol {
         li {
             margin-bottom: 14px;
         }
     }
-    .social-block
-    {
+    .social-block {
         border: 5px solid $silver;
-        img
-        {
+        img {
             display: block;
         }
     }
 }
 .purple-marker,
-.blue-marker
-{
+.blue-marker {
     padding-left: 16px;
-    li
-    {
+    li {
         position: relative;
 
         padding-left: 16px;
-        &:before
-        {
+        &:before {
             position: absolute;
             top: 5px;
             left: 0;
@@ -90,42 +78,33 @@
             width: 8px;
             height: 8px;
 
-            content: '';
+            content: "";
 
             border-radius: 50%;
         }
     }
 }
-.purple-marker li
-{
-    &:before
-    {
+.purple-marker li {
+    &:before {
         background-color: $purple;
     }
 }
-.blue-marker li
-{
-    &:before
-    {
+.blue-marker li {
+    &:before {
         background-color: $blue;
     }
 }
-.number-marker
-{
+.number-marker {
     padding: 0;
 
     list-style: none;
 
     counter-reset: point; /* задаем переменную для счетчика */
-    li
-    {
+    li {
         position: relative;
 
         padding-left: 33px;
-        &:before
-        {
-            line-height: 25px;
-
+        &:before {
             position: absolute;
             top: -5px;
             left: 0;
@@ -140,19 +119,17 @@
             color: $dark-blue;
             border: 1px solid $blue;
             border-radius: 50%;
+
+            line-height: 25px;
         }
     }
-    &._blue li
-    {
-        &:before
-        {
+    &._blue li {
+        &:before {
             color: $blue;
         }
     }
-    &._dark-blue li
-    {
-        &:before
-        {
+    &._dark-blue li {
+        &:before {
             color: $dark-blue;
         }
     }

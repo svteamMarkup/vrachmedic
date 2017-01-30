@@ -1,5 +1,4 @@
-.social-share
-{
+.social-share {
     display: flex;
 
     margin-bottom: 48px;
@@ -9,85 +8,68 @@
     background-color: #fcfcfc;
 
     justify-content: space-between;
-    @media screen and(max-width: 960px)
-    {
+    @media screen and(max-width: 960px) {
         margin: 0 10px 20px;
     }
-    @media screen and(max-width: 760px)
-    {
+    @media screen and(max-width: 760px) {
         display: block;
 
         padding-top: 22px;
         padding-bottom: 22px;
     }
-    &__left
-    {
-        @media screen and(max-width: 760px)
-        {
+    &__left {
+        @media screen and(max-width: 760px) {
             margin-bottom: 10px;
         }
     }
-    &__right
-    {
-        @media screen and(max-width: 760px)
-        {
+    &__right {
+        @media screen and(max-width: 760px) {
             display: table;
 
             margin: auto;
         }
     }
-    &__title
-    {
-        font-size: 20px;
-
+    &__title {
         position: relative;
 
         margin-bottom: 14px;
 
         color: $dark-blue;
-        &._icon
-        {
+
+        font-size: 20px;
+        &._icon {
             padding-left: 30px;
-            @media screen and(max-width: 760px)
-            {
+            @media screen and(max-width: 760px) {
                 text-align: center;
             }
-            &:before
-            {
+            &:before {
                 position: absolute;
                 top: 0;
                 left: 0;
 
-                content: '';
+                content: "";
 
                 @include bg($social-share-icon);
-                @media screen and(max-width: 760px)
-                {
+                @media screen and(max-width: 760px) {
                     left: 34px;
                 }
             }
         }
     }
-    &__right
-    {
-        .button-second
-        {
+    &__right {
+        .button-second {
             width: 34px;
             height: 34px;
         }
     }
 }
-.social-share-counts
-{
+.social-share-counts {
     display: flex;
 
     width: 128px;
 
     justify-content: space-between;
-    &__all
-    {
-        font-size: 24px;
-
+    &__all {
         display: inline-block;
 
         padding-top: 8px;
@@ -95,41 +77,38 @@
         vertical-align: top;
 
         color: $green;
+
+        font-size: 24px;
     }
     &__vote {
         @extend .button-second;
     }
 }
 
-.social-share-bar
-{
+.social-share-bar {
     display: flex;
 
     width: 549px;
 
     justify-content: space-between;
-    @media screen and(max-width: 760px)
-    {
+    @media screen and(max-width: 760px) {
         display: block;
 
         width: 100%;
     }
-    &__print
-    {
-        @extend ._print;
-        @extend .button-second;
+    &__print {
         padding: 11px 18px 11px 36px;
-        @media screen and(max-width: 760px)
-        {
+
+        @extend .button-second;
+        @extend ._print;
+        @media screen and(max-width: 760px) {
             display: table;
 
             margin: auto;
         }
     }
-    img
-    {
-        @media screen and(max-width: 760px)
-        {
+    img {
+        @media screen and(max-width: 760px) {
             width: 100%;
             height: auto;
             margin-bottom: 10px;

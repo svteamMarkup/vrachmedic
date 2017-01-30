@@ -27,7 +27,7 @@
 		display: block;
 
 		box-sizing: border-box;
-		width: 280px;
+		width: 100%;
 		padding: 7px 10px;
 	}
 	&__left {
@@ -92,9 +92,28 @@
 			margin: auto;
 			padding-bottom: 4px;
 		}
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}
+	}
+	&__address {
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}
 	}
 	&__metro {
 		padding-bottom: 4px;
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}
+	}
+	&__description {
+		@media screen and(max-width: 480px) {
+			text-align: justify;
+
+			font-size: 17px;
+			line-height: 26px;
+		}
 	}
 	&__button {
 		height: 32px;
@@ -107,13 +126,16 @@
 		background: linear-gradient(to bottom,  #6fc3e1 0%,#1babe0 100%);
 
 		line-height: 32px;
-		&:hover {
-			background: linear-gradient(to bottom,  #1babe0 0%,#6fc3e1 100%);
-		}
 		@media screen and(max-width: 760px) {
 			display: table;
 
 			margin: auto;
+		}
+		@media screen and(max-width: 480px) {
+			line-height: 47px;
+		}
+		&:hover {
+			background: linear-gradient(to bottom,  #1babe0 0%,#6fc3e1 100%);
 		}
 	}
 }

@@ -30,6 +30,10 @@
 		border-bottom: 1px solid #89d0ee;
 
 		@include transition;
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+			line-height: 26px;
+		}
 		&:hover {
 			border-color: #00a3dd;
 		}

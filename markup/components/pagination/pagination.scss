@@ -1,5 +1,4 @@
-.pagination
-{
+.pagination {
     display: flex;
 
     margin: 0;
@@ -9,48 +8,39 @@
     border-bottom: 4px solid #f7f7f7;
 
     justify-content: space-between;
-    @media screen and(max-width: 960px)
-    {
+    @media screen and(max-width: 960px) {
         margin: 0 auto 32px;
         padding: 0 10px;
     }
-    @media screen and(max-width: 760px)
-    {
+    @media screen and(max-width: 760px) {
         width: auto;
     }
-    @media screen and(max-width: 480px)
-    {
-        width: 280px;
+    @media screen and(max-width: 480px) {
+        width: 100%;
         padding: 0;
     }
-    &__wrapper-items
-    {
+    &__wrapper-items {
         display: flex;
 
         width: 691px;
 
         justify-content: space-between;
-        @media screen and(max-width: 960px)
-        {
+        @media screen and(max-width: 960px) {
             overflow: hidden;
         }
-        @media screen and(max-width: 760px)
-        {
+        @media screen and(max-width: 760px) {
             width: 100%;
         }
-        @media screen and(max-width: 480px)
-        {
-            width: 213px;
+        @media screen and(max-width: 480px) {
+            width: 100%;
         }
     }
-    &__item
-    {
+    &__item {
+        text-align: center;
+
         font-size: 22px;
         font-weight: bold;
-
-        text-align: center;
-        a
-        {
+        a {
             display: block;
 
             padding: 0 31px;
@@ -58,26 +48,21 @@
             text-decoration: none;
 
             color: $silver;
-            @media screen and(max-width: 1200px)
-            {
+            @media screen and(max-width: 1200px) {
                 padding: 0 15px;
             }
-            @media screen and(max-width: 960px)
-            {
+            @media screen and(max-width: 960px) {
                 padding: 0 10px;
             }
-            &:hover
-            {
+            &:hover {
                 padding-bottom: 4px;
 
                 color: $dark-blue;
                 border-bottom: 4px solid #0089b5;
             }
         }
-        &._current-item
-        {
-            a
-            {
+        &._current-item {
+            a {
                 padding-bottom: 4px;
 
                 color: $dark-blue;
@@ -85,11 +70,9 @@
             }
         }
     }
-    &__goto
-    {
+    &__goto {
         text-align: center;
-        a
-        {
+        a {
             padding: 7px 13px 7px 11px;
 
             text-decoration: none;
@@ -98,19 +81,16 @@
             background-color: #ededed;
 
             @include transition;
-            @media screen and(max-width: 960px)
-            {
-                line-height: 30px;
-
+            @media screen and(max-width: 960px) {
                 padding: 7px 0;
+
+                line-height: 30px;
             }
-            &:hover
-            {
+            &:hover {
                 background: darken(#ededed, 2%);
             }
         }
-        @media screen and(max-width: 960px)
-        {
+        @media screen and(max-width: 960px) {
             overflow: hidden;
 
             width: 64px;

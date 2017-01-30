@@ -24,11 +24,13 @@
 		}
 	}
 	&__title {
-		@extend .main-title;
-		@extend ._big-title;
-		font-weight: bold;
 		margin-top: 30px;
 		margin-left: 46px;
+
+		font-weight: bold;
+
+		@extend ._big-title;
+		@extend .main-title;
 		@media screen and(max-width: 760px) {
 			margin-left: 30px;
 

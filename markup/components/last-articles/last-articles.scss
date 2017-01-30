@@ -1,79 +1,62 @@
-.last-articles
-{
+.last-articles {
     display: flex;
 
     margin-bottom: 59px;
 
     justify-content: space-between;
-    @media screen and (max-width: 1200px)
-    {
+    @media screen and (max-width: 1200px) {
         margin-bottom: 27px;
     }
-    @media screen and (max-width: 960px)
-    {
+    @media screen and (max-width: 960px) {
         margin: 0 auto 20px;
     }
-    @media screen and (max-width: 760px)
-    {
+    @media screen and (max-width: 760px) {
         margin: 0 auto 20px;
 
         flex-wrap: wrap;
     }
-    &__column
-    {
+    &__column {
         display: flex;
 
         width: 470px;
 
-        justify-content: space-between;
         flex-wrap: wrap;
-        @media screen and (max-width: 1200px)
-        {
-            &:first-child
-            {
+        justify-content: space-between;
+        @media screen and (max-width: 1200px) {
+            &:first-child {
                 width: 41%;
             }
-            &:last-child
-            {
+            &:last-child {
                 width: 59%;
             }
         }
-        @media screen and (max-width: 1025px)
-        {
-            &:first-child
-            {
+        @media screen and (max-width: 1025px) {
+            &:first-child {
                 width: 34%;
             }
-            &:last-child
-            {
+            &:last-child {
                 width: 66%;
             }
         }
-        @media screen and (max-width: 960px)
-        {
+        @media screen and (max-width: 960px) {
             width: auto;
 
             flex-wrap: wrap;
-            &:first-child
-            {
+            &:first-child {
                 width: 40%;
             }
-            &:last-child
-            {
+            &:last-child {
                 width: 60%;
             }
         }
-        @media screen and (max-width: 760px)
-        {
+        @media screen and (max-width: 760px) {
             width: 100%;
 
             flex-wrap: wrap;
-            &:first-child
-            {
+            &:first-child {
                 width: 100%;
             }
-            &:last-child
-            {
+            &:last-child {
                 width: 100%;
             }
         }

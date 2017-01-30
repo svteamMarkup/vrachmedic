@@ -1,24 +1,23 @@
-.search-desease-item
-{
-    font-size: 17px;
-
+.search-desease-item {
     display: block;
 
     margin-bottom: 6px;
-    @media screen and(max-width: 760px)
-    {
+
+    font-size: 17px;
+    @media screen and(max-width: 760px) {
         text-align: center;
     }
-    a
-    {
+    @media screen and(max-width: 480px) {
+        margin-bottom: 18px;
+    }
+    a {
         text-decoration: none;
 
         color: $dark-blue;
         border-bottom: 1px solid $blue;
 
         @include transition;
-        &:hover
-        {
+        &:hover {
             color: $blue;
             border-color: $red;
         }

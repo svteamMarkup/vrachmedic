@@ -1,5 +1,4 @@
-.button
-{
+.button {
     display: inline-block;
 
     cursor: pointer;
@@ -8,133 +7,107 @@
     color: $white;
 
     @include transition;
-    &._light-blue
-    {
+    &._light-blue {
         border-radius: 8px;
         background: linear-gradient(to bottom,  #6db3ed 0%,#55a1df 100%);
-        &:hover
-        {
+        &:hover {
             background: linear-gradient(to bottom,  #55a1df 0%,#6db3ed 100%);
         }
     }
-    &._blue
-    {
+    &._blue {
         border-radius: 4px;
         background-color: $blue;
-        &:hover
-        {
+        &:hover {
             background-color: lighten($blue, 2%);
         }
     }
-    &._purple
-    {
+    &._purple {
         border-radius: 4px;
         background-color: $purple;
-        &:hover
-        {
+        &:hover {
             background-color: lighten($purple, 2%);
         }
     }
-    &._middle
-    {
+    &._middle {
         padding: 7px 25px;
     }
-    &._big
-    {
+    &._big {
         padding: 10px 50px;
     }
 }
-.button-second
-{
+.button-second {
     display: inline-block;
 
     cursor: pointer;
 
     color: $dark-blue;
     box-shadow: 0 0 7px rgba($black, .14);
-    &:hover
-    {
+    &:hover {
         @include opacity;
     }
-    &._print
-    {
+    &._print {
         position: relative;
 
         text-decoration: none;
-        &:before
-        {
+        &:before {
             position: absolute;
             top: 12px;
             left: 11px;
 
-            content: '';
+            content: "";
 
             @include bg($print);
         }
     }
-    &._dislike
-    {
+    &._dislike {
         position: relative;
-        &:before
-        {
+        &:before {
             position: absolute;
             top: 10px;
             left: 9px;
 
-            content: '';
+            content: "";
 
             @include bg($dislike);
         }
     }
-    &._like
-    {
+    &._like {
         position: relative;
-        &:before
-        {
+        &:before {
             position: absolute;
             top: 8px;
             left: 9px;
 
-            content: '';
+            content: "";
 
             @include bg($like);
         }
     }
 }
-.main-title
-{
+.main-title {
     color: $dark-blue;
 }
-.main-title2
-{
+.main-title2 {
     color: $blue;
 }
-._middle-title
-{
+._middle-title {
     font-size: 21px;
 }
-._big-title
-{
+._big-title {
     font-size: 38px;
 }
-._bold
-{
+._bold {
     font-weight: bold;
 }
-._text-center
-{
+._text-center {
     text-align: center;
 }
-.input-form
-{
+.input-form {
     border: none;
     border: 1px solid #cdcdcd;
     border-radius: 5px;
 }
-.side-small-line
-{
-    font-size: 20px;
-
+.side-small-line {
     position: relative;
 
     margin-bottom: 25px;
@@ -143,8 +116,9 @@
     text-transform: uppercase;
 
     color: $dark-blue;
-    &:before
-    {
+
+    font-size: 20px;
+    &:before {
         position: absolute;
         top: -3px;
         left: 0;
@@ -152,20 +126,18 @@
         width: 3px;
         height: 30px;
 
-        content: '';
+        content: "";
 
         background-color: $blue;
     }
 }
-.content__title
-{
-    font-size: 38px;
-
+.content__title {
     color: $dark-blue;
-    @media screen and(max-width: 960px)
-    {
-        font-size: 32px;
 
+    font-size: 38px;
+    @media screen and(max-width: 960px) {
         text-align: center;
+
+        font-size: 32px;
     }
 }

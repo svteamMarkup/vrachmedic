@@ -46,7 +46,9 @@
 			display: block;
 
 			@include bg($header-menu-mobile);
-			&._active {
+		}
+		&._active {
+			@media screen and(max-width: 960px) {
 				@include bg($close);
 			}
 		}
@@ -57,7 +59,7 @@
 		justify-content: space-between;
 		@media screen and(max-width: 960px) {
 			position: absolute;
-			z-index: 999;
+			z-index: 1000;
 			top: 57px;
 			left: 0;
 
@@ -222,7 +224,7 @@
 	}
 	&__wrapper {
 		position: absolute;
-		z-index: 999;
+		z-index: 1000;
 		top: 66px;
 		left: 0;
 
@@ -263,8 +265,11 @@
 		@media screen and(max-width: 960px) {
 			display: none;
 		}
+		&._active {
+			@include bg($close-red);
+		}
 	}
-	._search-submit {
+	&__button {
 		width: 97px;
 
 		border-top-left-radius: 0;
@@ -272,11 +277,15 @@
 
 		font-size: 18px;
 		line-height: 50px;
+
+		@extend ._blue;
 	}
 	&__mobile {
 		@media screen and(max-width: 960px) {
 			@include bg($search-mobile-header);
-			&._active {
+		}
+		&._active {
+			@media screen and(max-width: 960px) {
 				@include bg($close);
 			}
 		}

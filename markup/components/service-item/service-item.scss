@@ -1,5 +1,4 @@
-.service-item
-{
+.service-item {
     position: relative;
 
     width: 300px;
@@ -7,66 +6,49 @@
 
     border-bottom: 1px solid #ddd;
     background-color: #f7f7f7;
-    @media screen and(max-width: 760px)
-    {
+    @media screen and(max-width: 760px) {
         width: auto;
     }
-    @media screen and(max-width: 480px)
-    {
+    @media screen and(max-width: 480px) {
         width: 100%;
     }
-    &:before
-    {
+    &:before {
         position: absolute;
         left: 20px;
 
-        content: '';
-        @media screen and(max-width: 760px)
-        {
+        content: "";
+        @media screen and(max-width: 760px) {
             left: 107px;
         }
-        @media screen and(max-width: 480px)
-        {
+        @media screen and(max-width: 480px) {
             left: 22px;
         }
     }
-    &._check-symptom
-    {
-        &:before
-        {
+    &._check-symptom {
+        &:before {
             @include bg($check-symptom);
         }
     }
-    &._transcript-analyzes
-    {
-        &:before
-        {
+    &._transcript-analyzes {
+        &:before {
             @include bg($transcript-analyzes);
         }
     }
-    &._tests
-    {
-        &:before
-        {
+    &._tests {
+        &:before {
             @include bg($tests);
         }
     }
-    &._cardio-risk
-    {
-        &:before
-        {
+    &._cardio-risk {
+        &:before {
             @include bg($cardio-risk);
         }
     }
-    &__content
-    {
+    &__content {
         width: 233px;
         margin: auto;
     }
-    &__link
-    {
-        font-size: 18px;
-
+    &__link {
         display: block;
         display: inline-block;
 
@@ -78,25 +60,25 @@
         color: $blue;
         border-bottom: 1px solid $light-blue;
 
+        font-size: 18px;
+
         @include transition;
         @media screen and(max-width: 480px) {
             font-size: 21px;
         }
-        &:hover
-        {
+        &:hover {
             border-bottom: 1px solid $blue;
         }
     }
-    &__description
-    {
-        font-size: 14px;
-        line-height: 21px;
-
+    &__description {
         margin-left: 58px;
 
         color: #666;
+
+        font-size: 14px;
+        line-height: 21px;
         @media screen and(max-width: 480px) {
-            font-size: 16px;
+            font-size: 17px;
         }
     }
 }

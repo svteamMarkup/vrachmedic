@@ -33,6 +33,9 @@
 
 		font-weight: 300;
 		font-style: italic;
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}
 	}
 	&__center {
 		width: 550px;
@@ -75,6 +78,7 @@
 		}
 		@media screen and(max-width: 760px) {
 			width: auto;
+
 		}
 	}
 	&__fio {
@@ -93,6 +97,9 @@
 		@media screen and(max-width: 760px) {
 			text-align: center;
 		}
+		@media screen and(max-width: 480px) {
+			font-size: 21px;
+		}
 		&:hover {
 			color: $blue;
 		}
@@ -104,6 +111,9 @@
 		@media screen and(max-width: 760px) {
 			text-align: center;
 		}
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}		
 	}
 	&__expirience {
 		margin-bottom: 16px;
@@ -114,6 +124,9 @@
 
 			text-align: center;
 		}
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}			
 	}
 	&__metro-wrapper {
 		display: flex;
@@ -124,6 +137,9 @@
 
 			margin: 0 auto 8px;
 		}
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}			
 	}
 	&__street {
 		display: inline-block;
@@ -140,17 +156,31 @@
 
 			border-bottom: none;
 		}
+		@media screen and(max-width: 480px) {
+			text-align: center;
+			display: block;
+			font-size: 17px;
+			margin-bottom: 12px;
+		}
 	}
 	&__description {
 		margin-bottom: 20px;
 		@media screen and(max-width: 760px) {
 			padding: 0 15px;
 		}
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+			line-height: 26px;
+			text-align: justify;
+		}
 	}
 	&__price {
 		@media screen and(max-width: 760px) {
 			padding-left: 15px;
 		}
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}		
 	}
 	&__metro-item {
 		position: relative;
@@ -194,6 +224,10 @@
 		background-color: #00469a;
 
 		font-size: 14px;
+		@media screen and(max-width: 480px) {
+			padding: 14px;
+			font-size: 17px;
+		}
 		&:hover {
 			background-color: lighten(#00469a, 2%);
 		}
@@ -241,5 +275,8 @@
 
 			text-align: center;
 		}
+		@media screen and(max-width: 480px) {
+			font-size: 17px;
+		}		
 	}
 }

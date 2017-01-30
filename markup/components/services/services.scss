@@ -1,24 +1,21 @@
-.services
-{
+.services {
     position: relative;
-    &__title
-    {
-        font-weight: bold;
-
+    &__title {
         padding: 11px 0 11px 17px;
 
         text-transform: uppercase;
 
         background-color: #eaeaea;
 
+        font-weight: bold;
+
         @extend .main-title;
-        &:after
-        {
+        &:after {
             position: absolute;
             top: 4px;
             right: 6px;
 
-            content: '';
+            content: "";
 
             @include bg($services);
         }

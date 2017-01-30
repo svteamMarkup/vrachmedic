@@ -1,5 +1,4 @@
-.interview
-{
+.interview {
     position: relative;
 
     overflow: hidden;
@@ -7,24 +6,20 @@
     width: 300px;
     margin-bottom: 44px;
     padding-bottom: 9px;
-    @media screen and(max-width: 760px)
-    {
+    @media screen and(max-width: 760px) {
         width: 100%;
     }
-    @media screen and(max-width: 480px)
-    {
+    @media screen and(max-width: 480px) {
         width: 100%;
     }
-    &._blue
-    {
+    &._blue {
         margin-top: 47px;
         padding-top: 23px;
         padding-bottom: 20px;
 
         background-color: #e7f6fc;
     }
-    &._purple
-    {
+    &._purple {
         margin-top: 49px;
         margin-bottom: 50px;
         padding-top: 23px;
@@ -32,80 +27,57 @@
 
         background-color: #fde5e8;
     }
-    &__heart-icon
-    {
+    &__heart-icon {
         position: absolute;
         bottom: 16px;
         left: 163px;
 
         @include bg($heart);
-        @media screen and(max-width: 760px)
-        {
-            left: 311px;
-        }
-        @media screen and(max-width: 480px)
-        {
-            left: 140px;
+        @media screen and(max-width: 960px) {
+            display: none;
         }
     }
-    &__content
-    {
+    &__content {
         width: 183px;
         margin-left: 18px;
-        @media screen and(max-width: 760px)
-        {
+        @media screen and(max-width: 760px) {
             margin: auto;
         }
-        @media screen and(max-width: 480px)
-        {
+        @media screen and(max-width: 480px) {
             margin-left: 18px;
         }
     }
-    &__select-options
-    {
+    &__select-options {
         margin-top: 15px;
         margin-bottom: 18px;
     }
-    &__title
-    {
+    &__title {
+        position: relative;
+
+        padding-left: 30px;
+
         font-size: 21px;
         font-weight: bold;
-
-        margin-left: 30px;
-        &:before
-        {
+        &:before {
             position: absolute;
-            left: 13px;
+            left: 0;
 
-            content: '';
-            @media screen and(max-width: 760px)
-            {
-                left: 129px;
-            }
-            @media screen and(max-width: 480px)
-            {
-                left: 15px;
-            }
+            content: "";
         }
-        &._blue
-        {
+        &._blue {
             color: $blue;
-            &:before
-            {
+            &:before {
                 @include bg($question);
             }
         }
-        &._purple
-        {
+        &._purple {
             color: $purple;
-            &:before
-            {
+            &:before {
                 @include bg($question-red);
             }
         }
     }
-    &__button
-    {
+    &__button {
         @extend ._big;
     }
 }

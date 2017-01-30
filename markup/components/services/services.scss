@@ -10,6 +10,12 @@
         font-weight: bold;
 
         @extend .main-title;
+        @media screen and(max-width: 760px) {
+            text-align: center;
+        }
+        @media screen and(max-width: 480px) {
+            text-align: left;
+        }
         &:after {
             position: absolute;
             top: 4px;
